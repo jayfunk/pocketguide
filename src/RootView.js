@@ -1,5 +1,5 @@
 var React = require('react-native');
-var Events = require('./events/Events');
+var EventsView = require('./events/EventsView');
 var SplashScreen = require('./SplashScreen');
 
 module.exports = RootView = React.createClass({
@@ -18,9 +18,9 @@ module.exports = RootView = React.createClass({
   },
 
   render: function(){
-    if(!this.state.splashScreenVisible) return <Events/>;
+    if(this.state.splashScreenVisible) return <SplashScreen/>;
 
-    return <SplashScreen/>;
+    return <EventsView/>;
   }
 
 });
