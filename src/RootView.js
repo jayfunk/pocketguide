@@ -1,24 +1,17 @@
-import React from 'react-native';
-import EventsView from './events/EventsView';
-import SplashScreen from './SplashScreen';
+import React from 'react-native'
+import EventsView from './events/EventsView'
+import EventsStore from './events/EventsStore'
 
 export default RootView = React.createClass({
-
-  getInitialState: function(){
+  getInitialState: () => {
     return {
-      splashScreenVisible: true
-    };
+      eventsStore: new EventsStore()
+    }
   },
 
-  componentDidMount(){
-    setTimeout(() => {
-      this.setState({splashScreenVisible: false});
-    }, 2500);
-  },
-
-  render(){
-    if(this.state.splashScreenVisible) return <SplashScreen/>;
-
-    return <EventsView/>;
+  render: function () {
+    return <EventsView
+      events = {this.state.eventsStore.getAll()}
+    />
   }
-});
+})

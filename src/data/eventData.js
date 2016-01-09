@@ -1099,6 +1099,6 @@ const eventData = [
     "Description": "",
     "All Day Event?": ""
   }
-];
+]
 
-export default eventData;
+export default eventData

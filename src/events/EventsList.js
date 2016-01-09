@@ -1,37 +1,36 @@
-import React from 'react-native';
+import React from 'react-native'
 const {
-  StyleSheet,
-  ListView,
   Text,
-  View
-} = React;
+  View,
+  ListView
+} = React
 
-export default class EventsList extends React.Component {
-  //At this layer we should be performing the IO or fetching to get the data from the server instead of using static data from the disk.
-  //Following a fetch we need to store that data locally and perform checks with the server.
+export default EventsList = React.createClass({
+  propTypes: {
+    events: React.PropTypes.array
+  },
 
-  render() {
+  render: function () {
     return (
       <ListView
         dataSource={this._createDataSource()}
         renderRow={this._renderRow}
       />
-    );
-  }
+    )
+  },
 
-  _createDataSource() {
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.props.events
-    return ds.cloneWithRows(this._getRows(this.props.events));
-  }
+  _createDataSource: function () {
+    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
+    return ds.cloneWithRows(this._getRows(this.props.events))
+  },
 
-  _getRows(events) {
+  _getRows: function (events) {
     return events.map(event => {
       return [event.name]
-    });
-  }
+    })
+  },
 
-  _renderRow(rowData) {
+  _renderRow: function (rowData) {
     return <View ><Text>{rowData[0]}</Text></View>
   }
-};
+})
