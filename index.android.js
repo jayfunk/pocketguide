@@ -1,18 +1,13 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
 'use strict';
 
-var React = require('react-native');
-
-var {
+import React from 'react-native';
+const {
   AppRegistry
 } = React;
 
-var RootView = require('./src/RootView');
+import RootView from './src/RootView';
 
-var pocketguide = React.createClass({
+const pocketguide = React.createClass({
   render: function() {
     return (
       <RootView/>

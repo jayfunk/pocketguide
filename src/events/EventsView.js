@@ -1,31 +1,37 @@
-var React = require('react-native');
-var eventData = require('../data/eventData.json');
-var Event = require('./Event');
-var EventsList = require('./EventsList');
+import eventData from '../data/eventData';
+import Event from './Event';
+import EventsList from './EventsList';
+import React from 'react-native';
 
-var {
+const {
   StyleSheet,
   View,
   Text,
 } = React;
 
-module.exports = EventsView = React.createClass({
+const styles = StyleSheet.create({
+  view: {
+    flex: 1
+  }
+});
+
+export default EventsView = React.createClass({
 
   //At this layer we should be performing the IO or fetching to get the data from the server instead of using static data from the disk.
   //Following a fetch we need to store that data locally and perform checks with the server.
-  getInitialState: function(){
+  getInitialState(){
     return {
       events: this._convertToEvents(eventData)
     };
   },
 
-  _convertToEvents: function(rawEventData) {
-    return rawEventData.map(function(rawEvent){
+  _convertToEvents(rawEventData) {
+    return rawEventData.map(rawEvent => {
       return new Event(rawEvent);
     });
   },
 
-  render: function(){
+  render(){
     return (
       <View style={styles.view}>
         <EventsList
@@ -36,10 +42,3 @@ module.exports = EventsView = React.createClass({
   }
 
 });
-
-var styles = StyleSheet.create({
-  view: {
-    flex: 1
-  }
-});
-

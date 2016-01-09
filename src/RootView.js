@@ -1,8 +1,8 @@
-var React = require('react-native');
-var EventsView = require('./events/EventsView');
-var SplashScreen = require('./SplashScreen');
+import React from 'react-native';
+import EventsView from './events/EventsView';
+import SplashScreen from './SplashScreen';
 
-module.exports = RootView = React.createClass({
+export default RootView = React.createClass({
 
   getInitialState: function(){
     return {
@@ -10,18 +10,15 @@ module.exports = RootView = React.createClass({
     };
   },
 
-  componentDidMount: function(){
-    _this = this;
-    setTimeout(function(){
-      _this.setState({splashScreenVisible: false});
+  componentDidMount(){
+    setTimeout(() => {
+      this.setState({splashScreenVisible: false});
     }, 2500);
   },
 
-  render: function(){
+  render(){
     if(this.state.splashScreenVisible) return <SplashScreen/>;
 
     return <EventsView/>;
   }
-
 });
-

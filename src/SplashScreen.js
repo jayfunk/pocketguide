@@ -1,12 +1,10 @@
-var React = require('react-native');
-
-var {
+import React from 'react-native';
+const {
   View,
   Text,
 } = React;
 
-module.exports = SplashScreen = React.createClass({
-
+export default SplashScreen = React.createClass({
   render: function(){
     return (
       <View>
@@ -15,5 +13,4 @@ module.exports = SplashScreen = React.createClass({
     );
 
   }
-
 });

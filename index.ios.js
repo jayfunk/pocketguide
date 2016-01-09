@@ -4,10 +4,10 @@
  */
 'use strict';
 
-var React = require('react-native');
-var RootView = require('./src/RootView');
+import React from 'react-native';
+import RootView from './src/RootView';
 
-var pocketguide = React.createClass({
+const pocketguide = React.createClass({
   render: function() {
     return (
       <RootView/>

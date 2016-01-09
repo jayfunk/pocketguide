@@ -1,4 +1,4 @@
-module.exports = [
+const eventData = [
   {
     "Timestamp": "8/16/2015 19:59:39",
     "Start": "11:00:00 AM",
@@ -1099,4 +1099,6 @@ module.exports = [
     "Description": "",
     "All Day Event?": ""
   }
-]
+];
+
+export default eventData;
