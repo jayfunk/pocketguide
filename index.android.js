@@ -1,18 +1,19 @@
-'use strict';
+'use strict'
 
-import React from 'react-native';
+import React from 'react-native'
+
 const {
   AppRegistry
-} = React;
+} = React
 
-import RootView from './src/RootView';
+import RootView from './src/RootView'
 
 const pocketguide = React.createClass({
-  render: function() {
+  render: function () {
     return (
       <RootView/>
-    );
+    )
   }
-});
+})
 
-AppRegistry.registerComponent('pocketguide', () => pocketguide);
+AppRegistry.registerComponent('pocketguide', () => pocketguide)

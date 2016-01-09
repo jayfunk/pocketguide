@@ -1,17 +1,23 @@
+import EventsContainerView from './events/components/EventsContainerView'
+import NavBar from './NavBar'
 import React from 'react-native'
-import EventsView from './events/EventsView'
-import EventsStore from './events/EventsStore'
+const {
+  Navigator
+} = React
 
 export default RootView = React.createClass({
-  getInitialState: () => {
-    return {
-      eventsStore: new EventsStore()
-    }
-  },
-
   render: function () {
-    return <EventsView
-      events = {this.state.eventsStore.getAll()}
+    return <Navigator
+      initialRoute = {{name: 'Events', component: EventsContainerView}}
+      renderScene = {(route, navigator) => {
+        if (route.component) {
+          return <route.component
+            navigator = {navigator}
+            {...route.props}
+          />
+        }
+      }}
+      navigationBar = {<NavBar/>}
     />
   }
 })
