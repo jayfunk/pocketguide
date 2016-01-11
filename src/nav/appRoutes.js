@@ -1,4 +1,3 @@
-
 import EventsContainerView from '../events/components/EventsContainerView'
 
 const routes = {

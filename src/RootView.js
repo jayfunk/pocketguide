@@ -3,8 +3,15 @@ import NavBar from './nav/NavBar'
 import React from 'react-native'
 const {
   Navigator,
-  BackAndroid
+  BackAndroid,
+  StyleSheet
 } = React
+
+const styles = StyleSheet.create({
+  view: {
+    flex: 1
+  }
+})
 
 export default RootView = React.createClass({
   componentDidMount: function () {
@@ -28,6 +35,7 @@ export default RootView = React.createClass({
   render: function () {
     return <Navigator
       initialRoute = {appRoutes.events}
+      sceneStyle = {styles.view}
       renderScene = {(route, navigator) => {
         this._storeNavigatorInstance(navigator)
 

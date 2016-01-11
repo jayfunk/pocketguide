@@ -1,18 +1,11 @@
 import React from 'react-native'
 
 const {
-  StyleSheet,
   View,
   ListView,
   Text,
   TouchableHighlight
 } = React
-
-const styles = StyleSheet.create({
-  view: {
-    flex: 1
-  }
-})
 
 export default EventsView = React.createClass({
   propTypes: {
@@ -22,12 +15,10 @@ export default EventsView = React.createClass({
 
   render: function () {
     return (
-      <View style={styles.view}>
-        <ListView
-          dataSource={this._createDataSource()}
-          renderRow={this._renderRow}
-        />
-      </View>
+      <ListView
+        dataSource={this._createDataSource()}
+        renderRow={this._renderRow}
+      />
     )
   },
 
