@@ -12,18 +12,30 @@ export default NavBar = React.createClass({
 
   render: function () {
     return <View>
-      <NavButton
-        onPress = {() => this.props.navigator.push(appRoutes.events)}
-        title = {appRoutes.events.name}
-      />
-      <NavButton
-        onPress = {() => this.props.navigator.push(appRoutes.map)}
-        title = {appRoutes.map.name}
-      />
-      <NavButton
-        onPress = {() => this.props.navigator.push(appRoutes.volunteer)}
-        title = {appRoutes.volunteer.name}
-      />
+      {this._renderNavButtons()}
     </View>
+  },
+
+  _renderNavButtons: function () {
+    return [appRoutes.events, appRoutes.map, appRoutes.volunteer].map(route => {
+      const selected = this._isRouteCurrentRoute(route)
+      return <NavButton
+        onPress = {this._handleOnPress.bind(this, selected, route)}
+        title = {route.name}
+        isSelected = {selected}
+      />
+    })
+  },
+
+  _isRouteCurrentRoute: function (route) {
+    const currentRoute = this.props.navigator.getCurrentRoutes().pop()
+    return !!currentRoute && (currentRoute.name === route.name)
+  },
+
+  _handleOnPress: function (selected, route) {
+    if (!selected) {
+      this.props.navigator.push(route)
+    }
   }
+
 })
