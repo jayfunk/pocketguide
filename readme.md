@@ -37,3 +37,7 @@ Ensure the emulator you are using has Use Host GPU toggled in the emulator setti
 Open this project (pocketguide/ios/pocketguide.xcodeproj) in Xcode and simply build and run it with ⌘+R. Doing so will also start a Node server which enables live code reloading. With this you can see your changes by pressing ⌘+R in the simulator rather than recompiling in Xcode.
 
 ##License
+
+© 2016 [Tyler Cook](https://github.com/jayfunk)
+
+[MPL 2.0](https://www.mozilla.org/MPL/2.0/) (similar to the LGPL in terms of [copyleft](https://en.wikipedia.org/wiki/Copyleft) but more compatible with the App Store)
