@@ -40,4 +40,6 @@ Open this project (pocketguide/ios/pocketguide.xcodeproj) in Xcode and simply bu
 
 © 2016 [Tyler Cook](https://github.com/jayfunk)
 
+Contributors: [cmunoz3](https://github.com/cmunoz3)
+
 [MPL 2.0](https://www.mozilla.org/MPL/2.0/) (similar to the LGPL in terms of [copyleft](https://en.wikipedia.org/wiki/Copyleft) but more compatible with the App Store)
