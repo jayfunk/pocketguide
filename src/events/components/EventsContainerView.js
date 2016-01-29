@@ -1,7 +1,7 @@
 import React from 'react-native'
 import EventsStore from '../EventsStore'
 import EventsView from './EventsView'
-import EventView from './EventView'
+import { createRoute } from '../../nav/appRoutes'
 
 export default EventsContainerView = React.createClass({
   propTypes: {
@@ -22,12 +22,7 @@ export default EventsContainerView = React.createClass({
   },
 
   _handleEventPress: function (selectedEvent) {
-    this.props.navigator.push({
-      name: 'Event',
-      component: EventView,
-      props: {
-        event: selectedEvent
-      }
-    })
+    const eventRoute = createRoute('event', { event: selectedEvent })
+    this.props.navigator.push(eventRoute)
   }
 })

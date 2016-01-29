@@ -16,14 +16,11 @@ const styles = StyleSheet.create({
 export default RootView = React.createClass({
   componentDidMount: function () {
     BackAndroid.addEventListener('hardwareBackPress', () => {
-      if (!this.navigator) return false
-
-      if (!this._isOnMainRoute()) {
+      if (this.navigator && this.navigator.getCurrentRoutes().length > 1) {
         this.navigator.pop()
         return true
-      } else {
-        return false
       }
+      return false
     })
   },
 

@@ -1,5 +1,6 @@
 import NavButton from './NavButton'
 import appRoutes from './appRoutes'
+import guid from 'guid'
 import React from 'react-native'
 const {
   View
@@ -20,6 +21,7 @@ export default NavBar = React.createClass({
     return [appRoutes.events, appRoutes.map, appRoutes.volunteer].map(route => {
       const selected = this._isRouteCurrentRoute(route)
       return <NavButton
+        key = {guid()}
         onPress = {this._handleOnPress.bind(this, selected, route)}
         title = {route.name}
         isSelected = {selected}
@@ -28,13 +30,13 @@ export default NavBar = React.createClass({
   },
 
   _isRouteCurrentRoute: function (route) {
-    const currentRoute = this.props.navigator.getCurrentRoutes().pop()
-    return !!currentRoute && (currentRoute.name === route.name)
+    const currentRoutes = this.props.navigator.getCurrentRoutes()
+    return currentRoutes[currentRoutes.length - 1].name === route.name
   },
 
   _handleOnPress: function (selected, route) {
     if (!selected) {
-      this.props.navigator.push(route)
+      this.props.navigator.resetTo(route)
     }
   }
 
