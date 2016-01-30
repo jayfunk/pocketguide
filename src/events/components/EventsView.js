@@ -4,7 +4,7 @@ const {
   View,
   ListView,
   Text,
-  TouchableHighlight
+  TouchableOpacity
 } = React
 
 export default EventsView = React.createClass({
@@ -34,14 +34,14 @@ export default EventsView = React.createClass({
   },
 
   _renderRow: function (rowData, sectionId, rowId) {
-    return <TouchableHighlight
+    return <TouchableOpacity
       onPress = {() => this._handleEventPress(rowId)} >
       <View>
         <Text>
           {rowData[0]}
         </Text>
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   },
 
   _handleEventPress: function (rowId) {
