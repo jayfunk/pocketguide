@@ -14,7 +14,9 @@ const styles = StyleSheet.create({
     flex: 1
   },
   routeView: {
-    marginTop: 45
+    marginTop: 45,
+    paddingLeft: 5,
+    paddingRight: 5
   }
 })
 
