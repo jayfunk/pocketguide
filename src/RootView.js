@@ -1,7 +1,9 @@
 import appRoutes from './nav/appRoutes'
-import NavBar from './nav/NavBar'
+import Nav from './nav/Nav'
+import TabBar from './nav/TabBar'
 import React from 'react-native'
 const {
+  View,
   Navigator,
   BackAndroid,
   StyleSheet
@@ -30,21 +32,33 @@ export default RootView = React.createClass({
   },
 
   render: function () {
-    return <Navigator
-      initialRoute = {appRoutes.events}
-      sceneStyle = {styles.view}
-      renderScene = {(route, navigator) => {
-        this._storeNavigatorInstance(navigator)
+    return (
+      <View style={styles.view}>
+        <Navigator
+          initialRoute = {appRoutes.events}
+          sceneStyle = {styles.view}
+          renderScene = {(route, navigator) => {
+            this._storeNavigatorInstance(navigator)
 
-        if (route.component) {
-          return <route.component
-            navigator = {navigator}
-            {...route.props}
-          />
-        }
-      }}
-      navigationBar = {<NavBar/>}
-    />
+            if (route.component) {
+              return <route.component
+                navigator = {navigator}
+                {...route.props}
+              />
+            }
+          }}
+          navigationBar = {<Nav/>}
+        />
+        <TabBar
+          navigator={this.navigator}
+          onTabChange={this.onTabChange}
+        />
+      </View>
+    )
+  },
+
+  onTabChange (route) {
+    this.navigator.resetTo(route)
   },
 
   _storeNavigatorInstance: function (navigator) {
