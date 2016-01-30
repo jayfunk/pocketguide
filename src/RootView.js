@@ -1,5 +1,5 @@
 import appRoutes from './nav/appRoutes'
-import Nav from './nav/Nav'
+import NavBar from './nav/NavBar'
 import TabBar from './nav/TabBar'
 import React from 'react-native'
 const {
@@ -12,6 +12,9 @@ const {
 const styles = StyleSheet.create({
   view: {
     flex: 1
+  },
+  routeView: {
+    marginTop: 45
   }
 })
 
@@ -35,8 +38,8 @@ export default RootView = React.createClass({
     return (
       <View style={styles.view}>
         <Navigator
+          sceneStyle={styles.routeView}
           initialRoute = {appRoutes.events}
-          sceneStyle = {styles.view}
           renderScene = {(route, navigator) => {
             this._storeNavigatorInstance(navigator)
 
@@ -47,7 +50,7 @@ export default RootView = React.createClass({
               />
             }
           }}
-          navigationBar = {<Nav/>}
+          navigationBar = {<NavBar/>}
         />
         <TabBar
           navigator={this.navigator}
