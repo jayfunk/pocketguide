@@ -4,7 +4,6 @@
 
 ###Installation
 
-
 run through react-native setup steps
 
 ####Basics
@@ -21,11 +20,13 @@ React Native requires the basic setup explained at React Native Getting Started.
 
 ###Android Startup
 
-From terminal run `android`
+Startup your android emulator by using something like`emulator @Nexus_5_API_23_x86` or using the GUI tool provided by android. Or a device connected
 
-startup your android emulator by using something like`emulator @Nexus_5_API_23_x86` or using the GUI tool provided by android.
+cd ~/pocketguide
 
-`run react-native run-android` from the project root to install the generated app on your emulator or device, and start the Node server which enables live code reloading. To see your changes you have to open the rage-shake-menu (either shake the device or press the menu button on devices, press F2 or Page Up for emulator, ⌘+M for Genymotion), and then press `Reload JS`.
+react-native run-android
+
+To see your changes you have to open the rage-shake-menu (either shake the device or press the menu button on devices, press F2 or Page Up for emulator, ⌘+M for Genymotion), and then press `Reload JS`.
 
 ####Troubleshooting
 com.android.ddmlib.InstallException: Failed to establish session
@@ -34,7 +35,13 @@ Ensure the emulator you are using has Use Host GPU toggled in the emulator setti
 
 ###IOS Startup
 
-Open this project (pocketguide/ios/pocketguide.xcodeproj) in Xcode and simply build and run it with ⌘+R. Doing so will also start a Node server which enables live code reloading. With this you can see your changes by pressing ⌘+R in the simulator rather than recompiling in Xcode.
+cd ~/pocketguide
+
+react-native run-ios
+- or -
+Open /Users/jfunk/projects/pocketguide/ios/pocketguide.xcodeproj in Xcode
+
+Hit the Run button
 
 ##License
 
