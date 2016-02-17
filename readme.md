@@ -9,13 +9,13 @@ run through react-native setup steps
 ####Basics
 Clone the repo
 
-npm install
+`npm install`
 
 React Native requires the basic setup explained at React Native Getting Started.
 
 After installing these dependencies there are two simple commands to get a React Native project all set up for development.
 
-npm install -g react-native-cli
+`npm install -g react-native-cli`
 
 react-native-cli is a command line interface that does the rest of the set up. It’s installable via npm. This will install react-native as a command in your terminal. You only ever need to do this once.
 
