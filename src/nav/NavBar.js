@@ -8,7 +8,7 @@ const {
 } = React
 
 const styles = StyleSheet.create({
-  navBar: {
+  navbar: {
     position: 'absolute',
     top: 0,
     left: 0,
@@ -78,13 +78,11 @@ export default NavBar = React.createClass({
   render () {
     return (
       <View
-        style={styles.navBar}
+        style={styles.navbar}
       >
         {this._renderBackButton()}
 
-        {<NavSearchButton
-          styles={[styles.corner, styles.alignRight]}
-        />}
+        {this._renderSearchButton()}
       </View>
     )
   },
@@ -104,5 +102,17 @@ export default NavBar = React.createClass({
         Back
       </Text>
     </TouchableOpacity>
+  },
+
+  _renderSearchButton () {
+    if (this.props.navigator.getCurrentRoutes().length >= 2) {
+      return <View
+        style={[styles.corner, styles.alignRight]}
+      />
+    }
+
+    return <NavSearchButton
+      styles={[styles.corner, styles.alignRight]}
+    />
   }
 })
