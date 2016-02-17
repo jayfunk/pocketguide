@@ -1,4 +1,5 @@
 import appRoutes from './nav/appRoutes'
+import {EventEmitter} from 'events'
 import NavBar from './nav/NavBar'
 import TabBar from './nav/TabBar'
 import React from 'react-native'
@@ -21,6 +22,16 @@ const styles = StyleSheet.create({
 })
 
 export default RootView = React.createClass({
+  childContextTypes: {
+    events: React.PropTypes.object
+  },
+
+  getChildContext () {
+    return {
+      events: new EventEmitter()
+    }
+  },
+
   componentDidMount: function () {
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.navigator && this.navigator.getCurrentRoutes().length > 1) {
