@@ -1,5 +1,6 @@
 import EventsContainerView from '../events/components/EventsContainerView'
 import EventView from '../events/components/EventView'
+import MapView from '../map/MapView'
 
 const routes = {
   events: {
@@ -12,7 +13,7 @@ const routes = {
   },
   map: {
     name: 'Map',
-    component: null
+    component: MapView
   },
   volunteer: {
     name: 'Volunteer',
