@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 0,
     borderLeftWidth: 0,
     borderRightWidth: 0,
-    borderBottomColor: '#ccc'
+    borderBottomColor: 'black'
   }
 })
 
@@ -56,5 +56,4 @@ export default TabBar = React.createClass({
       this.setState({ activeTabName: route.name })
     }
   }
-
 })
