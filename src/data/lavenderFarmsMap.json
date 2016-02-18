@@ -1,0 +1,769 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Path through woods",
+        "description": "Path shown here is highly approximated.",
+        "title": "Path through woods",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "",
+        "stroke": "#a3e46b",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -83.34098,
+            33.379508,
+            0
+          ],
+          [
+            -83.343883,
+            33.381743,
+            0
+          ],
+          [
+            -83.34766,
+            33.378947,
+            0
+          ],
+          [
+            -83.345246,
+            33.376949,
+            0
+          ],
+          [
+            -83.344956,
+            33.376743,
+            0
+          ],
+          [
+            -83.343401,
+            33.377586,
+            0
+          ],
+          [
+            -83.342596,
+            33.378284,
+            0
+          ],
+          [
+            -83.342113,
+            33.379359,
+            0
+          ],
+          [
+            -83.340863,
+            33.379526,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "04f6b19035966f3276f453303c425b25"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hinterlands",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Hinterlands",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.3403,
+          33.377191,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "0cf2053734bdfccef7f6b654a5d57ebc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Large Vehicle Shuttle Station",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Large Vehicle Shuttle Station",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "bus"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.336641,
+          33.380475,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "16dc86002a9972bc9aab6dd5300a7c80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rangers",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Rangers",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "danger"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.33864,
+          33.377138,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "175f34b700d3df7ab7d17235274b79e6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LNT",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "LNT",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338285,
+          33.377175,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "22c8fbea256da9494a3d1813d47b6491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Art Burn",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Art Burn",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "fire-station"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.339396,
+          33.379821,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2c6949f340f243b0be9ebc874abb6a5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Connexus",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Connexus",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338335,
+          33.377227,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "39ed6324661fff0f331fb06109477b57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Temple",
+        "styleUrl": "#icon-1337-nodesc",
+        "styleHash": "-77a42c38",
+        "title": "Temple",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "campsite"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.334437,
+          33.37897,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "4e61f9ff89e8e6498f87f31602fbce3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fire Safety",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Fire Safety",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338475,
+          33.376945,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "55d1eef480a6208d8671583951f5aad3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hearth Camp",
+        "title": "Hearth Camp",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "",
+        "stroke": "#e7857f",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#e7857f",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -83.338815,
+              33.377057,
+              0
+            ],
+            [
+              -83.339329,
+              33.377106,
+              0
+            ],
+            [
+              -83.33905,
+              33.376638,
+              0
+            ],
+            [
+              -83.33864,
+              33.376785,
+              0
+            ],
+            [
+              -83.338815,
+              33.377057,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "621705c016fcebf3855df695ca03b973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A",
+        "description": "Owned by landowner",
+        "title": "Offlimits",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "",
+        "stroke": "#e7857f",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#e7857f",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -83.337425,
+              33.387736,
+              0
+            ],
+            [
+              -83.342456,
+              33.383615,
+              0
+            ],
+            [
+              -83.341705,
+              33.382011,
+              0
+            ],
+            [
+              -83.341491,
+              33.381295,
+              0
+            ],
+            [
+              -83.340729,
+              33.380166,
+              0
+            ],
+            [
+              -83.340032,
+              33.3791,
+              0
+            ],
+            [
+              -83.333423,
+              33.384636,
+              0
+            ],
+            [
+              -83.337425,
+              33.387736,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6b6fa63fbc09f534bdecab4c37a98a3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C",
+        "description": "Owned by family of landowner",
+        "title": "C",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "",
+        "stroke": "#e7857f",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#e7857f",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -83.333423,
+              33.384636,
+              0
+            ],
+            [
+              -83.336556,
+              33.382038,
+              0
+            ],
+            [
+              -83.333562,
+              33.379037,
+              0
+            ],
+            [
+              -83.33059,
+              33.381554,
+              0
+            ],
+            [
+              -83.331974,
+              33.383418,
+              0
+            ],
+            [
+              -83.333423,
+              33.384636,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6d7e32ae841d51eae47f044336cff2f8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "B",
+        "description": "Open to all burners.",
+        "title": "Burn Area",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "",
+        "stroke": "#f1f075",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#63b6e5",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -83.342456,
+              33.383615,
+              0
+            ],
+            [
+              -83.347735,
+              33.378983,
+              0
+            ],
+            [
+              -83.340364,
+              33.373267,
+              0
+            ],
+            [
+              -83.333562,
+              33.379037,
+              0
+            ],
+            [
+              -83.336556,
+              33.382038,
+              0
+            ],
+            [
+              -83.340032,
+              33.3791,
+              0
+            ],
+            [
+              -83.341491,
+              33.381295,
+              0
+            ],
+            [
+              -83.341705,
+              33.382011,
+              0
+            ],
+            [
+              -83.342456,
+              33.383615,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6f1b54cd327258f4ad857b0a1af2dfb0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APW",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "APW",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "car"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.339413,
+          33.381098,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "749ee7a00083e53f1ad4703ffd2fff24"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Small Foot Bridge",
+        "styleUrl": "#icon-1001",
+        "styleHash": "-26e4b654",
+        "description": "",
+        "title": "Small Foot Bridge",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "pitch"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.339989,
+          33.380004,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "804efbe0e065aec07cadfb71d9c11d72"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Education Station",
+        "styleUrl": "#icon-1197-nodesc",
+        "styleHash": "-28230b24",
+        "title": "Education Station",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.336365,
+          33.380746,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8639ab47c9cb32e0557cb31dcddea733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridge",
+        "styleUrl": "#icon-1001",
+        "styleHash": "-26e4b654",
+        "description": "",
+        "title": "Bridge",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338885,
+          33.377195,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "88564c424bd109b34d65cd33759a0040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Effigy",
+        "styleUrl": "#icon-1239-nodesc",
+        "styleHash": "2769cf29",
+        "title": "Effigy",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "fire-station"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.339463,
+          33.379298,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8b93fc33f83658d4261d9df0378a3bff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gate.",
+        "styleUrl": "#icon-1261-nodesc",
+        "styleHash": "21701187",
+        "title": "Gate.",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.33758,
+          33.387324,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8eb6f350f14e44f93cb73df1e2b51796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tranquility Base",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Tranquility Base",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338969,
+          33.380797,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "926cc67b1a5179944a9539170cd406a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mess Hall",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Mess Hall",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.33854,
+          33.377046,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "9f66b0e631fe926cc5669f7025888c8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lamplighters",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "-3b37c65d",
+        "title": "Lamplighters",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338237,
+          33.377111,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ba8b1c8b213d0da8c36fe5e4af9c34a2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Small Foot Bridge",
+        "styleUrl": "#icon-1001",
+        "styleHash": "-26e4b654",
+        "description": "",
+        "title": "Small Foot Bridge",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "pitch"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338969,
+          33.377093,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bad087725c72d07b85f94bc2150d6936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Large Bridge",
+        "styleUrl": "#icon-1001",
+        "styleHash": "-26e4b654",
+        "description": "",
+        "title": "Large Bridge",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.339995,
+          33.378867,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "dc4987814241b94839f478256c928f6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deer Stand",
+        "styleUrl": "#icon-1285-nodesc",
+        "styleHash": "-4c7fda06",
+        "title": "Deer Stand",
+        "description": "",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.33909,
+          33.377619,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f5885764676c7e8c142ab204c7f916bf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Workers House",
+        "styleUrl": "#icon-503-DB4436",
+        "styleHash": "-12a4d528",
+        "description": "",
+        "title": "Workers House",
+        "marker-color": "",
+        "marker-size": "",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -83.338425,
+          33.380665,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "fefce4001285b51b2333495a4ae501c2"
+    }
+  ],
+  "id": "chef098.p63a99bj"
+}

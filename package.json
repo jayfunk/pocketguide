@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "test": "tape tests/**/*Test.js"
   },
   "dependencies": {
     "events": "^1.1.0",
@@ -11,6 +12,7 @@
     "react-native-mapbox-gl": "^3.2.3"
   },
   "devDependencies": {
-    "standard": "^5.4.1"
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
   }
 }
