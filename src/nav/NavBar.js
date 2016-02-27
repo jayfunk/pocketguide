@@ -1,9 +1,8 @@
-import NavSearchButton from './NavSearchButton'
+import MapNavBar from './MapNavBar'
+import EventsNavBar from './EventsNavBar'
 import React from 'react-native'
 const {
   StyleSheet,
-  TouchableOpacity,
-  Text,
   View
 } = React
 
@@ -31,7 +30,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center'
   },
-
   alignLeft: {
     alignItems: 'flex-start'
   },
@@ -40,7 +38,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default NavBar = React.createClass({
+export default React.createClass({
   propTypes: {
     navigator: React.PropTypes.object,
     navState: React.PropTypes.object
@@ -51,52 +49,23 @@ export default NavBar = React.createClass({
       <View
         style={styles.navbar}
       >
-        {this._renderLeftControls()}
-        {this._renderRightControls()}
+        {this._renderBar()}
       </View>
     )
   },
 
-  _renderLeftControls () {
-    if (this._isEventDetail()) {
-      return this._renderBackButton()
+  _renderBar () {
+    if (this._isMap()) {
+      return <MapNavBar styles={styles}/>
     }
+    return <EventsNavBar
+      styles={styles}
+      navigator={this.props.navigator}
+    />
   },
 
-  _renderRightControls () {
-    if (this._isEvents() && !this._isEventDetail()) {
-      return this._renderSearchButton()
-    }
-  },
-
-  _isEventDetail () {
+  _isMap () {
     const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return this._isEvents() && currentRoutes.length === 2
-  },
-
-  _renderBackButton () {
-    return (
-      <TouchableOpacity
-        style={[styles.corner, styles.alignLeft]}
-        onPress={() => this.props.navigator.pop()}
-      >
-        <Text style={styles.navbarText}>
-          Back
-        </Text>
-      </TouchableOpacity>
-    )
-  },
-
-  _isEvents () {
-    const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return currentRoutes[0].name === 'Events'
-  },
-
-  _renderSearchButton () {
-    return (
-      <NavSearchButton
-        styles={[styles.corner, styles.alignRight]}
-      />
-    )
+    return currentRoutes[0].name === 'Map' || currentRoutes[currentRoutes.length - 1].name === 'Map'
   }
 })
