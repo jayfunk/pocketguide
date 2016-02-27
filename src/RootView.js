@@ -49,6 +49,12 @@ export default RootView = React.createClass({
     return (
       <View style={styles.view}>
         <Navigator
+          configureScene={(route, routeStack) => { 
+            if (route.name === 'Event') {
+              return Navigator.SceneConfigs.HorizontalSwipeJump
+            }
+            return Navigator.SceneConfigs.HorizontalSwipeJumpFromRight
+          }}
           sceneStyle={styles.routeView}
           initialRoute = {appRoutes.events}
           renderScene = {(route, navigator) => {
