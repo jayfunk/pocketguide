@@ -46,73 +46,57 @@ export default NavBar = React.createClass({
     navState: React.PropTypes.object
   },
 
-  routeMapper: {
-    RightButton () {
-      return null
-    },
-
-    LeftButton (route, navigator, index, navState) {
-      if (index === 0) {
-        return null
-      }
-      return (
-        <TouchableOpacity
-          onPress={() => navigator.pop()}
-        >
-          <Text>
-            Back
-          </Text>
-        </TouchableOpacity>
-      )
-    },
-
-    Title (route, navigator, index, navState) {
-      return (
-        <Text>
-          {route.name}
-        </Text>
-      )
-    }
-  },
-
   render () {
     return (
       <View
         style={styles.navbar}
       >
-        {this._renderBackButton()}
-
-        {this._renderSearchButton()}
+        {this._renderLeftControls()}
+        {this._renderRightControls()}
       </View>
     )
   },
 
-  _renderBackButton () {
-    if (this.props.navigator.getCurrentRoutes().length <= 1) {
-      return <View
-        style={[styles.corner, styles.alignLeft]}
-      />
+  _renderLeftControls () {
+    if (this._isEventDetail()) {
+      return this._renderBackButton()
     }
+  },
 
-    return <TouchableOpacity
-      style={[styles.corner, styles.alignLeft]}
-      onPress={() => this.props.navigator.pop()}
-    >
-      <Text style={styles.navbarText}>
-        Back
-      </Text>
-    </TouchableOpacity>
+  _renderRightControls () {
+    if (this._isEvents() && !this._isEventDetail()) {
+      return this._renderSearchButton()
+    }
+  },
+
+  _isEventDetail () {
+    const currentRoutes = this.props.navigator.getCurrentRoutes()
+    return this._isEvents() && currentRoutes.length === 2
+  },
+
+  _renderBackButton () {
+    return (
+      <TouchableOpacity
+        style={[styles.corner, styles.alignLeft]}
+        onPress={() => this.props.navigator.pop()}
+      >
+        <Text style={styles.navbarText}>
+          Back
+        </Text>
+      </TouchableOpacity>
+    )
+  },
+
+  _isEvents () {
+    const currentRoutes = this.props.navigator.getCurrentRoutes()
+    return currentRoutes[0].name === 'Events'
   },
 
   _renderSearchButton () {
-    if (this.props.navigator.getCurrentRoutes().length >= 2) {
-      return <View
-        style={[styles.corner, styles.alignRight]}
+    return (
+      <NavSearchButton
+        styles={[styles.corner, styles.alignRight]}
       />
-    }
-
-    return <NavSearchButton
-      styles={[styles.corner, styles.alignRight]}
-    />
+    )
   }
 })
