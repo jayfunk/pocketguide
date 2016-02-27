@@ -1,67 +1,5 @@
 [
   {
-    "id": "04f6b19035966f3276f453303c425b25",
-    "coordinates": [
-      [
-        33.379508,
-        -83.34098
-      ],
-      [
-        33.381743,
-        -83.343883
-      ],
-      [
-        33.378947,
-        -83.34766
-      ],
-      [
-        33.376949,
-        -83.345246
-      ],
-      [
-        33.376743,
-        -83.344956
-      ],
-      [
-        33.377586,
-        -83.343401
-      ],
-      [
-        33.378284,
-        -83.342596
-      ],
-      [
-        33.379359,
-        -83.342113
-      ],
-      [
-        33.379526,
-        -83.340863
-      ]
-    ],
-    "type": "polyline",
-    "title": "Path through woods",
-    "subtitle": "Path shown here is highly approximated.",
-    "strokeColor": "#a3e46b",
-    "strokeWidth": 4,
-    "strokeAlpha": 1
-  },
-  {
-    "id": "0cf2053734bdfccef7f6b654a5d57ebc",
-    "coordinates": [
-      33.377191,
-      -83.3403
-    ],
-    "type": "point",
-    "title": "Hinterlands",
-    "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
-  },
-  {
     "id": "16dc86002a9972bc9aab6dd5300a7c80",
     "coordinates": [
       33.380475,
@@ -167,121 +105,6 @@
     }
   },
   {
-    "id": "621705c016fcebf3855df695ca03b973",
-    "coordinates": [
-      [
-        33.377057,
-        -83.338815
-      ],
-      [
-        33.377106,
-        -83.339329
-      ],
-      [
-        33.376638,
-        -83.33905
-      ],
-      [
-        33.376785,
-        -83.33864
-      ],
-      [
-        33.377057,
-        -83.338815
-      ]
-    ],
-    "type": "polygon",
-    "title": "Hearth Camp",
-    "subtitle": "",
-    "strokeColor": "#e7857f",
-    "strokeWidth": 4,
-    "strokeAlpha": 1,
-    "fillColor": "#e7857f",
-    "fillAlpha": 0.20000000298023224
-  },
-  {
-    "id": "6b6fa63fbc09f534bdecab4c37a98a3e",
-    "coordinates": [
-      [
-        33.387736,
-        -83.337425
-      ],
-      [
-        33.383615,
-        -83.342456
-      ],
-      [
-        33.382011,
-        -83.341705
-      ],
-      [
-        33.381295,
-        -83.341491
-      ],
-      [
-        33.380166,
-        -83.340729
-      ],
-      [
-        33.3791,
-        -83.340032
-      ],
-      [
-        33.384636,
-        -83.333423
-      ],
-      [
-        33.387736,
-        -83.337425
-      ]
-    ],
-    "type": "polygon",
-    "title": "Offlimits",
-    "subtitle": "Owned by landowner",
-    "strokeColor": "#e7857f",
-    "strokeWidth": 4,
-    "strokeAlpha": 1,
-    "fillColor": "#e7857f",
-    "fillAlpha": 0.20000000298023224
-  },
-  {
-    "id": "6d7e32ae841d51eae47f044336cff2f8",
-    "coordinates": [
-      [
-        33.384636,
-        -83.333423
-      ],
-      [
-        33.382038,
-        -83.336556
-      ],
-      [
-        33.379037,
-        -83.333562
-      ],
-      [
-        33.381554,
-        -83.33059
-      ],
-      [
-        33.383418,
-        -83.331974
-      ],
-      [
-        33.384636,
-        -83.333423
-      ]
-    ],
-    "type": "polygon",
-    "title": "C",
-    "subtitle": "Owned by family of landowner",
-    "strokeColor": "#e7857f",
-    "strokeWidth": 4,
-    "strokeAlpha": 1,
-    "fillColor": "#e7857f",
-    "fillAlpha": 0.20000000298023224
-  },
-  {
     "id": "6f1b54cd327258f4ad857b0a1af2dfb0",
     "coordinates": [
       [
@@ -324,11 +147,10 @@
     "type": "polygon",
     "title": "Burn Area",
     "subtitle": "Open to all burners.",
-    "strokeColor": "#f1f075",
+    "strokeColor": "#4B4A85",
     "strokeWidth": 4,
     "strokeAlpha": 1,
-    "fillColor": "#63b6e5",
-    "fillAlpha": 0.20000000298023224
+    "fillColor": "#994B4A85"
   },
   {
     "id": "749ee7a00083e53f1ad4703ffd2fff24",
