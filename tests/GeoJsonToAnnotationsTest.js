@@ -108,7 +108,6 @@ test('should transform geo json line string feature to annotation polyline', fun
   t.deepEqual(actual, expected)
 })
 
-
 test('should transform geo json polygon feature to annotation polygon', function (t) {
   t.plan(1)
 

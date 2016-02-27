@@ -1,0 +1,528 @@
+[
+  {
+    "id": "04f6b19035966f3276f453303c425b25",
+    "coordinates": [
+      [
+        33.379508,
+        -83.34098
+      ],
+      [
+        33.381743,
+        -83.343883
+      ],
+      [
+        33.378947,
+        -83.34766
+      ],
+      [
+        33.376949,
+        -83.345246
+      ],
+      [
+        33.376743,
+        -83.344956
+      ],
+      [
+        33.377586,
+        -83.343401
+      ],
+      [
+        33.378284,
+        -83.342596
+      ],
+      [
+        33.379359,
+        -83.342113
+      ],
+      [
+        33.379526,
+        -83.340863
+      ]
+    ],
+    "type": "polyline",
+    "title": "Path through woods",
+    "subtitle": "Path shown here is highly approximated.",
+    "strokeColor": "#a3e46b",
+    "strokeWidth": 4,
+    "strokeAlpha": 1
+  },
+  {
+    "id": "0cf2053734bdfccef7f6b654a5d57ebc",
+    "coordinates": [
+      33.377191,
+      -83.3403
+    ],
+    "type": "point",
+    "title": "Hinterlands",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "16dc86002a9972bc9aab6dd5300a7c80",
+    "coordinates": [
+      33.380475,
+      -83.336641
+    ],
+    "type": "point",
+    "title": "Large Vehicle Shuttle Station",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "175f34b700d3df7ab7d17235274b79e6",
+    "coordinates": [
+      33.377138,
+      -83.33864
+    ],
+    "type": "point",
+    "title": "Rangers",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "22c8fbea256da9494a3d1813d47b6491",
+    "coordinates": [
+      33.377175,
+      -83.338285
+    ],
+    "type": "point",
+    "title": "LNT",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "2c6949f340f243b0be9ebc874abb6a5c",
+    "coordinates": [
+      33.379821,
+      -83.339396
+    ],
+    "type": "point",
+    "title": "Art Burn",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "39ed6324661fff0f331fb06109477b57",
+    "coordinates": [
+      33.377227,
+      -83.338335
+    ],
+    "type": "point",
+    "title": "Connexus",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "4e61f9ff89e8e6498f87f31602fbce3e",
+    "coordinates": [
+      33.37897,
+      -83.334437
+    ],
+    "type": "point",
+    "title": "Temple",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "55d1eef480a6208d8671583951f5aad3",
+    "coordinates": [
+      33.376945,
+      -83.338475
+    ],
+    "type": "point",
+    "title": "Fire Safety",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "621705c016fcebf3855df695ca03b973",
+    "coordinates": [
+      [
+        33.377057,
+        -83.338815
+      ],
+      [
+        33.377106,
+        -83.339329
+      ],
+      [
+        33.376638,
+        -83.33905
+      ],
+      [
+        33.376785,
+        -83.33864
+      ],
+      [
+        33.377057,
+        -83.338815
+      ]
+    ],
+    "type": "polygon",
+    "title": "Hearth Camp",
+    "subtitle": "",
+    "strokeColor": "#e7857f",
+    "strokeWidth": 4,
+    "strokeAlpha": 1,
+    "fillColor": "#e7857f",
+    "fillAlpha": 0.20000000298023224
+  },
+  {
+    "id": "6b6fa63fbc09f534bdecab4c37a98a3e",
+    "coordinates": [
+      [
+        33.387736,
+        -83.337425
+      ],
+      [
+        33.383615,
+        -83.342456
+      ],
+      [
+        33.382011,
+        -83.341705
+      ],
+      [
+        33.381295,
+        -83.341491
+      ],
+      [
+        33.380166,
+        -83.340729
+      ],
+      [
+        33.3791,
+        -83.340032
+      ],
+      [
+        33.384636,
+        -83.333423
+      ],
+      [
+        33.387736,
+        -83.337425
+      ]
+    ],
+    "type": "polygon",
+    "title": "Offlimits",
+    "subtitle": "Owned by landowner",
+    "strokeColor": "#e7857f",
+    "strokeWidth": 4,
+    "strokeAlpha": 1,
+    "fillColor": "#e7857f",
+    "fillAlpha": 0.20000000298023224
+  },
+  {
+    "id": "6d7e32ae841d51eae47f044336cff2f8",
+    "coordinates": [
+      [
+        33.384636,
+        -83.333423
+      ],
+      [
+        33.382038,
+        -83.336556
+      ],
+      [
+        33.379037,
+        -83.333562
+      ],
+      [
+        33.381554,
+        -83.33059
+      ],
+      [
+        33.383418,
+        -83.331974
+      ],
+      [
+        33.384636,
+        -83.333423
+      ]
+    ],
+    "type": "polygon",
+    "title": "C",
+    "subtitle": "Owned by family of landowner",
+    "strokeColor": "#e7857f",
+    "strokeWidth": 4,
+    "strokeAlpha": 1,
+    "fillColor": "#e7857f",
+    "fillAlpha": 0.20000000298023224
+  },
+  {
+    "id": "6f1b54cd327258f4ad857b0a1af2dfb0",
+    "coordinates": [
+      [
+        33.383615,
+        -83.342456
+      ],
+      [
+        33.378983,
+        -83.347735
+      ],
+      [
+        33.373267,
+        -83.340364
+      ],
+      [
+        33.379037,
+        -83.333562
+      ],
+      [
+        33.382038,
+        -83.336556
+      ],
+      [
+        33.3791,
+        -83.340032
+      ],
+      [
+        33.381295,
+        -83.341491
+      ],
+      [
+        33.382011,
+        -83.341705
+      ],
+      [
+        33.383615,
+        -83.342456
+      ]
+    ],
+    "type": "polygon",
+    "title": "Burn Area",
+    "subtitle": "Open to all burners.",
+    "strokeColor": "#f1f075",
+    "strokeWidth": 4,
+    "strokeAlpha": 1,
+    "fillColor": "#63b6e5",
+    "fillAlpha": 0.20000000298023224
+  },
+  {
+    "id": "749ee7a00083e53f1ad4703ffd2fff24",
+    "coordinates": [
+      33.381098,
+      -83.339413
+    ],
+    "type": "point",
+    "title": "APW",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "804efbe0e065aec07cadfb71d9c11d72",
+    "coordinates": [
+      33.380004,
+      -83.339989
+    ],
+    "type": "point",
+    "title": "Small Foot Bridge",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "8639ab47c9cb32e0557cb31dcddea733",
+    "coordinates": [
+      33.380746,
+      -83.336365
+    ],
+    "type": "point",
+    "title": "Education Station",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "88564c424bd109b34d65cd33759a0040",
+    "coordinates": [
+      33.377195,
+      -83.338885
+    ],
+    "type": "point",
+    "title": "Bridge",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "8b93fc33f83658d4261d9df0378a3bff",
+    "coordinates": [
+      33.379298,
+      -83.339463
+    ],
+    "type": "point",
+    "title": "Effigy",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "8eb6f350f14e44f93cb73df1e2b51796",
+    "coordinates": [
+      33.387324,
+      -83.33758
+    ],
+    "type": "point",
+    "title": "Gate.",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "926cc67b1a5179944a9539170cd406a7",
+    "coordinates": [
+      33.380797,
+      -83.338969
+    ],
+    "type": "point",
+    "title": "Tranquility Base",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "9f66b0e631fe926cc5669f7025888c8c",
+    "coordinates": [
+      33.377046,
+      -83.33854
+    ],
+    "type": "point",
+    "title": "Mess Hall",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "ba8b1c8b213d0da8c36fe5e4af9c34a2",
+    "coordinates": [
+      33.377111,
+      -83.338237
+    ],
+    "type": "point",
+    "title": "Lamplighters",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "bad087725c72d07b85f94bc2150d6936",
+    "coordinates": [
+      33.377093,
+      -83.338969
+    ],
+    "type": "point",
+    "title": "Small Foot Bridge",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "dc4987814241b94839f478256c928f6a",
+    "coordinates": [
+      33.378867,
+      -83.339995
+    ],
+    "type": "point",
+    "title": "Large Bridge",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "f5885764676c7e8c142ab204c7f916bf",
+    "coordinates": [
+      33.377619,
+      -83.33909
+    ],
+    "type": "point",
+    "title": "Deer Stand",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "fefce4001285b51b2333495a4ae501c2",
+    "coordinates": [
+      33.380665,
+      -83.338425
+    ],
+    "type": "point",
+    "title": "Workers House",
+    "subtitle": "",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  }
+]
