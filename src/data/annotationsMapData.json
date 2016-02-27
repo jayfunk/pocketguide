@@ -8,11 +8,6 @@
     "type": "point",
     "title": "Large Vehicle Shuttle Station",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "175f34b700d3df7ab7d17235274b79e6",
@@ -23,11 +18,6 @@
     "type": "point",
     "title": "Rangers",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "22c8fbea256da9494a3d1813d47b6491",
@@ -38,11 +28,6 @@
     "type": "point",
     "title": "LNT",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "2c6949f340f243b0be9ebc874abb6a5c",
@@ -53,11 +38,6 @@
     "type": "point",
     "title": "Art Burn",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "39ed6324661fff0f331fb06109477b57",
@@ -68,11 +48,6 @@
     "type": "point",
     "title": "Connexus",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "4e61f9ff89e8e6498f87f31602fbce3e",
@@ -83,11 +58,6 @@
     "type": "point",
     "title": "Temple",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "55d1eef480a6208d8671583951f5aad3",
@@ -98,11 +68,6 @@
     "type": "point",
     "title": "Fire Safety",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "6f1b54cd327258f4ad857b0a1af2dfb0",
@@ -161,11 +126,6 @@
     "type": "point",
     "title": "APW",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "804efbe0e065aec07cadfb71d9c11d72",
@@ -176,11 +136,6 @@
     "type": "point",
     "title": "Small Foot Bridge",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "8639ab47c9cb32e0557cb31dcddea733",
@@ -191,11 +146,6 @@
     "type": "point",
     "title": "Education Station",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "88564c424bd109b34d65cd33759a0040",
@@ -206,11 +156,6 @@
     "type": "point",
     "title": "Bridge",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "8b93fc33f83658d4261d9df0378a3bff",
@@ -221,11 +166,6 @@
     "type": "point",
     "title": "Effigy",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "8eb6f350f14e44f93cb73df1e2b51796",
@@ -236,11 +176,6 @@
     "type": "point",
     "title": "Gate.",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "926cc67b1a5179944a9539170cd406a7",
@@ -251,11 +186,6 @@
     "type": "point",
     "title": "Tranquility Base",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "9f66b0e631fe926cc5669f7025888c8c",
@@ -266,11 +196,6 @@
     "type": "point",
     "title": "Mess Hall",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "ba8b1c8b213d0da8c36fe5e4af9c34a2",
@@ -281,11 +206,6 @@
     "type": "point",
     "title": "Lamplighters",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "bad087725c72d07b85f94bc2150d6936",
@@ -296,11 +216,6 @@
     "type": "point",
     "title": "Small Foot Bridge",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "dc4987814241b94839f478256c928f6a",
@@ -311,11 +226,6 @@
     "type": "point",
     "title": "Large Bridge",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "f5885764676c7e8c142ab204c7f916bf",
@@ -326,11 +236,6 @@
     "type": "point",
     "title": "Deer Stand",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   },
   {
     "id": "fefce4001285b51b2333495a4ae501c2",
@@ -341,10 +246,5 @@
     "type": "point",
     "title": "Workers House",
     "subtitle": "",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   }
 ]

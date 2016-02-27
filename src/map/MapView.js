@@ -13,6 +13,12 @@ const mapRef = 'map'
 const styles = StyleSheet.create({
   container: {
     flex: 1
+  },
+  map: {
+    flex: 2
+  },
+  drawer: {
+    flex: 0.1
   }
 })
 
@@ -31,15 +37,18 @@ export default MapView = React.createClass({
   },
 
   onOpenAnnotation (annotation) {
-    console.log(annotation)
+    this.setState({
+      drawerInfo: annotation.src
+    })
   },
 
   render () {
     return (
       <View style={styles.container}>
+        {this._renderDrawer()}
         <Mapbox
           ref={mapRef}
-          style={styles.container}
+          style={styles.map}
           styleUrl={this.mapStyles.satellite}
           zoomLevel={this.state.zoomLevel}
           direction={45}
@@ -54,6 +63,18 @@ export default MapView = React.createClass({
           showsUserLocation={true}
           attributionButtonIsHidden={true}
         />
+      </View>
+    )
+  },
+
+  _renderDrawer () {
+    if (!this.state.drawerInfo) {
+      return
+    }
+    return (
+      <View style={styles.drawer}>
+        <Text>{this.state.drawerInfo.title}</Text>
+        <Text>{this.state.drawerInfo.subtitle}</Text>
       </View>
     )
   }
