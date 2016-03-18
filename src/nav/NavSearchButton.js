@@ -11,7 +11,6 @@ const navbarText = {
   color: NAV_BAR_FONT,
   fontSize: 17,
   margin: 10,
-  fontWeight: '600',
   textAlign: 'center',
   alignItems: 'center'
 }
