@@ -1,0 +1,8 @@
+export const EVENTS_THEME = '#DC4A6C'
+export const BORDER = '#001119'
+export const CONTENT_BACKGROUND = '#0E3453'
+export const TAB_BACKGROUND = '#07233D'
+export const MAP_THEME = '#7A79CA'
+export const PRINCIPLES_THEME = '#FFCA6B'
+export const GENERAL_FONT = '#6FADD4'
+export const NAV_BAR_FONT = '#001119'

@@ -1,5 +1,7 @@
 import MapNavBar from './MapNavBar'
 import EventsNavBar from './EventsNavBar'
+import {EVENTS_THEME, MAP_THEME, PRINCIPLES_THEME, NAV_BAR_FONT, BORDER} from '../styles/ColorConstants'
+import {NAV_BAR_SIZE} from '../styles/StyleConstants'
 import React from 'react-native'
 const {
   StyleSheet,
@@ -12,17 +14,18 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    height: 44, // Default iOS navbar height
+    height: NAV_BAR_SIZE,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    backgroundColor: '#5589B7'
+    borderBottomColor: BORDER,
+    borderBottomWidth: 5
   },
   navbarText: {
-    color: 'white',
+    color: NAV_BAR_FONT,
     fontSize: 17,
     margin: 10,
-    fontWeight: '600',
+    fontWeight: '300',
     textAlign: 'center',
     alignItems: 'center'
   },
@@ -45,9 +48,13 @@ export default React.createClass({
   },
 
   render () {
+    const background = {
+      backgroundColor: this._isMap() ? MAP_THEME : EVENTS_THEME
+    }
+
     return (
       <View
-        style={styles.navbar}
+        style={[styles.navbar, background]}
       >
         {this._renderBar()}
       </View>

@@ -1,4 +1,6 @@
 import React from 'react-native'
+import {NAV_BAR_FONT, CONTENT_BACKGROUND} from '../styles/ColorConstants'
+
 const {
   Text,
   TextInput,
@@ -6,7 +8,7 @@ const {
 } = React
 
 const navbarText = {
-  color: 'white',
+  color: NAV_BAR_FONT,
   fontSize: 17,
   margin: 10,
   fontWeight: '600',
@@ -17,9 +19,9 @@ const navbarText = {
 const navbarTextInput = {
   flex: 1,
   margin: 5,
-  color: 'black',
+  color: NAV_BAR_FONT,
   textAlign: 'left',
-  backgroundColor: 'white'
+  backgroundColor: CONTENT_BACKGROUND
 }
 
 export default NavSearchButton = React.createClass({

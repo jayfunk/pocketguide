@@ -16,7 +16,7 @@ const routes = {
     component: MapView
   },
   volunteer: {
-    name: 'Volunteer',
+    name: 'Principles',
     component: null
   }
 }

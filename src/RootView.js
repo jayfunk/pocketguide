@@ -1,8 +1,9 @@
 import appRoutes from './nav/appRoutes'
 import {EventEmitter} from 'events'
 import NavBar from './nav/NavBar'
-import TabBar from './nav/TabBar'
 import React from 'react-native'
+import TabBar from './nav/TabBar'
+import {NAV_BAR_SIZE} from './styles/StyleConstants'
 const {
   View,
   Navigator,
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   routeView: {
-    marginTop: 45
+    marginTop: NAV_BAR_SIZE
   }
 })
 
@@ -70,7 +71,6 @@ export default RootView = React.createClass({
           navigationBar = {<NavBar/>}
         />
         <TabBar
-          navigator={this.navigator}
           onTabChange={this.onTabChange}
         />
       </View>
@@ -81,7 +81,7 @@ export default RootView = React.createClass({
     this.navigator.resetTo(route)
   },
 
-  _storeNavigatorInstance: function (navigator) {
+  _storeNavigatorInstance (navigator) {
     this.navigator = navigator
   }
 })

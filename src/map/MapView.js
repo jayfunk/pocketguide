@@ -12,7 +12,8 @@ const mapRef = 'map'
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    borderWidth: 0
   },
   map: {
     flex: 2
@@ -44,30 +45,28 @@ export default MapView = React.createClass({
 
   render () {
     return (
-      <View style={styles.container}>
-        {this._renderDrawer()}
-        <Mapbox
-          ref={mapRef}
-          style={styles.map}
-          styleUrl={this.mapStyles.satellite}
-          zoomLevel={this.state.zoomLevel}
-          direction={45}
-          accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
-          annotations={this.state.annotations}
-          zoomEnabled={true}
-          logoIsHidden={true}
-          rotateEnabled={true}
-          centerCoordinate={this.state.center}
-          userTrackingMode={this.userTrackingMode.none}
-          onOpenAnnotation={this.onOpenAnnotation}
-          showsUserLocation={true}
-          attributionButtonIsHidden={true}
-        />
-      </View>
+      <Mapbox
+        ref={mapRef}
+        style={styles.container}
+        styleUrl={this.mapStyles.satellite}
+        zoomLevel={this.state.zoomLevel}
+        direction={45}
+        accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
+        annotations={this.state.annotations}
+        zoomEnabled={true}
+        logoIsHidden={true}
+        rotateEnabled={true}
+        centerCoordinate={this.state.center}
+        userTrackingMode={this.userTrackingMode.none}
+        onOpenAnnotation={this.onOpenAnnotation}
+        showsUserLocation={true}
+        attributionButtonIsHidden={true}
+      />
     )
   },
 
   _renderDrawer () {
+    return
     if (!this.state.drawerInfo) {
       return
     }

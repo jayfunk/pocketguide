@@ -1,4 +1,5 @@
 import React from 'react-native'
+import {GENERAL_FONT, CONTENT_BACKGROUND, BORDER} from '../../styles/ColorConstants'
 
 const {
   View,
@@ -6,6 +7,19 @@ const {
   Text,
   TouchableOpacity
 } = React
+
+const styles = {
+  eventView: {
+    backgroundColor: CONTENT_BACKGROUND,
+    borderWidth: 0,
+    borderBottomWidth: 2,
+    borderBottomColor: BORDER,
+    height: 60
+  },
+  eventText: {
+    color: GENERAL_FONT
+  }
+}
 
 export default EventsView = React.createClass({
   propTypes: {
@@ -36,9 +50,12 @@ export default EventsView = React.createClass({
   _renderRow: function (rowData, sectionId, rowId) {
     return <TouchableOpacity
       onPress = {() => this._handleEventPress(rowId)} >
-      <View>
-        <Text>
+      <View style={styles.eventView}>
+        <Text style={styles.eventText}>
           {rowData[0]}
+        </Text>
+        <Text style={styles.eventText}>
+          {rowData[1]}
         </Text>
       </View>
     </TouchableOpacity>

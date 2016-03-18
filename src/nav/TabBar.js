@@ -1,5 +1,6 @@
 import TabButton from './TabButton'
 import appRoutes from './appRoutes'
+import {BORDER, TAB_BACKGROUND, MAP_THEME, EVENTS_THEME} from '../styles/ColorConstants'
 import guid from 'guid'
 import React from 'react-native'
 const {
@@ -9,20 +10,21 @@ const {
 
 const styles = StyleSheet.create({
   tabs: {
-    height: 50,
+    height: 80,
     flexDirection: 'row',
     justifyContent: 'space-around',
     borderWidth: 1,
-    borderTopWidth: 0,
+    borderTopWidth: 5,
     borderLeftWidth: 0,
     borderRightWidth: 0,
-    borderBottomColor: 'black'
+    borderBottomWidth: 0,
+    borderColor: BORDER,
+    backgroundColor: TAB_BACKGROUND
   }
 })
 
 export default TabBar = React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object,
     onTabChange: React.PropTypes.func
   },
 
@@ -33,19 +35,29 @@ export default TabBar = React.createClass({
   },
 
   render: function () {
-    return <View style={styles.tabs}>
+    this.theme = appRoutes.map.name === this.state.activeTabName ? MAP_THEME : EVENTS_THEME
+
+    const borderColor = {
+      borderColor: this.theme
+    }
+
+    return <View style={[styles.tabs, borderColor]}>
       {this._renderTabButtons()}
     </View>
   },
 
   _renderTabButtons: function () {
-    return [appRoutes.events, appRoutes.map, appRoutes.volunteer].map(route => {
+    return [appRoutes.events, appRoutes.map, appRoutes.volunteer].map((route, index) => {
       const isActiveTab = route.name === this.state.activeTabName
+      const borderStyle = index !== 0 ? {borderLeftWidth: 2} : {borderLeftWidth: 0}
+
       return <TabButton
         key = {guid()}
         title = {route.name}
         onPress = {this._handleOnPress.bind(this, route)}
         isActiveTab = {isActiveTab}
+        activeTabColor = {this.theme}
+        borderStyle={borderStyle}
       />
     })
   },
