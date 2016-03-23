@@ -10,14 +10,25 @@ const {
 
 const styles = {
   eventView: {
+    paddingLeft: 5,
     backgroundColor: CONTENT_BACKGROUND,
     borderWidth: 0,
     borderBottomWidth: 2,
     borderBottomColor: BORDER,
-    height: 60
+    height: 80,
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center'
   },
   eventText: {
-    color: GENERAL_FONT
+    color: GENERAL_FONT,
+    fontWeight: 'bold',
+    flex: 1
+  },
+
+  descriptionText: {
+    color: GENERAL_FONT,
+    flex: 2
   }
 }
 
@@ -43,18 +54,18 @@ export default EventsView = React.createClass({
 
   _getRows: function (events) {
     return events.map(event => {
-      return [event.name]
+      return [event.name, event.shortDescription]
     })
   },
 
   _renderRow: function (rowData, sectionId, rowId) {
     return <TouchableOpacity
-      onPress = {() => this._handleEventPress(rowId)} >
+      onPress = {() => this._handleEventPress(rowId)}>
       <View style={styles.eventView}>
         <Text style={styles.eventText}>
           {rowData[0]}
         </Text>
-        <Text style={styles.eventText}>
+        <Text style={styles.descriptionText}>
           {rowData[1]}
         </Text>
       </View>

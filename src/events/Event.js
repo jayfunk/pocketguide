@@ -40,12 +40,18 @@ export default class Event {
   set location (rawLocation) {
     this._location = rawLocation.trim()
   }
+
   get description () {
     return this._description
   }
 
   set description (rawDescription) {
     this._description = rawDescription.trim()
+    this._shortDescription = this._description.substring(0, 70) + '...'
+  }
+
+  get shortDescription () {
+    return this._shortDescription
   }
 
   get isAllDay () {
