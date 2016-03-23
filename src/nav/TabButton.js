@@ -1,8 +1,6 @@
 import React from 'react-native'
-import {NAV_BAR_FONT} from '../styles/ColorConstants'
 const {
-  View,
-  Text,
+  Image,
   TouchableHighlight,
   StyleSheet
 } = React
@@ -18,7 +16,6 @@ const styles = StyleSheet.create({
 
 export default TabButton = React.createClass({
   propTypes: {
-    title: React.PropTypes.string,
     onPress: React.PropTypes.func,
     isActiveTab: React.PropTypes.bool,
     activeTabColor: React.PropTypes.string
@@ -26,12 +23,12 @@ export default TabButton = React.createClass({
 
   render () {
     const style = [styles.tab]
-    const textColor = {
-      color: this.props.isActiveTab ? this.props.activeTabColor : NAV_BAR_FONT
-    }
+    const image = this.props.isActiveTab ? this.props.activeImage : this.props.inactiveImage
 
-    return <TouchableHighlight style={[style, this.props.borderStyle]} onPress = {this.props.onPress}>
-        <Text style={textColor}>{this.props.title}</Text>
-    </TouchableHighlight>
+    return (
+      <TouchableHighlight style={[style, this.props.borderStyle]} onPress = {this.props.onPress}>
+        <Image resizeMode='contain' source={image}/>
+      </TouchableHighlight>
+    )
   }
 })

@@ -1,5 +1,5 @@
 import React from 'react-native'
-import {GENERAL_FONT, CONTENT_BACKGROUND, BORDER} from '../../styles/ColorConstants'
+import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
 
 const {
   View,
@@ -11,7 +11,6 @@ const {
 const styles = {
   eventView: {
     paddingLeft: 5,
-    backgroundColor: CONTENT_BACKGROUND,
     borderWidth: 0,
     borderBottomWidth: 2,
     borderBottomColor: BORDER,

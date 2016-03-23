@@ -1,5 +1,5 @@
 import React from 'react-native'
-import {GENERAL_FONT, CONTENT_BACKGROUND, BORDER} from '../../styles/ColorConstants'
+import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
 const {
   View,
   Text,
@@ -8,7 +8,6 @@ const {
 } = React
 
 const container = {
-  backgroundColor: CONTENT_BACKGROUND,
   flex: 1
 }
 

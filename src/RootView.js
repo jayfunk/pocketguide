@@ -4,6 +4,7 @@ import NavBar from './nav/NavBar'
 import React from 'react-native'
 import TabBar from './nav/TabBar'
 import {NAV_BAR_SIZE} from './styles/StyleConstants'
+import {CONTENT_BACKGROUND} from './styles/ColorConstants'
 const {
   View,
   Navigator,
@@ -13,7 +14,8 @@ const {
 
 const styles = StyleSheet.create({
   view: {
-    flex: 1
+    flex: 1,
+    backgroundColor: CONTENT_BACKGROUND
   },
   routeView: {
     marginTop: NAV_BAR_SIZE
