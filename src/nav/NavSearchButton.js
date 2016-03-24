@@ -1,17 +1,17 @@
 import React from 'react-native'
-import {GENERAL_FONT, NAV_BAR_ACTIVE_SEARCH_BACKGROUND} from '../styles/ColorConstants'
+import styles from '../styles/NavBar'
 
 const {
-  View,
   Image,
   TextInput,
   TouchableOpacity
 } = React
 
-const navbarTextInput = {
-  color: GENERAL_FONT,
-  textAlign: 'left',
-  backgroundColor: NAV_BAR_ACTIVE_SEARCH_BACKGROUND
+const textInput = {
+  width: 200,
+  margin: 5,
+  height: 50,
+  textAlign: 'left'
 }
 
 export default NavSearchButton = React.createClass({
@@ -40,7 +40,7 @@ export default NavSearchButton = React.createClass({
   _renderSearchInput () {
     return (
       <TextInput
-        style={navbarTextInput}
+        style={[styles.navbarText, textInput]}
         autoCorrect
         autoFocus
         onFocus={this._clearSearchTerm}
