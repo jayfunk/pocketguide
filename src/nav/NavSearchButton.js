@@ -8,11 +8,6 @@ const {
   TouchableOpacity
 } = React
 
-const searchImage = {
-  margin: 10,
-  alignItems: 'center'
-}
-
 const navbarTextInput = {
   color: GENERAL_FONT,
   textAlign: 'left',
@@ -20,10 +15,6 @@ const navbarTextInput = {
 }
 
 export default NavSearchButton = React.createClass({
-  propTypes: {
-    styles: React.PropTypes.array
-  },
-
   contextTypes: {
     events: React.PropTypes.object
   },
@@ -39,27 +30,24 @@ export default NavSearchButton = React.createClass({
 
     return (
       <TouchableOpacity
-        style={this.props.styles}
         onPress={this.onSearchPress}
       >
-        <Image resizeMode='contain' style={searchImage} source={require('../../images/events/Search_Button_Inactive.png')}/>
+        <Image resizeMode='contain' source={require('../../images/events/Search_Button_Inactive.png')}/>
       </TouchableOpacity>
     )
   },
 
   _renderSearchInput () {
     return (
-      <View style={{flex: 1}}>
-        <TextInput
-          style={navbarTextInput}
-          autoCorrect
-          autoFocus
-          onFocus={this._clearSearchTerm}
-          onBlur={this._resetSearchButton}
-          placeholder={'Search'}
-          onChangeText={this._handleSearchInput}
-        />
-      </View>
+      <TextInput
+        style={navbarTextInput}
+        autoCorrect
+        autoFocus
+        onFocus={this._clearSearchTerm}
+        onBlur={this._resetSearchButton}
+        placeholder={'Search'}
+        onChangeText={this._handleSearchInput}
+      />
     )
   },
 

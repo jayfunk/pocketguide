@@ -1,10 +1,14 @@
-import NavSearchButton from './NavSearchButton'
+import styles from '../styles/NavBar'
+import {MAP_THEME} from '../styles/ColorConstants'
 import React from 'react-native'
 const {
   View,
-  Text,
-  TouchableOpacity
+  Text
 } = React
+
+const background = {
+  backgroundColor: MAP_THEME
+}
 
 export default React.createClass({
   propTypes: {
@@ -13,6 +17,17 @@ export default React.createClass({
   },
 
   render () {
-    return <Text>Map</Text>
+    return (
+      <View
+        style={[styles.navbar, background]}
+      >
+        <View style={[styles.corner, styles.alignLeft]}>
+          <Text style={styles.navbarText}>Map</Text>
+        </View>
+        <View style={[styles.corner, styles.alignRight]}>
+          <Text style={styles.navbarText}>Buttons</Text>
+        </View>
+      </View>
+    )
   }
 })
