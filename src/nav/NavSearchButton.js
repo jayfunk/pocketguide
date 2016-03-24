@@ -1,5 +1,5 @@
 import React from 'react-native'
-import styles from '../styles/NavBar'
+import styles from '../styles/NavBarStyles'
 
 const {
   Image,

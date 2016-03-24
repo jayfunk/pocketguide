@@ -1,6 +1,6 @@
 import NavSearchButton from './NavSearchButton'
 import {EVENTS_THEME} from '../styles/ColorConstants'
-import styles from '../styles/NavBar'
+import styles from '../styles/NavBarStyles'
 import React from 'react-native'
 const {
   View,

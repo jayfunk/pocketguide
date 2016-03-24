@@ -21,7 +21,7 @@ const routes = {
     inactiveImage: require('../../images/tab/Map_Button_Inactive.png'),
     component: MapView
   },
-  volunteer: {
+  principles: {
     name: 'Principles',
     activeImage: require('../../images/tab/Principle_Button_Active.png'),
     inactiveImage: require('../../images/tab/Principle_Button_Inactive.png'),

@@ -1,9 +1,7 @@
-import NavSearchButton from './NavSearchButton'
 import React from 'react-native'
 const {
   View,
-  Text,
-  TouchableOpacity
+  Text
 } = React
 
 export default React.createClass({

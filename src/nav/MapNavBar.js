@@ -1,4 +1,4 @@
-import styles from '../styles/NavBar'
+import styles from '../styles/NavBarStyles'
 import {MAP_THEME} from '../styles/ColorConstants'
 import React from 'react-native'
 const {

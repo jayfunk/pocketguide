@@ -1,84 +1,41 @@
 import React from 'react-native'
-import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
+import styles from '../../styles/EventViewStyles'
+import {GENERAL_FONT} from '../../styles/ColorConstants'
 const {
   View,
+  ScrollView,
   Text,
   Image,
   TouchableHighlight
 } = React
 
-const container = {
-  flex: 1
-}
-
-const textStyle = {
-  color: GENERAL_FONT
-}
-
-const content = {
-  flexDirection: 'row',
-  alignItems: 'center',
-  marginBottom: 50
-}
-
-const eventName = {
-  flex: 1,
-  alignSelf: 'flex-start'
-}
-
-const eventDescription = {
-  flex: 2
-}
-
-const imageContainer = {
-  marginTop: 50,
-  alignItems: 'center'
-}
-
-const headerImageContainer = {
-  height: 100,
-  width: 100
-}
-
-const imageThing = {
-  height: 100,
-  width: 100
-}
-
-const locateText = {
-  marginTop: 10
-}
-
-export default EventView = React.createClass({
+export default React.createClass({
   propTypes: {
     event: React.PropTypes.object
   },
 
   render: function () {
     return (
-      <View style={container}>
-        <View style={headerImageContainer}>
-          <Image style={imageThing} resizeMode={'contain'} source={require('../../../images/Logo.png')}/>
-        </View>
-        <View style={content}>
-          <Text style={[eventName, textStyle]}>
+      <ScrollView>
+        <Image style={styles.logoImage} resizeMode={'stretch'} source={require('../../../images/Logo.png')}/>
+        <View style={styles.eventNameDesc}>
+          <Text style={styles.eventName}>
             {this.props.event.name}
           </Text>
-          <Text style={[eventDescription, textStyle]}>
+          <Text style={styles.eventDesc}>
             {this.props.event.description}
           </Text>
         </View>
-        <Text style={[textStyle, {textAlign: 'center'}]}>
+        <Text style={styles.times}>
           {this.props.event.startTime}
+          <Text> - </Text>
           {this.props.event.endTime}
         </Text>
-        <TouchableHighlight underlayColor={GENERAL_FONT} onPress={this._handleLocatePress}>
-          <View style={imageContainer}>
+        <TouchableHighlight style={styles.locateButton} underlayColor={GENERAL_FONT} onPress={this._handleLocatePress}>
             <Image source={require('../../../images/events/Locate_Button.png')}/>
-            <Text style={[textStyle, locateText]}>LOCATE</Text>
-          </View>
         </TouchableHighlight>
-      </View>
+        <Text style={styles.locateText}>LOCATE</Text>
+      </ScrollView>
     )
   },
 

@@ -35,7 +35,7 @@ export default TabBar = React.createClass({
   },
 
   _renderTabButtons: function () {
-    return [appRoutes.events, appRoutes.map, appRoutes.volunteer].map((route, index) => {
+    return [appRoutes.events, appRoutes.map, appRoutes.principles].map((route, index) => {
       const isActiveTab = route.name === this.state.activeTabName
       const borderStyle = index !== 0 ? {borderLeftWidth: 2} : {borderLeftWidth: 0}
 
