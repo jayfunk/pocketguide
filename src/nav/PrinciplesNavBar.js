@@ -1,5 +1,5 @@
 import styles from '../styles/NavBar'
-import {MAP_THEME} from '../styles/ColorConstants'
+import {PRINCIPLES_THEME} from '../styles/ColorConstants'
 import React from 'react-native'
 const {
   View,
@@ -7,7 +7,7 @@ const {
 } = React
 
 const background = {
-  backgroundColor: MAP_THEME
+  backgroundColor: PRINCIPLES_THEME
 }
 
 export default React.createClass({
@@ -21,10 +21,9 @@ export default React.createClass({
         style={[styles.navbar, background]}
       >
         <View style={[styles.corner, styles.alignLeft]}>
-          <Text style={styles.navbarText}>Map</Text>
+          <Text style={styles.navbarText}>Principles</Text>
         </View>
         <View style={[styles.corner, styles.alignRight]}>
-          <Text style={styles.navbarText}>Buttons</Text>
         </View>
       </View>
     )

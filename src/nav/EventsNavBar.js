@@ -32,11 +32,6 @@ export default React.createClass({
     )
   },
 
-  _isEventDetail () {
-    const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return this._isEvents() && currentRoutes.length === 2
-  },
-
   _renderLeftSide () {
     if (!this._isEventDetail()) {
       return (
@@ -57,16 +52,20 @@ export default React.createClass({
     )
   },
 
+  _isEventDetail () {
+    const currentRoutes = this.props.navigator.getCurrentRoutes()
+    return this._isEvents() && currentRoutes.length === 2
+  },
+
   _isEvents () {
     const currentRoutes = this.props.navigator.getCurrentRoutes()
     return currentRoutes[0].name === 'Events'
   },
 
   _renderSearchButton () {
-    if (!this._isEvents()) return <View/>
-
-    return (
-      <NavSearchButton/>
-    )
+    if (this._isEventDetail()) {
+      return <View/>
+    }
+    return <NavSearchButton/>
   }
 })
