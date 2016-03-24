@@ -37,6 +37,8 @@ export default EventsContainerView = React.createClass({
   },
 
   _onEventSearch ({searchTerm}) {
+    if (!this.isMounted()) return
+
     this.setState({
       searchTerm
     })
