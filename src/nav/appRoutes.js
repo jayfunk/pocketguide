@@ -1,6 +1,7 @@
 import EventsContainerView from '../events/components/EventsContainerView'
 import EventView from '../events/components/EventView'
 import MapView from '../map/MapView'
+import PrinciplesView from '../principles/PrinciplesView'
 
 const routes = {
   events: {
@@ -25,7 +26,7 @@ const routes = {
     name: 'Principles',
     activeImage: require('../../images/tab/Principle_Button_Active.png'),
     inactiveImage: require('../../images/tab/Principle_Button_Inactive.png'),
-    component: null
+    component: PrinciplesView
   }
 }
 
