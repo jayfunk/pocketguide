@@ -10,7 +10,6 @@ const {
 
 const styles = StyleSheet.create({
   tabs: {
-    height: 80,
     flexDirection: 'row',
     justifyContent: 'space-around',
     backgroundColor: TAB_BACKGROUND

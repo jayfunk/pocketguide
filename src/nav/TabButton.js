@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
   tab: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingBottom: 10
+    justifyContent: 'center'
   }
 })
 
@@ -22,12 +21,11 @@ export default React.createClass({
   },
 
   render () {
-    const style = [styles.tab]
     const image = this.props.isActiveTab ? this.props.activeImage : this.props.inactiveImage
 
     return (
-      <TouchableHighlight style={[style, this.props.borderStyle]} onPress = {this.props.onPress}>
-        <Image resizeMode='contain' source={image}/>
+      <TouchableHighlight style={[styles.tab, this.props.borderStyle]} onPress = {this.props.onPress}>
+        <Image source={image}/>
       </TouchableHighlight>
     )
   }
