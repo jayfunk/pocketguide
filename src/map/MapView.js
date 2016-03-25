@@ -48,7 +48,7 @@ export default React.createClass({
       <Mapbox
         ref={mapRef}
         style={styles.container}
-        styleUrl={this.mapStyles.satellite}
+        styleURL={this.mapStyles.satellite}
         zoomLevel={this.state.zoomLevel}
         direction={45}
         accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
