@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default MapView = React.createClass({
+export default React.createClass({
   mixins: [Mapbox.Mixin],
 
   getInitialState () {

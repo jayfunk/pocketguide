@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default TabButton = React.createClass({
+export default React.createClass({
   propTypes: {
     onPress: React.PropTypes.func,
     isActiveTab: React.PropTypes.bool,

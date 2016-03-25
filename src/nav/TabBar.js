@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default TabBar = React.createClass({
+export default React.createClass({
   propTypes: {
     onTabChange: React.PropTypes.func
   },

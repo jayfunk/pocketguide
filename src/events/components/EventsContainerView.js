@@ -3,7 +3,7 @@ import EventsStore from '../EventsStore'
 import EventsView from './EventsView'
 import { createRoute } from '../../nav/appRoutes'
 
-export default EventsContainerView = React.createClass({
+export default React.createClass({
   propTypes: {
     navigator: React.PropTypes.object
   },

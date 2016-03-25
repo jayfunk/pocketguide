@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default RootView = React.createClass({
+export default React.createClass({
   childContextTypes: {
     events: React.PropTypes.object
   },

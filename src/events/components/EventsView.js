@@ -31,7 +31,7 @@ const styles = {
   }
 }
 
-export default EventsView = React.createClass({
+export default React.createClass({
   propTypes: {
     events: React.PropTypes.array,
     onEventPress: React.PropTypes.func

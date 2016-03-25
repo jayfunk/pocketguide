@@ -14,7 +14,7 @@ const textInput = {
   textAlign: 'left'
 }
 
-export default NavSearchButton = React.createClass({
+export default React.createClass({
   contextTypes: {
     events: React.PropTypes.object
   },
