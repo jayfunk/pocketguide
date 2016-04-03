@@ -5,35 +5,50 @@ import { createRoute } from '../../nav/appRoutes'
 
 export default React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object
+    navigator: React.PropTypes.object,
+    dataStore: React.PropTypes.object
   },
 
   contextTypes: {
-    events: React.PropTypes.object
+    eventChannel: React.PropTypes.object
   },
 
-  getInitialState: function () {
+  getInitialState () {
     return {
-      eventsStore: new EventsStore(),
+      events: [],
       searchTerm: void 0
     }
   },
 
-  componentDidMount () {
-    this.context.events.addListener('event:search', this._onEventSearch)
+  componentWillMount () {
+    this.context.eventChannel.addListener('dataStore:load:complete', this._onDataStoreLoadComplete)
+    this.context.eventChannel.addListener('dataStore:load:error', this._handleDataStoreError)
+    this.context.eventChannel.addListener('event:search', this._onEventSearch)
+    if (this.props.dataStore.isLoaded()) this._onDataStoreLoadComplete()
   },
 
   componentWillUmount () {
-    this.context.events.removeListener('event:search', this._onEventSearch)
+    this.context.eventChannel.removeListener('dataStore:load:complete', this._onDataStoreLoadComplete)
+    this.context.eventChannel.removeListener('dataStore:load:error', this._handleDataStoreError)
+    this.context.eventChannel.removeListener('event:search', this._onEventSearch)
   },
 
-  render: function () {
-    const eventsToDisplay = this._filterEvents(this.state.eventsStore.getAll())
-
+  render () {
     return <EventsView
-      events = {eventsToDisplay}
+      events = {this._filterEvents(this.state.events)}
       onEventPress = {this._handleEventPress}
     />
+  },
+
+  _onDataStoreLoadComplete () {
+    const data = this.props.dataStore.getAll()
+    this.setState({
+      events: data.events
+    })
+  },
+
+  _handleDataStoreError (context) {
+    console.log('_handleDataStoreError', context)
   },
 
   _onEventSearch ({searchTerm}) {
@@ -54,7 +69,7 @@ export default React.createClass({
     })
   },
 
-  _handleEventPress: function (selectedEvent) {
+  _handleEventPress (selectedEvent) {
     this.setState({
       searchTerm: null
     })

@@ -1,4 +1,5 @@
 import appRoutes from './nav/appRoutes'
+import DataStore from './data/DataStore'
 import {EventEmitter} from 'events'
 import NavBar from './nav/NavBar'
 import React from 'react-native'
@@ -24,16 +25,25 @@ const styles = StyleSheet.create({
 
 export default React.createClass({
   childContextTypes: {
-    events: React.PropTypes.object
+    eventChannel: React.PropTypes.object
+  },
+
+  getInitialState () {
+    const eventChannel = new EventEmitter()
+    return {
+      eventChannel,
+      dataStore: new DataStore(eventChannel)
+    }
   },
 
   getChildContext () {
     return {
-      events: new EventEmitter()
+      eventChannel: this.state.eventChannel
     }
   },
 
-  componentDidMount: function () {
+  componentDidMount () {
+    this.state.dataStore.load()
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.navigator && this.navigator.getCurrentRoutes().length > 1) {
         this.navigator.pop()
@@ -43,12 +53,12 @@ export default React.createClass({
     })
   },
 
-  _isOnMainRoute: function () {
+  _isOnMainRoute () {
     const currentRoutes = this.navigator.getCurrentRoutes()
     return currentRoutes.length === 1 && currentRoutes[0].name === appRoutes.events.name
   },
 
-  render: function () {
+  render () {
     return (
       <View style={styles.view}>
         <Navigator
@@ -65,7 +75,8 @@ export default React.createClass({
 
             if (route.component) {
               return <route.component
-                navigator = {navigator}
+                navigator={navigator}
+                dataStore={this.state.dataStore}
                 {...route.props}
               />
             }

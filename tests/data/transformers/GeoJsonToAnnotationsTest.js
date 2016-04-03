@@ -1,5 +1,5 @@
 var test = require('tape')
-var geoJSONToAnnotations = require('../src/map/geoJSONToAnnotations')
+var geoJSONToAnnotations = require('../src/data/transformers/geoJSONToAnnotations')
 
 test('should transform geo json point feature to annotation point', function (t) {
   t.plan(1)

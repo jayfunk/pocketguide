@@ -6,4 +6,4 @@ export const MAP_THEME = '#7A79CA'
 export const PRINCIPLES_THEME = '#FFCA6B'
 export const GENERAL_FONT = '#6FADD4'
 export const NAV_BAR_FONT = '#001119'
-export const NAV_BAR_ACTIVE_SEARCH_BACKGROUND = '#0D1F2F';
+export const NAV_BAR_ACTIVE_SEARCH_BACKGROUND = '#0D1F2F'

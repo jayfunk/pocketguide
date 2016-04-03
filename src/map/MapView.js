@@ -1,6 +1,6 @@
 import React from 'react-native'
 import Mapbox from 'react-native-mapbox-gl'
-import annotationsMapData from '../data/annotationsMapData.json'
+import annotationsMapData from '../data/staticData/annotationsMapData.json'
 
 const {
   StyleSheet,

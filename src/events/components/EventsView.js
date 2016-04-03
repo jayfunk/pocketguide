@@ -53,7 +53,7 @@ export default React.createClass({
 
   _getRows: function (events) {
     return events.map(event => {
-      return [event.name, event.shortDescription]
+      return [event.eventName, event.eventDescription]
     })
   },
 

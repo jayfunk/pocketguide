@@ -16,7 +16,7 @@ const textInput = {
 
 export default React.createClass({
   contextTypes: {
-    events: React.PropTypes.object
+    eventChannel: React.PropTypes.object
   },
 
   getInitialState () {
@@ -52,7 +52,7 @@ export default React.createClass({
   },
 
   _clearSearchTerm () {
-    this.context.events.emit('event:search', {
+    this.context.eventChannel.emit('event:search', {
       searchTerm: null
     })
   },
@@ -64,7 +64,7 @@ export default React.createClass({
   },
 
   _handleSearchInput (searchTerm) {
-    this.context.events.emit('event:search', {
+    this.context.eventChannel.emit('event:search', {
       searchTerm
     })
   },

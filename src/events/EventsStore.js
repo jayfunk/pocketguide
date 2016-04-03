@@ -1,4 +1,4 @@
-import rawEventData from '../data/eventData'
+import rawEventData from '../data/staticData/eventData'
 import Event from './Event'
 
 export default class EventsStore {
