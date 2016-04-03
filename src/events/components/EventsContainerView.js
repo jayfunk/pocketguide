@@ -42,6 +42,7 @@ export default React.createClass({
 
   _onDataStoreLoadComplete () {
     const data = this.props.dataStore.getAll()
+    //TODO: need to transform into event object for normalization
     this.setState({
       events: data.events
     })

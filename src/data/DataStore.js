@@ -34,6 +34,8 @@ export default class DataStore {
   }
 
   _loadLastFromDisk () {
+    //TODO: Data is not being loaded from the disk and always fails.
+    //Might be that async storage is clearing on app reload
     AsyncStorage.getItem(LAST_DATA_FROM_DISK).then(data => {
       this.data = data
       this.eventChannel.emit('dataStore:load:complete', {
@@ -52,6 +54,7 @@ export default class DataStore {
   }
 
   _fetchEventData (lastModified) {
+    //TODO: need to test all failure scenarios
     fetch(URL, {
       timeout: 10000,
       headers: {
