@@ -1,5 +1,4 @@
 import React from 'react-native'
-import EventsStore from '../EventsStore'
 import EventsView from './EventsView'
 import { createRoute } from '../../nav/appRoutes'
 
@@ -42,7 +41,6 @@ export default React.createClass({
 
   _onDataStoreLoadComplete () {
     const data = this.props.dataStore.getAll()
-    //TODO: need to transform into event object for normalization
     this.setState({
       events: data.events
     })

@@ -37,7 +37,7 @@ export default React.createClass({
     onEventPress: React.PropTypes.func
   },
 
-  render: function () {
+  render () {
     return (
       <ListView
         dataSource={this._createDataSource()}
@@ -46,18 +46,18 @@ export default React.createClass({
     )
   },
 
-  _createDataSource: function () {
+  _createDataSource () {
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
     return ds.cloneWithRows(this._getRows(this.props.events))
   },
 
-  _getRows: function (events) {
+  _getRows (events) {
     return events.map(event => {
-      return [event.eventName, event.eventDescription]
+      return [event.name, event.shortDescription]
     })
   },
 
-  _renderRow: function (rowData, sectionId, rowId) {
+  _renderRow (rowData, sectionId, rowId) {
     return <TouchableOpacity
       onPress = {() => this._handleEventPress(rowId)}>
       <View style={styles.eventView}>
@@ -71,7 +71,7 @@ export default React.createClass({
     </TouchableOpacity>
   },
 
-  _handleEventPress: function (rowId) {
+  _handleEventPress (rowId) {
     return this.props.onEventPress(this.props.events[rowId])
   }
 })

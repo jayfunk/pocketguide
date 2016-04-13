@@ -1,10 +1,11 @@
 import React from 'react-native'
+import Event from '../events/Event'
 const {
   AsyncStorage,
   NetInfo
 } = React
 
-const URL = 'http://10.0.2.2:3000/api/events' //'http://pocketguide-web-server.herokuapp.com/api/events'
+const URL = 'http://10.0.2.2:3000/api/events' // 'http://pocketguide-web-server.herokuapp.com/api/events'
 const LAST_MODIFIED_KEY = 'LAST_MODIFIED_KEY'
 const LAST_DATA_FROM_DISK = 'LAST_DATA_FROM_DISK'
 
@@ -34,13 +35,10 @@ export default class DataStore {
   }
 
   _loadLastFromDisk () {
-    //TODO: Data is not being loaded from the disk and always fails.
-    //Might be that async storage is clearing on app reload
+    // TODO: Data is not being loaded from the disk and always fails.
+    // Might be that async storage is clearing on app reload
     AsyncStorage.getItem(LAST_DATA_FROM_DISK).then(data => {
-      this.data = data
-      this.eventChannel.emit('dataStore:load:complete', {
-        data: data
-      })
+      this._emitDataLoaded(data)
     }).catch(error => {
       this.eventChannel.emit('dataStore:load:error', {
         message: 'Unable to load data from cache.',
@@ -49,12 +47,28 @@ export default class DataStore {
     }).done()
   }
 
+  _emitDataLoaded (data) {
+    this.data = {}
+    if (data.events) {
+      this.data.events = this._transformEvents(data.events)
+    }
+    this.eventChannel.emit('dataStore:load:complete', {
+      data: this.data
+    })
+  }
+
+  _transformEvents (rawEventData) {
+    return rawEventData.map(rawEvent => {
+      return new Event(rawEvent)
+    })
+  }
+
   _getEventsLastModified () {
     return AsyncStorage.getItem(LAST_MODIFIED_KEY)
   }
 
   _fetchEventData (lastModified) {
-    //TODO: need to test all failure scenarios
+    // TODO: need to test all failure scenarios
     fetch(URL, {
       timeout: 10000,
       headers: {
@@ -75,9 +89,7 @@ export default class DataStore {
     }).then(data => {
       if (data) {
         this._writeDataToDisk(data)
-        this.eventChannel.emit('dataStore:load:complete', {
-          data: data
-        })
+        this._emitDataLoaded(data)
       }
     }).catch((error) => {
       console.error(error)
@@ -86,7 +98,6 @@ export default class DataStore {
   }
 
   _writeDataToDisk (data) {
-    this.data = data
     AsyncStorage.setItem(LAST_DATA_FROM_DISK, data)
     AsyncStorage.setItem(LAST_MODIFIED_KEY, new Date().toISOString())
   }

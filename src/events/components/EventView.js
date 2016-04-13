@@ -1,6 +1,8 @@
 import React from 'react-native'
 import styles from '../../styles/EventViewStyles'
 import {GENERAL_FONT} from '../../styles/ColorConstants'
+import { createRoute } from '../../nav/appRoutes'
+
 const {
   View,
   ScrollView,
@@ -11,7 +13,8 @@ const {
 
 export default React.createClass({
   propTypes: {
-    event: React.PropTypes.object
+    event: React.PropTypes.object,
+    navigator: React.PropTypes.object
   },
 
   render: function () {
@@ -27,19 +30,32 @@ export default React.createClass({
           </Text>
         </View>
         <Text style={styles.times}>
+          {this.props.event.dateOfEvent}
+          <Text> - </Text>
           {this.props.event.startTime}
           <Text> - </Text>
           {this.props.event.endTime}
         </Text>
-        <TouchableHighlight style={styles.locateButton} underlayColor={GENERAL_FONT} onPress={this._handleLocatePress}>
-            <Image source={require('../../../images/events/Locate_Button.png')}/>
-        </TouchableHighlight>
-        <Text style={styles.locateText}>LOCATE</Text>
+        {this._renderLocateButton()}
       </ScrollView>
     )
   },
 
+  _renderLocateButton () {
+    if (!this.props.event.hasCoordinates()) return
+
+    return (
+      <View>
+        <TouchableHighlight style={styles.locateButton} underlayColor={GENERAL_FONT} onPress={this._handleLocatePress}>
+            <Image source={require('../../../images/events/Locate_Button.png')}/>
+        </TouchableHighlight>
+        <Text style={styles.locateText}>LOCATE</Text>
+      </View>
+    )
+  },
+
   _handleLocatePress () {
-    return this.props.event.location
+    const mapRoute = createRoute('map', { selectedEvent: this.props.event })
+    this.props.navigator.push(mapRoute)
   }
 })

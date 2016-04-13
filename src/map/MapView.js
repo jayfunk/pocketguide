@@ -3,9 +3,7 @@ import Mapbox from 'react-native-mapbox-gl'
 import annotationsMapData from '../data/staticData/annotationsMapData.json'
 
 const {
-  StyleSheet,
-  View,
-  Text
+  StyleSheet
 } = React
 
 const mapRef = 'map'
@@ -26,6 +24,11 @@ const styles = StyleSheet.create({
 export default React.createClass({
   mixins: [Mapbox.Mixin],
 
+  propTypes: {
+    selectedEvent: React.PropTypes.object,
+    dataStore: React.PropTypes.object
+  },
+
   getInitialState () {
     return {
       center: {
@@ -33,7 +36,8 @@ export default React.createClass({
         longitude: -83.34
       },
       zoomLevel: 14,
-      annotations: annotationsMapData
+      infrastructureAnnotations: annotationsMapData,
+      eventAnnotations: this._buildEventAnnotations()
     }
   },
 
@@ -44,6 +48,8 @@ export default React.createClass({
   },
 
   render () {
+    const annotations = this._getDisplayAnnotations()
+
     return (
       <Mapbox
         ref={mapRef}
@@ -52,29 +58,51 @@ export default React.createClass({
         zoomLevel={this.state.zoomLevel}
         direction={45}
         accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
-        annotations={this.state.annotations}
-        zoomEnabled={true}
-        logoIsHidden={true}
-        rotateEnabled={true}
+        annotations={annotations}
+        zoomEnabled
+        logoIsHidden
+        rotateEnabled
         centerCoordinate={this.state.center}
         userTrackingMode={this.userTrackingMode.none}
         onOpenAnnotation={this.onOpenAnnotation}
-        showsUserLocation={true}
-        attributionButtonIsHidden={true}
+        showsUserLocation
+        attributionButtonIsHidden={false}
       />
     )
   },
 
-  _renderDrawer () {
-    return
-    if (!this.state.drawerInfo) {
-      return
+  _getDisplayAnnotations () {
+    // const filteredEventAnnotations = this._filterEventAnnotations()
+    // switch (this.state.filterState) {
+    //   case 'ALL':
+    //   default: return 
+    // }
+    return this.state.infrastructureAnnotations
+  },
+
+  _filterEventAnnotations () {
+    if (!this.props.selectedEvent) {
+      return this.state.eventAnnotations
     }
-    return (
-      <View style={styles.drawer}>
-        <Text>{this.state.drawerInfo.title}</Text>
-        <Text>{this.state.drawerInfo.subtitle}</Text>
-      </View>
-    )
+
+    const foundEventAnnotation = this.state.eventAnnotations.find(event => {
+      return event.id === this.props.selectedEvent.id
+    })
+    return [foundEventAnnotation]
+  },
+
+  _buildEventAnnotations () {
+    const {events} = this.props.dataStore.getAll()
+    return events.filter(event => {
+      return event && event.hasCoordinates()
+    }).map(event => {
+      return {
+        id: event.id,
+        coordinates: event.coordinates,
+        type: 'point',
+        title: event.name,
+        subtitle: ''
+      }
+    })
   }
 })

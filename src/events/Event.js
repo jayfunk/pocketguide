@@ -1,12 +1,16 @@
+import uuid from 'node-uuid'
+
 export default class Event {
   constructor (rawEvent) {
-    this.name = rawEvent['Event Name']
-    this.startTime = rawEvent['Start']
-    this.endTime = rawEvent['End']
-    this.location = rawEvent['Location']
-    this.description = rawEvent['Description']
-    this.isAllDay = rawEvent['All Day Event?']
-    this.days = rawEvent['Days']
+    this.id = uuid.v4()
+    this.name = rawEvent.eventName
+    this.startTime = rawEvent.startTime
+    this.endTime = rawEvent.endTime
+    this.dateOfEvent = rawEvent.dateOfEvent
+    this.location = rawEvent.location
+    this.description = rawEvent.eventDescription
+    this.latitude = rawEvent.locationLatitude
+    this.longitude = rawEvent.locationLongitude
   }
 
   get name () {
@@ -54,19 +58,20 @@ export default class Event {
     return this._shortDescription
   }
 
-  get isAllDay () {
-    return this._isAllDay
+  get coordinates () {
+    return [this._latitude, this._longitude]
   }
 
-  set isAllDay (rawAllDayEvent) {
-    this._isAllDay = rawAllDayEvent.trim().toLowerCase() === 'yes'
+  hasCoordinates () {
+    return this._latitude && this._longitude && !Number.isNaN(this._latitude) && !Number.isNaN(this._longitude)
   }
 
-  get days () {
-    return this._days
+  // Need to handle lat/lon degree bearing to decimal
+  set latitude (latitudeString) {
+    this._latitude = Number(latitudeString.trim())
   }
 
-  set days (rawDays) {
-    this._days = rawDays.trim().split(',')
+  set longitude (longitudeString) {
+    this._longitude = Number(longitudeString.trim())
   }
 }
