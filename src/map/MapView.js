@@ -29,6 +29,18 @@ export default React.createClass({
     dataStore: React.PropTypes.object
   },
 
+  contextTypes: {
+    eventChannel: React.PropTypes.object
+  },
+
+  componentWillMount () {
+    this.context.eventChannel.addListener('maps:toggle:filters', this._updateFilters)
+  },
+
+  componentWillUmount () {
+    this.context.eventChannel.removeListener('maps:toggle:filters', this._updateFilters)
+  },
+
   getInitialState () {
     return {
       center: {
@@ -37,14 +49,10 @@ export default React.createClass({
       },
       zoomLevel: 14,
       infrastructureAnnotations: annotationsMapData,
-      eventAnnotations: this._buildEventAnnotations()
+      eventAnnotations: this._buildEventAnnotations(),
+      isEventsActive: true,
+      isOpsActive: true
     }
-  },
-
-  onOpenAnnotation (annotation) {
-    this.setState({
-      drawerInfo: annotation.src
-    })
   },
 
   render () {
@@ -64,19 +72,29 @@ export default React.createClass({
         rotateEnabled
         centerCoordinate={this.state.center}
         userTrackingMode={this.userTrackingMode.none}
-        onOpenAnnotation={this.onOpenAnnotation}
         showsUserLocation
         attributionButtonIsHidden={false}
       />
     )
   },
 
+  _updateFilters (updatedState) {
+    this.setState(updatedState)
+  },
+
   _getDisplayAnnotations () {
+    let eventAnnotations = []
     if (this.props.selectedEvent) {
       const filteredEventAnnotations = this._filterEventAnnotations()
       return filteredEventAnnotations
     }
-    return this.state.infrastructureAnnotations.concat(this.state.eventAnnotations)
+    if (this.state.isEventsActive) {
+      eventAnnotations = eventAnnotations.concat(this.state.eventAnnotations)
+    }
+    if (this.state.isOpsActive) {
+      eventAnnotations = eventAnnotations.concat(this.state.infrastructureAnnotations)
+    }
+    return eventAnnotations
   },
 
   _filterEventAnnotations () {
