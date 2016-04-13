@@ -72,19 +72,14 @@ export default React.createClass({
   },
 
   _getDisplayAnnotations () {
-    // const filteredEventAnnotations = this._filterEventAnnotations()
-    // switch (this.state.filterState) {
-    //   case 'ALL':
-    //   default: return 
-    // }
-    return this.state.infrastructureAnnotations
+    if (this.props.selectedEvent) {
+      const filteredEventAnnotations = this._filterEventAnnotations()
+      return filteredEventAnnotations
+    }
+    return this.state.infrastructureAnnotations.concat(this.state.eventAnnotations)
   },
 
   _filterEventAnnotations () {
-    if (!this.props.selectedEvent) {
-      return this.state.eventAnnotations
-    }
-
     const foundEventAnnotation = this.state.eventAnnotations.find(event => {
       return event.id === this.props.selectedEvent.id
     })
