@@ -62,7 +62,7 @@ export default React.createClass({
     return (
       <View style={styles.view}>
         <Navigator
-          configureScene={(route, routeStack) => { 
+          configureScene={(route, routeStack) => {
             if (route.name === 'Event') {
               return Navigator.SceneConfigs.HorizontalSwipeJump
             }

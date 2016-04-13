@@ -91,7 +91,7 @@ export default class DataStore {
         this._writeDataToDisk(data)
         this._emitDataLoaded(data)
       }
-    }).catch((error) => {
+    }).catch(error => {
       console.error(error)
       this._loadLastFromDisk()
     }).done()
