@@ -5,7 +5,10 @@ const {
   NetInfo
 } = React
 
-const URL = 'http://10.0.2.2:3000/api' // 'http://pocketguide-web-server.herokuapp.com/api'
+// android local url: http://10.0.2.2:3000/api
+// ios local url: http://localhost:3000/api
+// heroku url: http://pocketguide-web-server.herokuapp.com/api
+const URL = 'http://localhost:3000/api'
 const LAST_MODIFIED_KEY = 'LAST_MODIFIED_KEY'
 const LAST_DATA_FROM_DISK = 'LAST_DATA_FROM_DISK'
 
