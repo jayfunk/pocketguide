@@ -32,7 +32,7 @@ export default React.createClass({
       <TouchableOpacity
         onPress={this.onSearchPress}
       >
-        <Image resizeMode='contain' source={require('../../images/events/Search_Button_Inactive.png')}/>
+        <Image source={require('../../images/events/Search_Button_Inactive.png')}/>
       </TouchableOpacity>
     )
   },

@@ -114,7 +114,9 @@ export default React.createClass({
         coordinates: event.coordinates,
         type: 'point',
         title: event.name,
-        subtitle: ''
+        annotationImage: {
+          url: 'image!pin'
+        },
       }
     })
   }

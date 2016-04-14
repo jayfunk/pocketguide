@@ -68,9 +68,9 @@ export default React.createClass({
 
   _renderEventsIcon () {
     if (this.state.isEventsActive) {
-      return <Image resizeMode='contain' source={require('../../images/map/Events_Button_Active.png')}/>
+      return <Image source={require('../../images/map/Events_Button_Active.png')}/>
     }
-    return <Image resizeMode='contain' source={require('../../images/map/Events_Button_Inactive.png')}/>
+    return <Image source={require('../../images/map/Events_Button_Inactive.png')}/>
   },
 
   _toggleOps () {
@@ -82,8 +82,8 @@ export default React.createClass({
 
   _renderOpsIcon () {
     if (this.state.isOpsActive) {
-      return <Image resizeMode='contain' source={require('../../images/map/Ops_Button_Active.png')}/>
+      return <Image source={require('../../images/map/Ops_Button_Active.png')}/>
     }
-    return <Image resizeMode='contain' source={require('../../images/map/Ops_Button_Inactive.png')}/>
+    return <Image source={require('../../images/map/Ops_Button_Inactive.png')}/>
   }
 })

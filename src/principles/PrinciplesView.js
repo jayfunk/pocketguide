@@ -31,7 +31,6 @@ export default React.createClass({
   render () {
     return (
       <ScrollView>
-        <Text>Hero Image</Text>
         <Image style={tenImage} source={tenPrinciples}/>
         <Text style={sectionHeader}>Radical Inclusion</Text>
         <Text style={sectionDefinition}>Anyone may be a part of Euphoria. We welcome and respect the stranger. No prerequisites exist for participation in our community.</Text>

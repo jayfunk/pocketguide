@@ -5,7 +5,7 @@ const {
   NetInfo
 } = React
 
-const URL = 'http://10.0.2.2:3000/api/events' // 'http://pocketguide-web-server.herokuapp.com/api/events'
+const URL = 'http://10.0.2.2:3000/api' // 'http://pocketguide-web-server.herokuapp.com/api'
 const LAST_MODIFIED_KEY = 'LAST_MODIFIED_KEY'
 const LAST_DATA_FROM_DISK = 'LAST_DATA_FROM_DISK'
 
