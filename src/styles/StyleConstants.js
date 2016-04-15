@@ -1,1 +1,1 @@
-export const NAV_BAR_SIZE = 44
+export const NAV_BAR_SIZE = 70

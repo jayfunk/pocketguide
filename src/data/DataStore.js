@@ -101,7 +101,7 @@ export default class DataStore {
   }
 
   _writeDataToDisk (data) {
-    AsyncStorage.setItem(LAST_DATA_FROM_DISK, data)
-    AsyncStorage.setItem(LAST_MODIFIED_KEY, new Date().toISOString())
+    AsyncStorage.setItem(LAST_DATA_FROM_DISK, JSON.stringify(data))
+    AsyncStorage.setItem(LAST_MODIFIED_KEY, JSON.stringify(new Date()))
   }
 }

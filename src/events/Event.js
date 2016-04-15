@@ -1,6 +1,6 @@
 export default class Event {
   constructor (rawEvent) {
-    this.id = Math.random()
+    this.id = `${Math.random()}`
     this.name = rawEvent.eventName
     this.startTime = rawEvent.startTime
     this.endTime = rawEvent.endTime

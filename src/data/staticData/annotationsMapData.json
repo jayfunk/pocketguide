@@ -20,16 +20,6 @@
     "subtitle": "",
   },
   {
-    "id": "22c8fbea256da9494a3d1813d47b6491",
-    "coordinates": [
-      33.377175,
-      -83.338285
-    ],
-    "type": "point",
-    "title": "LNT",
-    "subtitle": "",
-  },
-  {
     "id": "2c6949f340f243b0be9ebc874abb6a5c",
     "coordinates": [
       33.379821,
@@ -109,13 +99,12 @@
         -83.342456
       ]
     ],
-    "type": "polygon",
+    "type": "polyline",
     "title": "Burn Area",
     "subtitle": "Open to all burners.",
-    "strokeColor": "#4B4A85",
-    "strokeWidth": 4,
-    "strokeAlpha": 1,
-    "fillColor": "#994B4A85"
+    "strokeColor": "#DC4A6C",
+    "strokeWidth": 6,
+    "strokeAlpha": 1
   },
   {
     "id": "749ee7a00083e53f1ad4703ffd2fff24",
@@ -128,16 +117,6 @@
     "subtitle": "",
   },
   {
-    "id": "804efbe0e065aec07cadfb71d9c11d72",
-    "coordinates": [
-      33.380004,
-      -83.339989
-    ],
-    "type": "point",
-    "title": "Small Foot Bridge",
-    "subtitle": "",
-  },
-  {
     "id": "8639ab47c9cb32e0557cb31dcddea733",
     "coordinates": [
       33.380746,
@@ -145,16 +124,6 @@
     ],
     "type": "point",
     "title": "Education Station",
-    "subtitle": "",
-  },
-  {
-    "id": "88564c424bd109b34d65cd33759a0040",
-    "coordinates": [
-      33.377195,
-      -83.338885
-    ],
-    "type": "point",
-    "title": "Bridge",
     "subtitle": "",
   },
   {
@@ -174,7 +143,7 @@
       -83.33758
     ],
     "type": "point",
-    "title": "Gate.",
+    "title": "Gate",
     "subtitle": "",
   },
   {
@@ -188,16 +157,6 @@
     "subtitle": "",
   },
   {
-    "id": "9f66b0e631fe926cc5669f7025888c8c",
-    "coordinates": [
-      33.377046,
-      -83.33854
-    ],
-    "type": "point",
-    "title": "Mess Hall",
-    "subtitle": "",
-  },
-  {
     "id": "ba8b1c8b213d0da8c36fe5e4af9c34a2",
     "coordinates": [
       33.377111,
@@ -205,46 +164,6 @@
     ],
     "type": "point",
     "title": "Lamplighters",
-    "subtitle": "",
-  },
-  {
-    "id": "bad087725c72d07b85f94bc2150d6936",
-    "coordinates": [
-      33.377093,
-      -83.338969
-    ],
-    "type": "point",
-    "title": "Small Foot Bridge",
-    "subtitle": "",
-  },
-  {
-    "id": "dc4987814241b94839f478256c928f6a",
-    "coordinates": [
-      33.378867,
-      -83.339995
-    ],
-    "type": "point",
-    "title": "Large Bridge",
-    "subtitle": "",
-  },
-  {
-    "id": "f5885764676c7e8c142ab204c7f916bf",
-    "coordinates": [
-      33.377619,
-      -83.33909
-    ],
-    "type": "point",
-    "title": "Deer Stand",
-    "subtitle": "",
-  },
-  {
-    "id": "fefce4001285b51b2333495a4ae501c2",
-    "coordinates": [
-      33.380665,
-      -83.338425
-    ],
-    "type": "point",
-    "title": "Workers House",
     "subtitle": "",
   }
 ]

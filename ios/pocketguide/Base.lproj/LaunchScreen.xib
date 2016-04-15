@@ -8,24 +8,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <rect key="frame" x="0.0" y="0.0" width="480" height="711"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HaL-Of-XlJ">
-                    <rect key="frame" x="0.0" y="376" width="480" height="104"/>
-                    <color key="backgroundColor" red="0.043137254901960784" green="0.098039215686274508" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6EM-sr-kim">
-                    <rect key="frame" x="0.0" y="0.0" width="480" height="53"/>
+                <view contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6EM-sr-kim">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="61"/>
                     <color key="backgroundColor" red="0.7843137255" green="0.20784313730000001" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HaL-Of-XlJ">
+                    <rect key="frame" x="0.0" y="588" width="480" height="156"/>
+                    <color key="backgroundColor" red="0.043137254901960784" green="0.098039215686274508" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.062745098039215685" green="0.14901960784313725" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
-            <nil key="simulatedStatusBarMetrics"/>
-            <nil key="simulatedTopBarMetrics"/>
-            <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="548" y="455"/>
+            <point key="canvasLocation" x="548" y="390.5"/>
         </view>
     </objects>
 </document>

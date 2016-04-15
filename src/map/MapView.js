@@ -79,7 +79,7 @@ export default React.createClass({
   },
 
   _updateFilters (updatedState) {
-    this.setState(updatedState)
+    if(this.isMounted()) this.setState(updatedState)
   },
 
   _getDisplayAnnotations () {
@@ -115,7 +115,9 @@ export default React.createClass({
         type: 'point',
         title: event.name,
         annotationImage: {
-          url: 'image!pin'
+          url: 'image!pin',
+          width: 30,
+          height: 70
         },
       }
     })
