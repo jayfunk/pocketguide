@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Landmarks</name>
+		<Placemark>
+			<name>Hinterlands</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.34030030000001,33.3771918,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parking</name>
+			<styleUrl>#icon-995-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.33568420000002,33.3804686,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Effigy</name>
+			<styleUrl>#icon-1239-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3394634,33.3792983,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Temple</name>
+			<styleUrl>#icon-1337-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3340481,33.3788705,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Large Foot Bridge</name>
+			<description><![CDATA[No cars or trucks may cross.]]></description>
+			<styleUrl>#icon-1305</styleUrl>
+			<Point>
+				<coordinates>-83.340012,33.3788717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bridge</name>
+			<description><![CDATA[This bridge is pretty small, but sturdy enough for foot traffic. It should be redone/reinforced before the event]]></description>
+			<styleUrl>#icon-1305</styleUrl>
+			<Point>
+				<coordinates>-83.3388855,33.3771952,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Small Foot Bridge</name>
+			<description><![CDATA[Small sturdy bridge. Should be widened. Needs new hand rail]]></description>
+			<styleUrl>#icon-1305</styleUrl>
+			<Point>
+				<coordinates>-83.3399892,33.380005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Earthen Bridge</name>
+			<description><![CDATA[This is a large earth enbankment]]></description>
+			<styleUrl>#icon-1305</styleUrl>
+			<Point>
+				<coordinates>-83.3405793,33.3797743,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Education Station</name>
+			<styleUrl>#icon-1197-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3363655,33.3807463,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gate.</name>
+			<styleUrl>#icon-1261-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3371005,33.3872167,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Connexus</name>
+			<styleUrl>#icon-1203-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3383235,33.3772534,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lamplighters</name>
+			<styleUrl>#icon-1439-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3381681,33.3769847,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rangers</name>
+			<styleUrl>#icon-1059-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.338644,33.37718970000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LNT</name>
+			<styleUrl>#icon-1379-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.338243,33.3771425,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fire Safety</name>
+			<styleUrl>#icon-1155-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3384752,33.3769453,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Art Burn</name>
+			<styleUrl>#icon-1147-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3393965,33.3798213,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Large Vehicle Shuttle Station</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.33664180000001,33.3804754,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>T-base</name>
+			<styleUrl>#icon-1021-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.3390075,33.3807665,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Artax</name>
+			<styleUrl>#icon-1373-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.335176,33.3783016,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Giving Tree</name>
+			<description><![CDATA[LNT!]]></description>
+			<styleUrl>#icon-1191</styleUrl>
+			<Point>
+				<coordinates>-83.3358559,33.3775222,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1021-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1021-biz-flower.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1059-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1059-biz-outdoor.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1147-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1147-crisis-fire.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1155-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1155-crisis-infestation-monsters.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1191'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1191-crisis-wind.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1197-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1203-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1203-fac-info.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1239-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1239-poi-civic.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1261-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1261-poi-historic-building.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1305'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1337-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1337-poi-temple.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1373-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1373-rec-horse.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1379-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1379-rec-park.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1439-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1439-trans-lighthouse.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-995-nodesc'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/995-biz-car-dealer.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</Document>
+</kml>

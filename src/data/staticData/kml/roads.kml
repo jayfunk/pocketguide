@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Roads</name>
+		<Placemark>
+			<name>Ingress Road</name>
+			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3374465,33.387808,0.0 -83.3373955,33.3875269,0.0 -83.3372855,33.3872951,0.0 -83.33702800000002,33.3868225,0.0 -83.337425,33.3861059,0.0 -83.3372855,33.3853981,0.0 -83.33757250000001,33.3847273,0.0 -83.3377737,33.3840252,0.0 -83.3380285,33.3835572,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Path to the L</name>
+			<description><![CDATA[Unsure how wide. Path shown here is approximated.]]></description>
+			<styleUrl>#line-FFFFFF-3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.33664180000001,33.3800431,0.0 -83.3384792,33.37859840000001,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Polygon 5</name>
+			<styleUrl>#poly-000000-1-76-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-83.3375323,33.3823992,0.0 -83.3375873,33.3823634,0.0 -83.33757250000001,33.3823242,0.0 -83.3375229,33.3822973,0.0 -83.3374706,33.3823444,0.0 -83.3374894,33.3823959,0.0 -83.3375323,33.3823992,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Road to Gazebo</name>
+			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3365975,33.3824261,0.0 -83.3371655,33.3830891,0.0 -83.3380285,33.3835572,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Back Road </name>
+			<styleUrl>#line-7C3592-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3397384,33.3806243,0.0 -83.3406705,33.37968020000001,0.0 -83.3408381,33.3795413,0.0 -83.3405954,33.3790598,0.0 -83.3396606,33.3774964,0.0 -83.3388767,33.3771851,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Dirt Road</name>
+			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3380687,33.3769264,0.0 -83.339371,33.3790374,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Dirt Road</name>
+			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3341943,33.3789086,0.0 -83.3358733,33.3775423,0.0 -83.3362945,33.3772875,0.0 -83.3375035,33.3770118,0.0 -83.3380687,33.3769264,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Gravel Road</name>
+			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3365975,33.3824261,0.0 -83.336212,33.3806971,0.0 -83.33664180000001,33.3800431,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Walking Path</name>
+			<styleUrl>#line-7C3592-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.339371,33.3790374,0.0 -83.3404076,33.3787507,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 15</name>
+			<styleUrl>#line-F8971B-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.339371,33.3790374,0.0 -83.3388493,33.3791819,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 16</name>
+			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3384792,33.37859840000001,0.0 -83.33893640000001,33.3783532,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 28</name>
+			<styleUrl>#line-7C3592-4-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3382927,33.3772848,0.0 -83.3388948,33.3771918,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 16</name>
+			<styleUrl>#line-FFFFFF-2-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.3362609,33.3808628,0.0 -83.3364916,33.3807643,0.0 -83.33664180000001,33.3804754,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 17</name>
+			<styleUrl>#line-FFFFFF-3-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-83.33664180000001,33.3804754,0.0 -83.336509,33.3802581,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Traffic Position</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-83.336454,33.3802738,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7C3592-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff92357C</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-7C3592-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff92357C</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-7C3592-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7C3592-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7C3592-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-7C3592-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff92357C</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-7C3592-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff92357C</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-7C3592-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-7C3592-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-7C3592-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-F8971B-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff1B97F8</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-F8971B-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff1B97F8</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-F8971B-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-F8971B-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-F8971B-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-F8971B-5-nodesc-normal'>
+			<LineStyle>
+				<color>ff1B97F8</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-F8971B-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ff1B97F8</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-F8971B-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-F8971B-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-F8971B-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-FFFFFF-2-nodesc-normal'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-FFFFFF-2-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>3.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-FFFFFF-2-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FFFFFF-2-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FFFFFF-2-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-FFFFFF-3-normal'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-FFFFFF-3-highlight'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-FFFFFF-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FFFFFF-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FFFFFF-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-FFFFFF-3-nodesc-normal'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-FFFFFF-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-FFFFFF-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FFFFFF-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FFFFFF-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-FFFFFF-4-nodesc-normal'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-FFFFFF-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFFFFFF</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-FFFFFF-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FFFFFF-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FFFFFF-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-000000-1-76-nodesc-normal'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-000000-1-76-nodesc-highlight'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-000000-1-76-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-000000-1-76-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-000000-1-76-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3374465,
+            33.387808,
+            0
+          ],
+          [
+            -83.3373955,
+            33.3875269,
+            0
+          ],
+          [
+            -83.3372855,
+            33.3872951,
+            0
+          ],
+          [
+            -83.33702800000002,
+            33.3868225,
+            0
+          ],
+          [
+            -83.337425,
+            33.3861059,
+            0
+          ],
+          [
+            -83.3372855,
+            33.3853981,
+            0
+          ],
+          [
+            -83.33757250000001,
+            33.3847273,
+            0
+          ],
+          [
+            -83.3377737,
+            33.3840252,
+            0
+          ],
+          [
+            -83.3380285,
+            33.3835572,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ingress Road",
+        "styleUrl": "#line-FFFFFF-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.33664180000001,
+            33.3800431,
+            0
+          ],
+          [
+            -83.3384792,
+            33.37859840000001,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Path to the L",
+        "styleUrl": "#line-FFFFFF-3",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.3375323,
+              33.3823992,
+              0
+            ],
+            [
+              -83.3375873,
+              33.3823634,
+              0
+            ],
+            [
+              -83.33757250000001,
+              33.3823242,
+              0
+            ],
+            [
+              -83.3375229,
+              33.3822973,
+              0
+            ],
+            [
+              -83.3374706,
+              33.3823444,
+              0
+            ],
+            [
+              -83.3374894,
+              33.3823959,
+              0
+            ],
+            [
+              -83.3375323,
+              33.3823992,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Polygon 5",
+        "styleUrl": "#poly-000000-1-76-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3365975,
+            33.3824261,
+            0
+          ],
+          [
+            -83.3371655,
+            33.3830891,
+            0
+          ],
+          [
+            -83.3380285,
+            33.3835572,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Road to Gazebo",
+        "styleUrl": "#line-FFFFFF-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3397384,
+            33.3806243,
+            0
+          ],
+          [
+            -83.3406705,
+            33.37968020000001,
+            0
+          ],
+          [
+            -83.3408381,
+            33.3795413,
+            0
+          ],
+          [
+            -83.3405954,
+            33.3790598,
+            0
+          ],
+          [
+            -83.3396606,
+            33.3774964,
+            0
+          ],
+          [
+            -83.3388767,
+            33.3771851,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Back Road ",
+        "styleUrl": "#line-7C3592-5-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3380687,
+            33.3769264,
+            0
+          ],
+          [
+            -83.339371,
+            33.3790374,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dirt Road",
+        "styleUrl": "#line-F8971B-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3341943,
+            33.3789086,
+            0
+          ],
+          [
+            -83.3358733,
+            33.3775423,
+            0
+          ],
+          [
+            -83.3362945,
+            33.3772875,
+            0
+          ],
+          [
+            -83.3375035,
+            33.3770118,
+            0
+          ],
+          [
+            -83.3380687,
+            33.3769264,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dirt Road",
+        "styleUrl": "#line-F8971B-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3365975,
+            33.3824261,
+            0
+          ],
+          [
+            -83.336212,
+            33.3806971,
+            0
+          ],
+          [
+            -83.33664180000001,
+            33.3800431,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gravel Road",
+        "styleUrl": "#line-FFFFFF-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.339371,
+            33.3790374,
+            0
+          ],
+          [
+            -83.3404076,
+            33.3787507,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Walking Path",
+        "styleUrl": "#line-7C3592-5-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.339371,
+            33.3790374,
+            0
+          ],
+          [
+            -83.3388493,
+            33.3791819,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line 15",
+        "styleUrl": "#line-F8971B-5-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3384792,
+            33.37859840000001,
+            0
+          ],
+          [
+            -83.33893640000001,
+            33.3783532,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line 16",
+        "styleUrl": "#line-F8971B-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3382927,
+            33.3772848,
+            0
+          ],
+          [
+            -83.3388948,
+            33.3771918,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line 28",
+        "styleUrl": "#line-7C3592-4-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.3362609,
+            33.3808628,
+            0
+          ],
+          [
+            -83.3364916,
+            33.3807643,
+            0
+          ],
+          [
+            -83.33664180000001,
+            33.3804754,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line 16",
+        "styleUrl": "#line-FFFFFF-2-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.33664180000001,
+            33.3804754,
+            0
+          ],
+          [
+            -83.336509,
+            33.3802581,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line 17",
+        "styleUrl": "#line-FFFFFF-3-nodesc",
+        "styleHash": "5f80425a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.336454,
+          33.3802738,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Traffic Position",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "5f80425a"
+      }
+    }
+  ]
+}

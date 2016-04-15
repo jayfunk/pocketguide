@@ -1,3 +1,5 @@
+var uuid = require('node-uuid')
+
 function geoJSONToAnnotations (geoJSON) {
   if (!geoJSON || !geoJSON.features) throw new Error('Invalid GeoJSON data.')
   return geoJSON.features.map(function (feature) {
@@ -16,10 +18,10 @@ function convert (feature) {
 function convertPoint (feature) {
   var properties = feature.properties
   return {
-    id: feature.id,
+    id: feature.id ? feature.id : uuid.v4(),
     coordinates: convertCoordinate(feature.geometry.coordinates),
     type: 'point',
-    title: properties.title,
+    title: properties.name,
     subtitle: properties.description,
     annotationImage: {
       url: '',
@@ -36,14 +38,14 @@ function convertCoordinate (coordinate) {
 function convertLineString (feature) {
   var properties = feature.properties
   return {
-    id: feature.id,
+    id: feature.id ? feature.id : uuid.v4(),
     coordinates: convertLineStringCoordinates(feature),
     type: 'polyline',
     title: properties.title,
     subtitle: properties.description,
-    strokeColor: properties.stroke,
-    strokeWidth: properties['stroke-width'],
-    strokeAlpha: properties['stroke-opacity']
+    strokeColor: '#000000',
+    strokeWidth: 5,
+    strokeAlpha: .5
   }
 }
 
@@ -56,16 +58,16 @@ function convertLineStringCoordinates (feature) {
 function convertPolygon (feature) {
   var properties = feature.properties
   return {
-    id: feature.id,
+    id: feature.id ? feature.id : uuid.v4(),
     coordinates: convertPolygonCoordinates(feature),
     type: 'polygon',
     title: properties.title,
     subtitle: properties.description,
     strokeColor: properties.stroke,
-    strokeWidth: properties['stroke-width'],
-    strokeAlpha: properties['stroke-opacity'],
-    fillColor: properties['fill'],
-    fillAlpha: properties['fill-opacity']
+    strokeWidth: 5,
+    strokeAlpha: .5,
+    fillColor: '#0E3453',
+    fillAlpha: .5
   }
 }
 

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ecd3daed-0d29-4f08-8d22-446fec54cc57",
+    "coordinates": [
+      33.3771918,
+      -83.34030030000001
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "7e09788e-c103-488c-9b91-fd86d7aff0a4",
+    "coordinates": [
+      33.3804686,
+      -83.33568420000002
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "8fe95706-ee7e-4d42-9263-828cf98e5b27",
+    "coordinates": [
+      33.3792983,
+      -83.3394634
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "d71acbcf-173f-4f81-9ffd-2065d0317110",
+    "coordinates": [
+      33.3788705,
+      -83.3340481
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "394e4c06-e671-4142-aa82-a5b7a9a44033",
+    "coordinates": [
+      33.3788717,
+      -83.340012
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "ef1fa79b-4903-4b4c-809e-827890cd5bdc",
+    "coordinates": [
+      33.3771952,
+      -83.3388855
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "cfe27054-a32b-452e-8a99-e16d38834def",
+    "coordinates": [
+      33.380005,
+      -83.3399892
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "9c02c853-c633-4277-843b-73c1768f9c36",
+    "coordinates": [
+      33.3797743,
+      -83.3405793
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "6c126fbc-1878-4b46-9f85-77176c494c58",
+    "coordinates": [
+      33.3807463,
+      -83.3363655
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "bc88c11b-a364-4586-bfe8-215400f02990",
+    "coordinates": [
+      33.3872167,
+      -83.3371005
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "3178badd-2989-4ef0-b635-856f26d086b8",
+    "coordinates": [
+      33.3772534,
+      -83.3383235
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "2dbc3f09-b9d5-4b9f-a0d9-56d7188572dd",
+    "coordinates": [
+      33.3769847,
+      -83.3381681
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "770c81d2-cfaa-483c-a7e3-f61d107630e8",
+    "coordinates": [
+      33.37718970000001,
+      -83.338644
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "1804cd6f-b219-4898-aec7-d229b5461df0",
+    "coordinates": [
+      33.3771425,
+      -83.338243
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "a01d5846-24f7-4f0c-b25e-edbcdacbac98",
+    "coordinates": [
+      33.3769453,
+      -83.3384752
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "725842dd-585d-49fd-b36f-5439989098be",
+    "coordinates": [
+      33.3798213,
+      -83.3393965
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "24b6fc38-07ed-462b-8e5e-cd254f9ec88a",
+    "coordinates": [
+      33.3804754,
+      -83.33664180000001
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "d3892e6c-bfa2-4c52-b54a-31c6005a0bee",
+    "coordinates": [
+      33.3807665,
+      -83.3390075
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "aa846742-98f5-4073-b7d4-074b590568be",
+    "coordinates": [
+      33.3783016,
+      -83.335176
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  },
+  {
+    "id": "2b5f234f-34c0-4ca6-9749-db9fa439cea1",
+    "coordinates": [
+      33.3775222,
+      -83.3358559
+    ],
+    "type": "point",
+    "annotationImage": {
+      "url": "",
+      "height": 30,
+      "width": 70
+    }
+  }
+]

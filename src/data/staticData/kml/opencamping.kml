@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Open Camping</name>
+		<Placemark>
+			<name>Open Camping</name>
+			<description><![CDATA[This is Open Camping]]></description>
+			<styleUrl>#poly-FFDD5E-1-79</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-83.3401045,33.3788235,0.0 -83.3402561,33.3787709,0.0 -83.3404083,33.379030099999994,0.0 -83.3403061,33.3790735,0.0 -83.3405849,33.3794894,0.0 -83.3407403,33.3794227,0.0 -83.3405739,33.3790643,0.0 -83.339678,33.37752329999999,0.0 -83.3389967,33.3772635,0.0 -83.3401045,33.3788235,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>RV Open Camping</name>
+			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-83.3390115,33.37890410000001,0.0 -83.3387299,33.37849320000001,0.0 -83.3384804,33.3786252,0.0 -83.3387192,33.3790128,0.0 -83.3390115,33.37890410000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Open Camping</name>
+			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-83.3349305,33.378782099999995,0.0 -83.3346999,33.3785895,0.0 -83.3340534,33.379190799999996,0.0 -83.3342828,33.3793644,0.0 -83.3349305,33.378782099999995,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Open Camping</name>
+			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-83.3378434,33.3770574,0.0 -83.3365238,33.3772948,0.0 -83.3365452,33.3773844,0.0 -83.3373284,33.3772993,0.0 -83.3378434,33.3770574,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-FFDD5E-1-79-normal'>
+			<LineStyle>
+				<color>ff5EDDFF</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4F5EDDFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-FFDD5E-1-79-highlight'>
+			<LineStyle>
+				<color>ff5EDDFF</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4F5EDDFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id='poly-FFDD5E-1-79'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-FFDD5E-1-79-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-FFDD5E-1-79-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-FFDD5E-1-79-nodesc-normal'>
+			<LineStyle>
+				<color>ff5EDDFF</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4F5EDDFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-FFDD5E-1-79-nodesc-highlight'>
+			<LineStyle>
+				<color>ff5EDDFF</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4F5EDDFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-FFDD5E-1-79-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-FFDD5E-1-79-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-FFDD5E-1-79-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

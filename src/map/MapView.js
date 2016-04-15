@@ -1,6 +1,6 @@
 import React from 'react-native'
 import Mapbox from 'react-native-mapbox-gl'
-import annotationsMapData from '../data/staticData/annotationsMapData.json'
+import staticAnnotations from '../data/staticData/staticMapAnnotations'
 
 const {
   StyleSheet
@@ -44,11 +44,11 @@ export default React.createClass({
   getInitialState () {
     return {
       center: {
-        latitude: 33.378,
-        longitude: -83.34
+        latitude: 33.378917,
+        longitude: -83.337274
       },
-      zoomLevel: 14,
-      infrastructureAnnotations: annotationsMapData,
+      zoomLevel: 15,
+      infrastructureAnnotations: staticAnnotations,
       eventAnnotations: this._buildEventAnnotations(),
       isEventsActive: true,
       isOpsActive: true
@@ -64,7 +64,7 @@ export default React.createClass({
         style={styles.container}
         styleURL={this.mapStyles.satellite}
         zoomLevel={this.state.zoomLevel}
-        direction={45}
+        direction={0}
         accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
         annotations={annotations}
         zoomEnabled

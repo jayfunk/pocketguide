@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.34030030000001,
+          33.3771918,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Hinterlands",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.33568420000002,
+          33.3804686,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Parking",
+        "styleUrl": "#icon-995-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3394634,
+          33.3792983,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Effigy",
+        "styleUrl": "#icon-1239-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3340481,
+          33.3788705,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Temple",
+        "styleUrl": "#icon-1337-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.340012,
+          33.3788717,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Large Foot Bridge",
+        "styleUrl": "#icon-1305",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3388855,
+          33.3771952,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Bridge",
+        "styleUrl": "#icon-1305",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3399892,
+          33.380005,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Small Foot Bridge",
+        "styleUrl": "#icon-1305",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3405793,
+          33.3797743,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Earthen Bridge",
+        "styleUrl": "#icon-1305",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3363655,
+          33.3807463,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Education Station",
+        "styleUrl": "#icon-1197-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3371005,
+          33.3872167,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Gate.",
+        "styleUrl": "#icon-1261-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3383235,
+          33.3772534,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Connexus",
+        "styleUrl": "#icon-1203-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3381681,
+          33.3769847,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lamplighters",
+        "styleUrl": "#icon-1439-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.338644,
+          33.37718970000001,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rangers",
+        "styleUrl": "#icon-1059-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.338243,
+          33.3771425,
+          0
+        ]
+      },
+      "properties": {
+        "name": "LNT",
+        "styleUrl": "#icon-1379-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3384752,
+          33.3769453,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Fire Safety",
+        "styleUrl": "#icon-1155-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3393965,
+          33.3798213,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Art Burn",
+        "styleUrl": "#icon-1147-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.33664180000001,
+          33.3804754,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Large Vehicle Shuttle Station",
+        "styleUrl": "#icon-503-DB4436-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3390075,
+          33.3807665,
+          0
+        ]
+      },
+      "properties": {
+        "name": "T-base",
+        "styleUrl": "#icon-1021-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.335176,
+          33.3783016,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Artax",
+        "styleUrl": "#icon-1373-nodesc",
+        "styleHash": "3676d481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3358559,
+          33.3775222,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Giving Tree",
+        "styleUrl": "#icon-1191",
+        "styleHash": "3676d481"
+      }
+    }
+  ]
+}
