@@ -14,6 +14,10 @@ const textInput = {
   textAlign: 'left'
 }
 
+const image = {
+  marginRight: 10
+}
+
 export default React.createClass({
   contextTypes: {
     eventChannel: React.PropTypes.object
@@ -30,6 +34,7 @@ export default React.createClass({
 
     return (
       <TouchableOpacity
+        style={image}
         onPress={this.onSearchPress}
       >
         <Image source={require('../../images/events/Search_Button_Inactive.png')}/>

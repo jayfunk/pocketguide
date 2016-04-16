@@ -106,6 +106,9 @@ export default React.createClass({
 
   _buildEventAnnotations () {
     const {events} = this.props.dataStore.getAll()
+    if (events) {
+      return []
+    }
     return events.filter(event => {
       return event && event.hasCoordinates()
     }).map(event => {
@@ -118,7 +121,7 @@ export default React.createClass({
           url: 'image!pin',
           width: 30,
           height: 70
-        },
+        }
       }
     })
   }
