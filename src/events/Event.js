@@ -9,6 +9,8 @@ export default class Event {
     this.description = rawEvent.eventDescription
     this.latitude = rawEvent.locationLatitude
     this.longitude = rawEvent.locationLongitude
+    this.intendedAges = rawEvent.intendedAges
+    this.themeCampName = rawEvent.themeCampName
   }
 
   get name () {

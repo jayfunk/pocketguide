@@ -34,12 +34,27 @@ export default React.createClass({
           <Text> - </Text>
           {this.props.event.endTime}
         </Text>
-        <Text style={styles.eventName}>
+        {this._renderHostingThemeCamp()}
+        <Text style={styles.locateText}>
+          Intended Ages: {this.props.event.intendedAges}
+        </Text>
+        <Text style={styles.locateText}>
           Location: {this.props.event.location}
         </Text>
         {this._renderLocateButton()}
       </ScrollView>
     )
+  },
+
+  _renderHostingThemeCamp () {
+    if (this.props.event.themeCampName) {
+      return (
+        <Text style={styles.locateText}>
+          Hosting Theme Camp: {this.props.event.themeCampName}
+        </Text>
+      )
+    }
+    return null
   },
 
   _renderLocateButton () {

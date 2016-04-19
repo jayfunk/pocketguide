@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     color: GENERAL_FONT
   },
   locateButton: {
-    marginTop: 50,
+    marginTop: 25,
     marginBottom: 25,
     alignSelf: 'center'
   },
