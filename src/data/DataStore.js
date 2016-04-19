@@ -2,9 +2,7 @@ import React from 'react-native'
 import Event from '../events/Event'
 import store from 'react-native-simple-store'
 
-const {
-  NetInfo
-} = React
+const {NetInfo} = React
 
 // android local url: http://10.0.2.2:3000/api
 // ios local url: http://localhost:3000/api
@@ -98,6 +96,6 @@ export default class DataStore {
 
   _writeDataToDisk (data) {
     store.save(LAST_DATA_FROM_DISK, data)
-    store.save(LAST_MODIFIED_KEY, new Date())
+    store.save(LAST_MODIFIED_KEY, Date.now())
   }
 }
