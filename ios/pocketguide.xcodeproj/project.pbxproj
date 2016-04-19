@@ -22,9 +22,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		DF1DA6241CA5ADEC00AEBB15 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1DA6231CA5ADEC00AEBB15 /* Mapbox.framework */; };
-		DF1DA6251CA5ADEC00AEBB15 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF1DA6231CA5ADEC00AEBB15 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DF1DA6271CA5ADF500AEBB15 /* libRCTMapboxGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1DA61A1CA5ADA800AEBB15 /* libRCTMapboxGL.a */; };
+		DF7B414E1CC5E3A700925C11 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B414D1CC5E3A700925C11 /* Mapbox.framework */; };
+		DF7B414F1CC5E3A700925C11 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B414D1CC5E3A700925C11 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF7B41521CC5E3E500925C11 /* libRCTMapboxGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B414A1CC5E30300925C11 /* libRCTMapboxGL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,16 +105,16 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		DF1DA6191CA5ADA800AEBB15 /* PBXContainerItemProxy */ = {
+		DF7B41491CC5E30300925C11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF1DA6101CA5ADA800AEBB15 /* RCTMapboxGL.xcodeproj */;
+			containerPortal = DF7B41441CC5E30300925C11 /* RCTMapboxGL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C5DBB3401AF2EF2B00E611A9;
 			remoteInfo = RCTMapboxGL;
 		};
-		DF1DA61B1CA5ADA800AEBB15 /* PBXContainerItemProxy */ = {
+		DF7B414B1CC5E30300925C11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF1DA6101CA5ADA800AEBB15 /* RCTMapboxGL.xcodeproj */;
+			containerPortal = DF7B41441CC5E30300925C11 /* RCTMapboxGL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C5DBB34B1AF2EF2B00E611A9;
 			remoteInfo = RCTMapboxGLTests;
@@ -122,13 +122,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF1DA6261CA5ADEC00AEBB15 /* Embed Frameworks */ = {
+		DF7B41501CC5E3A700925C11 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DF1DA6251CA5ADEC00AEBB15 /* Mapbox.framework in Embed Frameworks */,
+				DF7B414F1CC5E3A700925C11 /* Mapbox.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,8 +157,8 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		DF1DA6101CA5ADA800AEBB15 /* RCTMapboxGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTMapboxGL.xcodeproj; path = "../node_modules/react-native-mapbox-gl/ios/RCTMapboxGL.xcodeproj"; sourceTree = "<group>"; };
-		DF1DA6231CA5ADEC00AEBB15 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		DF7B41441CC5E30300925C11 /* RCTMapboxGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTMapboxGL.xcodeproj; path = "../node_modules/react-native-mapbox-gl/ios/RCTMapboxGL.xcodeproj"; sourceTree = "<group>"; };
+		DF7B414D1CC5E3A700925C11 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1DA6271CA5ADF500AEBB15 /* libRCTMapboxGL.a in Frameworks */,
+				DF7B41521CC5E3E500925C11 /* libRCTMapboxGL.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -183,7 +183,7 @@
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				DF1DA6241CA5ADEC00AEBB15 /* Mapbox.framework in Frameworks */,
+				DF7B414E1CC5E3A700925C11 /* Mapbox.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +322,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				DF1DA6231CA5ADEC00AEBB15 /* Mapbox.framework */,
-				DF1DA6101CA5ADA800AEBB15 /* RCTMapboxGL.xcodeproj */,
+				DF7B414D1CC5E3A700925C11 /* Mapbox.framework */,
+				DF7B41441CC5E30300925C11 /* RCTMapboxGL.xcodeproj */,
 				13B07FAE1A68108700A75B9A /* pocketguide */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* pocketguideTests */,
@@ -342,11 +342,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF1DA6111CA5ADA800AEBB15 /* Products */ = {
+		DF7B41451CC5E30300925C11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF1DA61A1CA5ADA800AEBB15 /* libRCTMapboxGL.a */,
-				DF1DA61C1CA5ADA800AEBB15 /* RCTMapboxGLTests.xctest */,
+				DF7B414A1CC5E30300925C11 /* libRCTMapboxGL.a */,
+				DF7B414C1CC5E30300925C11 /* RCTMapboxGLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -380,7 +380,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				DF1DA6261CA5ADEC00AEBB15 /* Embed Frameworks */,
+				DF7B41501CC5E3A700925C11 /* Embed Frameworks */,
+				DF7B41511CC5E3C700925C11 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -435,8 +436,8 @@
 					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
 				},
 				{
-					ProductGroup = DF1DA6111CA5ADA800AEBB15 /* Products */;
-					ProjectRef = DF1DA6101CA5ADA800AEBB15 /* RCTMapboxGL.xcodeproj */;
+					ProductGroup = DF7B41451CC5E30300925C11 /* Products */;
+					ProjectRef = DF7B41441CC5E30300925C11 /* RCTMapboxGL.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
@@ -542,18 +543,18 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DF1DA61A1CA5ADA800AEBB15 /* libRCTMapboxGL.a */ = {
+		DF7B414A1CC5E30300925C11 /* libRCTMapboxGL.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRCTMapboxGL.a;
-			remoteRef = DF1DA6191CA5ADA800AEBB15 /* PBXContainerItemProxy */;
+			remoteRef = DF7B41491CC5E30300925C11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DF1DA61C1CA5ADA800AEBB15 /* RCTMapboxGLTests.xctest */ = {
+		DF7B414C1CC5E30300925C11 /* RCTMapboxGLTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = RCTMapboxGLTests.xctest;
-			remoteRef = DF1DA61B1CA5ADA800AEBB15 /* PBXContainerItemProxy */;
+			remoteRef = DF7B414B1CC5E30300925C11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -591,6 +592,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		DF7B41511CC5E3C700925C11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
