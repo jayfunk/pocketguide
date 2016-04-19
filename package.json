@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh",
     "test": "tape tests/**/*Test.js",
-    "buildmapdata": "node scripts/exportKMLToAnnotations.js"
+    "build-map-data": "node scripts/exportKMLToAnnotations.js",
+    "build-android": "cd android && ./gradlew assembleRelease && cd ../",
+    "install-release-android": "cd android && ./gradlew installRelease && cd ../"
   },
   "dependencies": {
     "events": "^1.1.0",

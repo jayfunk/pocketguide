@@ -21,20 +21,21 @@ export default React.createClass({
     return (
       <ScrollView>
         <Image style={styles.logoImage} resizeMode={'stretch'} source={require('../../../images/Logo.png')}/>
-        <View style={styles.eventNameDesc}>
-          <Text style={styles.eventName}>
-            {this.props.event.name}
-          </Text>
-          <Text style={styles.eventDesc}>
-            {this.props.event.description}
-          </Text>
-        </View>
+        <Text style={styles.eventName}>
+          {this.props.event.name}
+        </Text>
+        <Text style={styles.eventDesc}>
+          {this.props.event.description}
+        </Text>
         <Text style={styles.times}>
           {this.props.event.dateOfEvent}
           <Text> - </Text>
           {this.props.event.startTime}
           <Text> - </Text>
           {this.props.event.endTime}
+        </Text>
+        <Text style={styles.eventName}>
+          Location: {this.props.event.location}
         </Text>
         {this._renderLocateButton()}
       </ScrollView>

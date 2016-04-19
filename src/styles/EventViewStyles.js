@@ -9,20 +9,18 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginBottom: 50
   },
-  eventNameDesc: {
-    flex: 1,
-    flexDirection: 'row'
-  },
   eventName: {
     flex: 1,
-    color: GENERAL_FONT
+    alignSelf: 'center',
+    color: GENERAL_FONT,
+    marginBottom: 15
   },
   eventDesc: {
-    flex: 2,
+    flex: 1,
     color: GENERAL_FONT
   },
   times: {
-    marginTop: 50,
+    marginTop: 25,
     textAlign: 'center',
     color: GENERAL_FONT
   },
