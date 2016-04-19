@@ -31,6 +31,9 @@ const styles = StyleSheet.create({
   },
   alignRight: {
     alignItems: 'flex-end'
+  },
+  navBarButtons: {
+    marginRight: 10
   }
 })
 

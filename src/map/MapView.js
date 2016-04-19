@@ -79,7 +79,7 @@ export default React.createClass({
   },
 
   _updateFilters (updatedState) {
-    if(this.isMounted()) this.setState(updatedState)
+    this.setState(updatedState)
   },
 
   _getDisplayAnnotations () {
@@ -106,9 +106,6 @@ export default React.createClass({
 
   _buildEventAnnotations () {
     const {events} = this.props.dataStore.getAll()
-    if (events) {
-      return []
-    }
     return events.filter(event => {
       return event && event.hasCoordinates()
     }).map(event => {

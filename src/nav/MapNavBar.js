@@ -43,7 +43,7 @@ export default React.createClass({
             {this._renderEventsIcon()}
           </TouchableOpacity>
         </View>
-        <View style={[styles.corner, styles.alignRight]}>
+        <View style={[styles.corner, styles.alignRight, styles.navBarButtons]}>
           <TouchableOpacity
             onPress={this._toggleOps}
           >
