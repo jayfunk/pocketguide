@@ -1,14 +1,15 @@
 import React from 'react-native'
 import Event from '../events/Event'
+import store from 'react-native-simple-store'
+
 const {
-  AsyncStorage,
   NetInfo
 } = React
 
 // android local url: http://10.0.2.2:3000/api
 // ios local url: http://localhost:3000/api
-// heroku url: http://pocketguide-web-server.herokuapp.com/api
-const URL = 'http://localhost:3000/api'
+// heroku url: http://pocketguide-web-server.herokuapp.com/api/mobile
+const URL = 'http://pocketguide-web-server.herokuapp.com/api/mobile'
 const LAST_MODIFIED_KEY = 'LAST_MODIFIED_KEY'
 const LAST_DATA_FROM_DISK = 'LAST_DATA_FROM_DISK'
 
@@ -16,14 +17,16 @@ export default class DataStore {
   constructor (eventChannel) {
     this.eventChannel = eventChannel
     this.isConnected = false
-    this.data = null
+    this._isLoaded = false
+    this.data = {
+      events: []
+    }
   }
 
   load () {
-    if (this.data) return
-    NetInfo.isConnected.fetch().done((isConnected) => {
+    NetInfo.isConnected.fetch().then((isConnected) => {
       if (!isConnected) return this._loadLastFromDisk()
-      this._getEventsLastModified().then(lastModified => {
+      store.get(LAST_MODIFIED_KEY).then(lastModified => {
         this._fetchEventData(lastModified)
       })
     })
@@ -34,24 +37,22 @@ export default class DataStore {
   }
 
   isLoaded () {
-    return !!this.data
+    return this._isLoaded
   }
 
   _loadLastFromDisk () {
-    // TODO: Data is not being loaded from the disk and always fails.
-    // Might be that async storage is clearing on app reload
-    AsyncStorage.getItem(LAST_DATA_FROM_DISK).then(data => {
+    store.get(LAST_DATA_FROM_DISK).then(data => {
       this._emitDataLoaded(data)
     }).catch(error => {
       this.eventChannel.emit('dataStore:load:error', {
         message: 'Unable to load data from cache.',
         error
       })
-    }).done()
+    })
   }
 
   _emitDataLoaded (data) {
-    this.data = {}
+    this._isLoaded = true
     if (data.events) {
       this.data.events = this._transformEvents(data.events)
     }
@@ -66,12 +67,7 @@ export default class DataStore {
     })
   }
 
-  _getEventsLastModified () {
-    return AsyncStorage.getItem(LAST_MODIFIED_KEY)
-  }
-
   _fetchEventData (lastModified) {
-    // TODO: need to test all failure scenarios
     fetch(URL, {
       timeout: 10000,
       headers: {
@@ -97,11 +93,11 @@ export default class DataStore {
     }).catch(error => {
       console.error(error)
       this._loadLastFromDisk()
-    }).done()
+    })
   }
 
   _writeDataToDisk (data) {
-    AsyncStorage.setItem(LAST_DATA_FROM_DISK, JSON.stringify(data))
-    AsyncStorage.setItem(LAST_MODIFIED_KEY, JSON.stringify(new Date()))
+    store.save(LAST_DATA_FROM_DISK, data)
+    store.save(LAST_MODIFIED_KEY, new Date())
   }
 }
