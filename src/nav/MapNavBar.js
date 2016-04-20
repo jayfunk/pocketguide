@@ -28,13 +28,21 @@ export default React.createClass({
     }
   },
 
+  componentWillMount () {
+    this.context.eventChannel.addListener('open:annotation', this._handleOpenAnnotation)
+  },
+
+  componentWillUmount () {
+    this.context.eventChannel.removeListener('open:annotation', this._handleOpenAnnotation)
+  },
+
   render () {
     return (
       <View
         style={[styles.navbar, background]}
       >
-        <View style={[styles.corner, styles.alignLeft]}>
-          <Text style={styles.navbarText}>Map</Text>
+        <View style={[styles.corner, styles.alignLeft, styles.title]}>
+          <Text style={styles.navbarText}>{this._getTitle()}</Text>
         </View>
         <View style={[styles.corner, styles.alignRight]}>
           <TouchableOpacity
@@ -52,6 +60,18 @@ export default React.createClass({
         </View>
       </View>
     )
+  },
+
+  _handleOpenAnnotation (annotation) {
+    console.log('Tyler', annotation)
+    this.setState({
+      annotationTitle: annotation.title
+    })
+  },
+
+  _getTitle () {
+    const title = this.state.annotationTitle
+    return title && title !== '' ? title : 'Map'
   },
 
   _toggleEvents () {

@@ -74,6 +74,7 @@ export default React.createClass({
         userTrackingMode={this.userTrackingMode.none}
         showsUserLocation
         attributionButtonIsHidden={false}
+        onOpenAnnotation={this._handleOpenAnnotation}
       />
     )
   },
@@ -121,5 +122,9 @@ export default React.createClass({
         }
       }
     })
+  },
+
+  _handleOpenAnnotation ({src}) {
+    this.context.eventChannel.emit('open:annotation', src)
   }
 })

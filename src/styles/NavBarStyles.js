@@ -34,6 +34,10 @@ const styles = StyleSheet.create({
   },
   navBarButtons: {
     marginRight: 10
+  },
+  title: {
+    overflow: 'hidden',
+    flex: 3
   }
 })
 
