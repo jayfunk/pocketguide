@@ -325,18 +325,5 @@
     "strokeColor": "#000000",
     "strokeWidth": 5,
     "strokeAlpha": 0.5
-  },
-  {
-    "id": "8c8d94c1-3165-4af8-99be-9cba1f170fac",
-    "coordinates": [
-      33.3802738,
-      -83.336454
-    ],
-    "type": "point",
-    "annotationImage": {
-      "url": "",
-      "height": 30,
-      "width": 70
-    }
   }
 ]
