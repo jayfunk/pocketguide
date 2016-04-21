@@ -36,10 +36,9 @@
       ]
     ],
     "type": "polygon",
+    "name": "Burn Field - NO CAMPING",
     "strokeWidth": 5,
-    "strokeAlpha": 0.5,
     "fillColor": "#FF0000",
-    "fillAlpha": 0.5
   },
   {
     "id": "150912a5-de89-449c-9795-46348e86c8df",
@@ -66,10 +65,9 @@
       ]
     ],
     "type": "polygon",
+    "name": "Marsh - DO NOT USE",
     "strokeWidth": 5,
-    "strokeAlpha": 0.5,
     "fillColor": "#FF0000",
-    "fillAlpha": 0.5
   },
   {
     "id": "7d7a0238-ad84-41b7-93a7-fe3b42eb06f6",
@@ -96,10 +94,9 @@
       ]
     ],
     "type": "polygon",
+    "name": "Marsh - DO NOT USE",
     "strokeWidth": 5,
-    "strokeAlpha": 0.5,
     "fillColor": "#FF0000",
-    "fillAlpha": 0.5
   },
   {
     "id": "e2ce0628-3a03-4a5f-a755-5d4ce36bc778",
@@ -130,10 +127,9 @@
       ]
     ],
     "type": "polygon",
+    "name": "Downtown - NO CAMPING",
     "strokeWidth": 5,
-    "strokeAlpha": 0.5,
     "fillColor": "#FF0000",
-    "fillAlpha": 0.5
   },
   {
     "id": "7240bb7b-38d2-440c-8014-7183aaa268a1",
@@ -160,9 +156,8 @@
       ]
     ],
     "type": "polygon",
+    "name": "Euphoria Parking",
     "strokeWidth": 5,
-    "strokeAlpha": 0.5,
     "fillColor": "#FF0000",
-    "fillAlpha": 0.5
   }
 ]

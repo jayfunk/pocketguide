@@ -5,7 +5,9 @@ import opencamping from './annotations/opencamping.json'
 import placementMap from './annotations/placementMap.json'
 import roads from './annotations/roads.json'
 import tcs from './annotations/tcs.json'
+
 const allMapAnnotations = []
+
 export default allMapAnnotations.concat(
   art,
   landmarks,
