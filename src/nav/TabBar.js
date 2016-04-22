@@ -35,7 +35,8 @@ export default React.createClass({
 
   _renderTabButtons: function () {
     return [appRoutes.events, appRoutes.map, appRoutes.principles].map((route, index) => {
-      const isActiveTab = route.name === this.state.activeTabName
+      const isActiveTab = route.name === this.state.activeTabName ||
+        (route.name === 'Events' && this.state.activeTabName === 'Event')
       const borderStyle = index !== 0 ? {borderLeftWidth: 2} : {borderLeftWidth: 0}
 
       return <TabButton
@@ -53,7 +54,12 @@ export default React.createClass({
   _handleOnPress: function (route) {
     if (this.state.activeTabName !== route.name) {
       this.props.onTabChange(route)
-      this.setState({ activeTabName: route.name })
     }
+  },
+
+  setActiveTabName (name) {
+    this.setState({
+      activeTabName: name
+    })
   }
 })

@@ -82,16 +82,29 @@ export default React.createClass({
             }
           }}
           navigationBar = {<NavBar/>}
+          onDidFocus={this._setTabState}
         />
         <TabBar
+          ref='tabBar'
           onTabChange={this.onTabChange}
         />
       </View>
     )
   },
 
+  _setTabState (route) {
+    if (this.refs.tabBar) {
+      this.refs.tabBar.setActiveTabName(route.name)
+    }
+  },
+
   onTabChange (route) {
-    this.navigator.resetTo(route)
+    const [first, second, third] = this.navigator.getCurrentRoutes()
+    if (first.name === 'Events' && second.name === 'Event' && third.name === 'Map') {
+      this.navigator.pop()
+    } else {
+      this.navigator.resetTo(route)
+    }
   },
 
   _storeNavigatorInstance (navigator) {
