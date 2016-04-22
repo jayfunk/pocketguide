@@ -100,7 +100,7 @@ export default React.createClass({
 
   onTabChange (route) {
     const [first, second, third] = this.navigator.getCurrentRoutes()
-    if (first.name === 'Events' && second.name === 'Event' && third.name === 'Map') {
+    if (first && second && third && first.name === 'Events' && second.name === 'Event' && third.name === 'Map') {
       this.navigator.pop()
     } else {
       this.navigator.resetTo(route)
