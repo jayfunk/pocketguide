@@ -1,0 +1,6 @@
+--compilers js:babel-register
+--require test/main.js
+--recursive
+--watch
+--reporter min
+src/**/__tests__/*.js

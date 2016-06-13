@@ -106,6 +106,7 @@ export default React.createClass({
   },
 
   _buildEventAnnotations () {
+    // should get data from reducer
     const {events} = this.props.dataStore.getAll()
     return events.filter(event => {
       return event && event.hasCoordinates()

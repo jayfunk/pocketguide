@@ -4,6 +4,9 @@ import store from 'react-native-simple-store'
 
 const {NetInfo} = React
 
+// TODO: This should all be converted to a action creator and all of the data should be kept in the reducer.
+// None of the data should be stored in here.
+
 // android local url: http://10.0.2.2:3000/api
 // ios local url: http://localhost:3000/api
 // heroku url: http://pocketguide-web-server.herokuapp.com/api/mobile
