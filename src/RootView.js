@@ -1,8 +1,7 @@
-import appRoutes from './nav/appRoutes'
-import DataStore from './data/DataStore'
-import {EventEmitter} from 'events'
-import NavBar from './nav/NavBar'
 import React from 'react-native'
+import {connect} from 'react-redux'
+import appRoutes from './nav/appRoutes'
+import NavBar from './nav/NavBar'
 import TabBar from './nav/TabBar'
 import {NAV_BAR_SIZE} from './styles/StyleConstants'
 import {CONTENT_BACKGROUND} from './styles/ColorConstants'
@@ -10,7 +9,8 @@ const {
   View,
   Navigator,
   BackAndroid,
-  StyleSheet
+  StyleSheet,
+  PropTypes
 } = React
 
 const styles = StyleSheet.create({
@@ -23,27 +23,12 @@ const styles = StyleSheet.create({
   }
 })
 
-export default React.createClass({
-  childContextTypes: {
-    eventChannel: React.PropTypes.object
-  },
-
-  getInitialState () {
-    const eventChannel = new EventEmitter()
-    return {
-      eventChannel,
-      dataStore: new DataStore(eventChannel)
-    }
-  },
-
-  getChildContext () {
-    return {
-      eventChannel: this.state.eventChannel
-    }
+const RootView = React.createClass({
+  propTypes: {
+    changeActiveTab: PropTypes.fund.isRequired
   },
 
   componentDidMount () {
-    this.state.dataStore.load()
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.navigator && this.navigator.getCurrentRoutes().length > 1) {
         this.navigator.pop()
@@ -76,7 +61,6 @@ export default React.createClass({
             if (route.component) {
               return <route.component
                 navigator={navigator}
-                dataStore={this.state.dataStore}
                 {...route.props}
               />
             }
@@ -93,9 +77,7 @@ export default React.createClass({
   },
 
   _setTabState (route) {
-    if (this.refs.tabBar) {
-      this.refs.tabBar.setActiveTabName(route.name)
-    }
+    this.props.changeActiveTab(route.name)
   },
 
   onTabChange (route) {
@@ -111,3 +93,16 @@ export default React.createClass({
     this.navigator = navigator
   }
 })
+
+function mapDispatchToProps (dispatch, props) {
+  return {
+    changeActiveTab: (name) => {
+      dispatch({
+        type: 'tabs:active:update',
+        activeTab: name
+      })
+    }
+  }
+}
+
+export default connect(null, mapDispatchToProps)(RootView)

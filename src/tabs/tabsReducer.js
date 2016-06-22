@@ -1,4 +1,4 @@
-export default function eventsReducer (state = defaultState(), action = {}) {
+export default function tabsReducer (state = defaultState(), action = {}) {
   switch (action.type) {
     case 'tabs:active:update': return handleActiveTabUpdate(state, action)
     default: return state

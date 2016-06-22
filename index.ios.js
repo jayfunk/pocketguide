@@ -8,7 +8,7 @@ const {
 } = React
 
 const pocketguide = React.createClass({
-  render() {
+  render () {
     return (
       <RootViewContainer/>
     )

@@ -11,10 +11,10 @@ export default function eventsReducer (state = defaultState(), action = {}) {
 
 function defaultState () {
   return {
-    events: [],
-    isLoading: false,
-    filter: null,
     sort: 'ASC',
+    events: [],
+    filter: null,
+    isLoading: false,
     eventVisible: false,
     errorMessage: null
   }
@@ -36,7 +36,7 @@ function handleDataLoadError (state, {errorMessage}) {
 
 function handleEventsFilter (state, {filter}) {
   return Object.assign({}, state, {
-    filter
+    filter: filter ? filter.trim().toLowerCase() : null
   })
 }
 

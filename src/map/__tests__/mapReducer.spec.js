@@ -1,4 +1,5 @@
 import reducer from '../mapReducer'
+import staticAnnotations from '../../data/staticData/staticMapAnnotations'
 
 describe('mapReducer', () => {
   it('should set its initial state', () => {
@@ -11,32 +12,19 @@ describe('mapReducer', () => {
       },
       errorMessage: null,
       annotations: [],
-      staticAnnotations: [],
+      staticAnnotations,
       center: {
         latitude: 33.378917,
         longitude: -83.337274
       },
-      zoomLevel: 15
+      zoomLevel: 15,
+      selectedEvent: null,
+      selectedAnnotation: null
     })
   })
 
   it('should handle map:filter:update', () => {
-    const state = {
-      filter: {
-        showAnnotations: true,
-        showStaticAnnotations: true
-      },
-      errorMessage: null,
-      annotations: [],
-      staticAnnotations: [],
-      center: {
-        latitude: 33.378917,
-        longitude: -83.337274
-      },
-      zoomLevel: 15
-    }
-
-    const actual = reducer(state, {
+    const actual = reducer(reducer(), {
       type: 'map:filter:update',
       showAnnotations: false,
       showStaticAnnotations: true
@@ -47,7 +35,7 @@ describe('mapReducer', () => {
       showStaticAnnotations: true
     })
 
-    const actual2 = reducer(state, {
+    const actual2 = reducer(actual, {
       type: 'map:filter:update',
       showAnnotations: true,
       showStaticAnnotations: false
@@ -60,22 +48,7 @@ describe('mapReducer', () => {
   })
 
   it('should handle data:load:complete', () => {
-    const state = {
-      filter: {
-        showAnnotations: true,
-        showStaticAnnotations: true
-      },
-      errorMessage: null,
-      annotations: [],
-      staticAnnotations: [],
-      center: {
-        latitude: 33.378917,
-        longitude: -83.337274
-      },
-      zoomLevel: 15
-    }
-
-    const actual = reducer(state, {
+    const actual = reducer(reducer(), {
       type: 'data:load:complete',
       events: [{
         id: 1,
@@ -98,26 +71,37 @@ describe('mapReducer', () => {
   })
 
   it('should handle data:load:error', () => {
-    const state = {
-      filter: {
-        showAnnotations: true,
-        showStaticAnnotations: true
-      },
-      errorMessage: null,
-      annotations: [],
-      staticAnnotations: [],
-      center: {
-        latitude: 33.378917,
-        longitude: -83.337274
-      },
-      zoomLevel: 15
-    }
-
-    const actual = reducer(state, {
+    const actual = reducer(reducer(), {
       type: 'data:load:error',
       errorMessage: 'test'
     })
 
     expect(actual.errorMessage).to.eql('test')
+  })
+
+  it('should handle map:event:selected', () => {
+    const actual = reducer(reducer(), {
+      type: 'map:event:selected',
+      selectedEvent: {
+        id: 1
+      }
+    })
+
+    expect(actual.selectedEvent).to.eql({
+      id: 1
+    })
+  })
+
+  it('should handle map:annotation:selected', () => {
+    const actual = reducer(reducer(), {
+      type: 'map:annotation:selected',
+      selectedAnnotation: {
+        id: 1
+      }
+    })
+
+    expect(actual.selectedAnnotation).to.eql({
+      id: 1
+    })
   })
 })

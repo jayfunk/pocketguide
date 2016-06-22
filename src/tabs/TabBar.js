@@ -1,11 +1,13 @@
+import React from 'react-native'
+import {connect} from 'react-redux'
 import TabButton from './TabButton'
 import appRoutes from './appRoutes'
 import {TAB_BACKGROUND} from '../styles/ColorConstants'
 import guid from 'guid'
-import React from 'react-native'
 const {
   StyleSheet,
-  View
+  View,
+  PropTypes
 } = React
 
 const styles = StyleSheet.create({
@@ -16,27 +18,22 @@ const styles = StyleSheet.create({
   }
 })
 
-export default React.createClass({
+const TabBar = React.createClass({
   propTypes: {
-    onTabChange: React.PropTypes.func
+    activeTab: PropTypes.string.isRequired,
+    onTabChange: PropTypes.func.isRequired
   },
 
-  getInitialState () {
-    return {
-      activeTabName: appRoutes.events.name
-    }
-  },
-
-  render: function () {
+  render () {
     return <View style={[styles.tabs]}>
       {this._renderTabButtons()}
     </View>
   },
 
-  _renderTabButtons: function () {
+  _renderTabButtons () {
     return [appRoutes.events, appRoutes.map, appRoutes.principles].map((route, index) => {
-      const isActiveTab = route.name === this.state.activeTabName ||
-        (route.name === 'Events' && this.state.activeTabName === 'Event')
+      const isActiveTab = route.name === this.props.activeTab ||
+        (route.name === 'Events' && this.props.activeTab === 'Event')
       const borderStyle = index !== 0 ? {borderLeftWidth: 2} : {borderLeftWidth: 0}
 
       return <TabButton
@@ -51,15 +48,15 @@ export default React.createClass({
     })
   },
 
-  _handleOnPress: function (route) {
-    if (this.state.activeTabName !== route.name) {
+  _handleOnPress (route) {
+    if (this.props.activeTab !== route.name) {
       this.props.onTabChange(route)
     }
-  },
-
-  setActiveTabName (name) {
-    this.setState({
-      activeTabName: name
-    })
   }
 })
+
+function mapStateToProps (state, ownProps) {
+  return state.tabs
+}
+
+export default connect(mapStateToProps)(TabBar)

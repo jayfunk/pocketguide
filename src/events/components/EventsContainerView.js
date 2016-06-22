@@ -1,78 +1,61 @@
 import React from 'react-native'
+import {connect} from 'react-redux'
 import EventsView from './EventsView'
-import { createRoute } from '../../nav/appRoutes'
+import {createRoute} from '../../nav/appRoutes'
 
-export default React.createClass({
+const EventsContainerView = React.createClass({
   propTypes: {
     navigator: React.PropTypes.object,
-    dataStore: React.PropTypes.object
-  },
-
-  contextTypes: {
-    eventChannel: React.PropTypes.object
-  },
-
-  getInitialState () {
-    return {
-      events: [],
-      searchTerm: void 0
-    }
-  },
-
-  componentWillMount () {
-    this.context.eventChannel.addListener('dataStore:load:complete', this._onDataStoreLoadComplete)
-    this.context.eventChannel.addListener('dataStore:load:error', this._handleDataStoreError)
-    this.context.eventChannel.addListener('event:search', this._onEventSearch)
-    if (this.props.dataStore.isLoaded()) this._onDataStoreLoadComplete()
-  },
-
-  componentWillUmount () {
-    this.context.eventChannel.removeListener('dataStore:load:complete', this._onDataStoreLoadComplete)
-    this.context.eventChannel.removeListener('dataStore:load:error', this._handleDataStoreError)
-    this.context.eventChannel.removeListener('event:search', this._onEventSearch)
+    events: React.PropTypes.array.isRequired,
+    isLoading: React.PropTypes.bool.isRequired,
+    filter: React.PropTypes.string,
+    errorMessage: React.PropTypes.string,
+    resetFilterAndEventSetVisible: React.PropTypes.func.isRequired
   },
 
   render () {
     return <EventsView
-      events = {this._filterEvents(this.state.events)}
+      events = {this.props.events}
       onEventPress = {this._handleEventPress}
     />
   },
 
-  _onDataStoreLoadComplete () {
-    const data = this.props.dataStore.getAll()
-    this.setState({
-      events: data.events
-    })
-  },
-
-  _handleDataStoreError (context) {
-    console.log('_handleDataStoreError', context)
-  },
-
-  _onEventSearch ({searchTerm}) {
-    if (!this.isMounted()) return
-
-    this.setState({
-      searchTerm
-    })
-  },
-
-  _filterEvents (events) {
-    if (!this.state.searchTerm) return events
-    const searchTerm = this.state.searchTerm.trim().toLowerCase()
-    if (searchTerm.length === 0) return events
-
-    return events.filter(event => {
-      return event.name.toLowerCase().indexOf(searchTerm) > -1
-    })
-  },
-
   _handleEventPress (selectedEvent) {
-    this.setState({
-      searchTerm: null
-    })
-    const eventRoute = createRoute('event', { event: selectedEvent })
+    this.props.resetFilterAndEventSetVisible()
+    const eventRoute = createRoute('event', {event: selectedEvent})
     this.props.navigator.push(eventRoute)
   }
 })
+
+function mapStateToProps (state) {
+  // TODO: Sort the events
+  return Object.assign({}, state.events, {
+    events: filterEvents(state.events)
+  })
+}
+
+function filterEvents ({events, filter}) {
+  if (!filter) return events
+
+  if (filter.length === 0) return events
+
+  return events.filter(event => {
+    return event.name.toLowerCase().indexOf(filter) > -1
+  })
+}
+
+function mapDispatchToProps (dispatch) {
+  return {
+    resetFilterAndEventSetVisible: () => {
+      dispatch({
+        type: 'events:filter',
+        filter: null
+      })
+      dispatch({
+        type: 'event:toggle:visible'
+      })
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(EventsContainerView)

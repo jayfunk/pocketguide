@@ -1,6 +1,6 @@
 import React from 'react-native'
+import {connect} from 'react-redux'
 import Mapbox from 'react-native-mapbox-gl'
-import staticAnnotations from '../data/staticData/staticMapAnnotations'
 
 const {
   StyleSheet
@@ -21,66 +21,40 @@ const styles = StyleSheet.create({
   }
 })
 
-export default React.createClass({
+const MapView = React.createClass({
   mixins: [Mapbox.Mixin],
 
   propTypes: {
+    center: React.PropTypes.object.isRequired,
     selectedEvent: React.PropTypes.object,
-    dataStore: React.PropTypes.object
-  },
-
-  contextTypes: {
-    eventChannel: React.PropTypes.object
-  },
-
-  componentWillMount () {
-    this.context.eventChannel.addListener('maps:toggle:filters', this._updateFilters)
-  },
-
-  componentWillUmount () {
-    this.context.eventChannel.removeListener('maps:toggle:filters', this._updateFilters)
-  },
-
-  getInitialState () {
-    return {
-      center: {
-        latitude: 33.378917,
-        longitude: -83.337274
-      },
-      zoomLevel: 15,
-      infrastructureAnnotations: staticAnnotations,
-      eventAnnotations: this._buildEventAnnotations(),
-      isEventsActive: true,
-      isOpsActive: true
-    }
+    filter: React.PropTypes.object.isRequired,
+    errorMessage: React.PropTypes.string,
+    annotations: React.PropTypes.array.isRequired,
+    staticAnnotations: React.PropTypes.array.isRequired,
+    zoomLevel: React.PropTypes.number.isRequired,
+    openAnnotation: React.PropTypes.func.isRequired
   },
 
   render () {
-    const annotations = this._getDisplayAnnotations()
-
     return (
       <Mapbox
         ref={mapRef}
         style={styles.container}
         styleURL={this.mapStyles.satellite}
-        zoomLevel={this.state.zoomLevel}
+        zoomLevel={this.props.zoomLevel}
         direction={0}
         accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
-        annotations={annotations}
+        annotations={this._getDisplayAnnotations()}
         zoomEnabled
         logoIsHidden
         rotateEnabled
-        centerCoordinate={this.state.center}
+        centerCoordinate={this.props.center}
         userTrackingMode={this.userTrackingMode.none}
         showsUserLocation
         attributionButtonIsHidden={false}
-        onOpenAnnotation={this._handleOpenAnnotation}
+        onOpenAnnotation={this.props.openAnnotation}
       />
     )
-  },
-
-  _updateFilters (updatedState) {
-    this.setState(updatedState)
   },
 
   _getDisplayAnnotations () {
@@ -89,43 +63,38 @@ export default React.createClass({
       const filteredEventAnnotations = this._filterEventAnnotations()
       return filteredEventAnnotations
     }
-    if (this.state.isEventsActive) {
-      eventAnnotations = eventAnnotations.concat(this.state.eventAnnotations)
+
+    if (this.props.filter.showAnnotations) {
+      eventAnnotations = eventAnnotations.concat(this.props.annotations)
     }
-    if (this.state.isOpsActive) {
-      eventAnnotations = eventAnnotations.concat(this.state.infrastructureAnnotations)
+
+    if (this.props.filter.showStaticAnnotations) {
+      eventAnnotations = eventAnnotations.concat(this.props.staticAnnotations)
     }
     return eventAnnotations
   },
 
   _filterEventAnnotations () {
-    const foundEventAnnotation = this.state.eventAnnotations.find(event => {
+    const foundEventAnnotation = this.props.annotations.find(event => {
       return event.id === this.props.selectedEvent.id
     })
     return [foundEventAnnotation]
-  },
-
-  _buildEventAnnotations () {
-    // should get data from reducer
-    const {events} = this.props.dataStore.getAll()
-    return events.filter(event => {
-      return event && event.hasCoordinates()
-    }).map(event => {
-      return {
-        id: event.id,
-        coordinates: event.coordinates,
-        type: 'point',
-        title: event.name,
-        annotationImage: {
-          url: 'image!pin',
-          width: 30,
-          height: 70
-        }
-      }
-    })
-  },
-
-  _handleOpenAnnotation ({src}) {
-    this.context.eventChannel.emit('open:annotation', src)
   }
 })
+
+function mapStateToProps (state) {
+  return state.map
+}
+
+function mapDispatchToProps (dispatch) {
+  return {
+    openAnnotation: ({src}) => {
+      dispatch({
+        type: 'map:annotation:selected',
+        selectedAnnotation: src
+      })
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(MapView)

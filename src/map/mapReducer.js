@@ -1,8 +1,12 @@
-export default function eventsReducer (state = defaultState(), action = {}) {
+import staticAnnotations from '../data/staticData/staticMapAnnotations'
+
+export default function mapReducer (state = defaultState(), action = {}) {
   switch (action.type) {
     case 'map:filter:update': return handleMapFilterUpdate(state, action)
     case 'data:load:complete': return handleDataLoadComplete(state, action)
     case 'data:load:error': return handleDataLoadError(state, action)
+    case 'map:event:selected': return handleEventSelected(state, action)
+    case 'map:annotation:selected': return handleAnnotationSelected(state, action)
     default: return state
   }
 }
@@ -15,12 +19,14 @@ function defaultState () {
     },
     errorMessage: null,
     annotations: [],
-    staticAnnotations: [],
+    staticAnnotations: staticAnnotations,
     center: {
       latitude: 33.378917,
       longitude: -83.337274
     },
-    zoomLevel: 15
+    zoomLevel: 15,
+    selectedEvent: null,
+    selectedAnnotation: null
   }
 }
 
@@ -60,5 +66,17 @@ function buildEventAnnotations (events) {
 function handleDataLoadError (state, {errorMessage}) {
   return Object.assign({}, state, {
     errorMessage
+  })
+}
+
+function handleEventSelected (state, {selectedEvent}) {
+  return Object.assign({}, state, {
+    selectedEvent
+  })
+}
+
+function handleAnnotationSelected (state, {selectedAnnotation}) {
+  return Object.assign({}, state, {
+    selectedAnnotation
   })
 }
