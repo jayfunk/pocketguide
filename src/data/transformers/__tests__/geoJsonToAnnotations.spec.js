@@ -89,10 +89,10 @@ describe('geoJSONToAnnotations', () => {
       subtitle: '',
       type: 'polygon',
       strokeColor: '#e7857f',
-      strokeWidth: 4,
-      strokeAlpha: 1,
-      fillColor: '#e7857f',
-      fillAlpha: 0.20000000298023224,
+      strokeWidth: 5,
+      strokeAlpha: 0.5,
+      fillColor: '#0E3453',
+      fillAlpha: 0.5,
       id: '621705c016fcebf3855df695ca03b973'
     }]
 
@@ -145,10 +145,10 @@ describe('geoJSONToAnnotations', () => {
       subtitle: '',
       type: 'polygon',
       strokeColor: '#e7857f',
-      strokeWidth: 4,
-      strokeAlpha: 1,
-      fillColor: '#e7857f',
-      fillAlpha: 0.20000000298023224,
+      strokeWidth: 5,
+      strokeAlpha: .5,
+      fillColor: '#0E3453',
+      fillAlpha: 0.5,
       id: '621705c016fcebf3855df695ca03b973'
     }]
 
