@@ -82,13 +82,13 @@ describe('eventsReducer', () => {
 
     const actual = reducer(state, {
       type: 'events:filter',
-      filter: 'Something'
+      filter: ' Something '
     })
 
     expect(actual).to.eql({
       events: [],
       isLoading: false,
-      filter: 'Something',
+      filter: 'something',
       sort: 'ASC',
       eventVisible: false,
       errorMessage: null
