@@ -45,7 +45,7 @@
     ],
     "type": "polygon",
     "strokeWidth": 5,
-    "fillColor": "#FFDD5E",
+    "fillColor": "#FFDD5E"
   },
   {
     "id": "f3f9af8b-78ad-4931-8d64-99ca2ce8e5d4",
@@ -73,7 +73,7 @@
     ],
     "type": "polygon",
     "strokeWidth": 5,
-    "fillColor": "#FFDD5E",
+    "fillColor": "#FFDD5E"
   },
   {
     "id": "544b6456-c5f6-4a64-9c69-69b40ac804f9",
@@ -101,7 +101,7 @@
     ],
     "type": "polygon",
     "strokeWidth": 5,
-    "fillColor": "#FFDD5E",
+    "fillColor": "#FFDD5E"
   },
   {
     "id": "d68fd9f0-072e-497e-b397-51e78044fe6c",
@@ -129,6 +129,6 @@
     ],
     "type": "polygon",
     "strokeWidth": 5,
-    "fillColor": "#FFDD5E",
+    "fillColor": "#FFDD5E"
   }
 ]
