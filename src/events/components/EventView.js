@@ -1,7 +1,7 @@
 import React from 'react-native'
 import styles from '../../styles/EventViewStyles'
 import {GENERAL_FONT} from '../../styles/ColorConstants'
-import { createRoute } from '../../nav/appRoutes'
+import { createRoute } from '../../appRoutes'
 
 const {
   View,

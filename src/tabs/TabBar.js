@@ -1,7 +1,7 @@
 import React from 'react-native'
 import {connect} from 'react-redux'
 import TabButton from './TabButton'
-import appRoutes from './appRoutes'
+import appRoutes from '../appRoutes'
 import {TAB_BACKGROUND} from '../styles/ColorConstants'
 import guid from 'guid'
 const {

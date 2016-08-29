@@ -1,8 +1,8 @@
 import React from 'react-native'
 import {connect} from 'react-redux'
-import appRoutes from './nav/appRoutes'
+import appRoutes from './appRoutes'
 import NavBar from './nav/NavBar'
-import TabBar from './nav/TabBar'
+import TabBar from './tabs/TabBar'
 import {NAV_BAR_SIZE} from './styles/StyleConstants'
 import {CONTENT_BACKGROUND} from './styles/ColorConstants'
 const {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 
 const RootView = React.createClass({
   propTypes: {
-    changeActiveTab: PropTypes.fund.isRequired
+    changeActiveTab: PropTypes.func.isRequired
   },
 
   componentDidMount () {
