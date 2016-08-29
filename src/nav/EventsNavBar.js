@@ -1,20 +1,22 @@
+import React, {
+  View,
+  Text,
+  TouchableOpacity,
+  PropTypes
+} from 'react-native'
+import {connect} from 'react-redux'
 import NavSearchButton from './NavSearchButton'
 import {EVENTS_THEME} from '../styles/ColorConstants'
 import styles from '../styles/NavBarStyles'
-import React from 'react-native'
-const {
-  View,
-  Text,
-  TouchableOpacity
-} = React
 
 const background = {
   backgroundColor: EVENTS_THEME
 }
 
-export default React.createClass({
+const EventsNavBar = React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object
+    navigator: PropTypes.object,
+    showEventDetail: PropTypes.bool.isRequired
   },
 
   render () {
@@ -33,7 +35,7 @@ export default React.createClass({
   },
 
   _renderLeftSide () {
-    if (!this._isEventDetail()) {
+    if (!this.props.showEventDetail) {
       return (
         <Text style={styles.navbarText}>
           Events
@@ -52,20 +54,16 @@ export default React.createClass({
     )
   },
 
-  _isEventDetail () {
-    const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return this._isEvents() && currentRoutes.length === 2
-  },
-
-  _isEvents () {
-    const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return currentRoutes[0].name === 'Events'
-  },
-
   _renderSearchButton () {
-    if (this._isEventDetail()) {
-      return <View/>
-    }
+    if (this.props.showEventDetail) return <View/>
     return <NavSearchButton/>
   }
 })
+
+function mapStateToProps (state, ownProps) {
+  return {
+    showEventDetail: state.events.showEventDetail
+  }
+}
+
+export default connect(mapStateToProps)(EventsNavBar)

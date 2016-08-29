@@ -1,16 +1,18 @@
-import React from 'react-native'
+import React, {PropTypes} from 'react-native'
 import {connect} from 'react-redux'
 import EventsView from './EventsView'
 import {createRoute} from '../../appRoutes'
 
 const EventsContainerView = React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object,
-    events: React.PropTypes.array.isRequired,
-    isLoading: React.PropTypes.bool.isRequired,
-    filter: React.PropTypes.string,
-    errorMessage: React.PropTypes.string,
-    resetFilterAndEventSetVisible: React.PropTypes.func.isRequired
+    navigator: PropTypes.object,
+    events: PropTypes.array.isRequired,
+    filter: PropTypes.string,
+    sort: PropTypes.string.isRequired,
+    isLoading: PropTypes.bool.isRequired,
+    showEventDetail: PropTypes.bool.isRequired,
+    errorMessage: PropTypes.string,
+    resetFilterAndEventSetVisible: PropTypes.func.isRequired
   },
 
   render () {
@@ -28,10 +30,10 @@ const EventsContainerView = React.createClass({
 })
 
 function mapStateToProps (state) {
-  // TODO: Sort the events
-  return Object.assign({}, state.events, {
+  return {
+    ...state.events,
     events: filterEvents(state.events)
-  })
+  }
 }
 
 function filterEvents ({events, filter}) {
@@ -52,7 +54,8 @@ function mapDispatchToProps (dispatch) {
         filter: null
       })
       dispatch({
-        type: 'event:toggle:visible'
+        type: 'event:set:show-event-detail',
+        showEventDetail: true
       })
     }
   }

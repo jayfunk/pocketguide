@@ -1,20 +1,19 @@
-import React from 'react-native'
-import styles from '../../styles/EventViewStyles'
-import {GENERAL_FONT} from '../../styles/ColorConstants'
-import { createRoute } from '../../appRoutes'
-
-const {
+import React, {
   View,
   ScrollView,
   Text,
   Image,
-  TouchableHighlight
-} = React
+  TouchableHighlight,
+  PropTypes
+} from 'react-native'
+import styles from '../../styles/EventViewStyles'
+import {GENERAL_FONT} from '../../styles/ColorConstants'
+import { createRoute } from '../../appRoutes'
 
 export default React.createClass({
   propTypes: {
-    event: React.PropTypes.object,
-    navigator: React.PropTypes.object
+    navigator: PropTypes.object,
+    event: PropTypes.object
   },
 
   render: function () {
