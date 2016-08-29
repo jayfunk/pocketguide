@@ -1,8 +1,6 @@
-import React from 'react-native'
+import React, {NetInfo} from 'react-native'
 import Event from '../events/Event'
 import store from 'react-native-simple-store'
-
-const {NetInfo} = React
 
 // TODO: This should all be converted to a action creator and all of the data should be kept in the reducer.
 // None of the data should be stored in here.

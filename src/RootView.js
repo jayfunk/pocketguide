@@ -1,17 +1,16 @@
-import React from 'react-native'
+import React, {
+  View,
+  Navigator,
+  BackAndroid,
+  StyleSheet,
+  PropTypes
+} from 'react-native'
 import {connect} from 'react-redux'
 import appRoutes from './appRoutes'
 import NavBar from './nav/NavBar'
 import TabBar from './tabs/TabBar'
 import {NAV_BAR_SIZE} from './styles/StyleConstants'
 import {CONTENT_BACKGROUND} from './styles/ColorConstants'
-const {
-  View,
-  Navigator,
-  BackAndroid,
-  StyleSheet,
-  PropTypes
-} = React
 
 const styles = StyleSheet.create({
   view: {

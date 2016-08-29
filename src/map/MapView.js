@@ -1,10 +1,9 @@
-import React from 'react-native'
+import React, {
+  StyleSheet,
+  PropTypes
+} from 'react-native'
 import {connect} from 'react-redux'
 import Mapbox from 'react-native-mapbox-gl'
-
-const {
-  StyleSheet
-} = React
 
 const mapRef = 'map'
 
@@ -25,14 +24,14 @@ const MapView = React.createClass({
   mixins: [Mapbox.Mixin],
 
   propTypes: {
-    center: React.PropTypes.object.isRequired,
-    selectedEvent: React.PropTypes.object,
-    filter: React.PropTypes.object.isRequired,
-    errorMessage: React.PropTypes.string,
-    annotations: React.PropTypes.array.isRequired,
-    staticAnnotations: React.PropTypes.array.isRequired,
-    zoomLevel: React.PropTypes.number.isRequired,
-    openAnnotation: React.PropTypes.func.isRequired
+    center: PropTypes.object.isRequired,
+    selectedEvent: PropTypes.object,
+    filter: PropTypes.object.isRequired,
+    errorMessage: PropTypes.string,
+    annotations: PropTypes.array.isRequired,
+    staticAnnotations: PropTypes.array.isRequired,
+    zoomLevel: PropTypes.number.isRequired,
+    openAnnotation: PropTypes.func.isRequired
   },
 
   render () {

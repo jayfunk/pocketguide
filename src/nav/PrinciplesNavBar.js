@@ -1,10 +1,10 @@
+import React, {
+  View,
+  Text,
+  PropTypes
+} from 'react-native'
 import styles from '../styles/NavBarStyles'
 import {PRINCIPLES_THEME} from '../styles/ColorConstants'
-import React from 'react-native'
-const {
-  View,
-  Text
-} = React
 
 const background = {
   backgroundColor: PRINCIPLES_THEME
@@ -12,7 +12,7 @@ const background = {
 
 export default React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object,
+    navigator: PropTypes.object
   },
 
   render () {
@@ -23,8 +23,7 @@ export default React.createClass({
         <View style={[styles.corner, styles.alignLeft]}>
           <Text style={styles.navbarText}>Principles</Text>
         </View>
-        <View style={[styles.corner, styles.alignRight]}>
-        </View>
+        <View style={[styles.corner, styles.alignRight]}/>
       </View>
     )
   }

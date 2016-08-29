@@ -1,14 +1,13 @@
-import React from 'react-native'
+import React, {
+  StyleSheet,
+  View,
+  PropTypes
+} from 'react-native'
 import {connect} from 'react-redux'
 import TabButton from './TabButton'
 import appRoutes from '../appRoutes'
 import {TAB_BACKGROUND} from '../styles/ColorConstants'
 import guid from 'guid'
-const {
-  StyleSheet,
-  View,
-  PropTypes
-} = React
 
 const styles = StyleSheet.create({
   tabs: {

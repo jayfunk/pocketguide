@@ -1,11 +1,9 @@
 'use strict'
 
-import RootViewContainer from './src/RootViewContainer'
-import React from 'react-native'
-
-const {
+import React, {
   AppRegistry
-} = React
+} from 'react-native'
+import RootViewContainer from './src/RootViewContainer'
 
 const pocketguide = React.createClass({
   render () {

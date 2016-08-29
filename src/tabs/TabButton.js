@@ -1,9 +1,9 @@
-import React from 'react-native'
-const {
+import React, {
   Image,
   TouchableHighlight,
-  StyleSheet
-} = React
+  StyleSheet,
+  PropTypes
+} from 'react-native'
 
 const styles = StyleSheet.create({
   tab: {
@@ -15,9 +15,9 @@ const styles = StyleSheet.create({
 
 export default React.createClass({
   propTypes: {
-    onPress: React.PropTypes.func,
-    isActiveTab: React.PropTypes.bool,
-    activeTabColor: React.PropTypes.string
+    onPress: PropTypes.func,
+    isActiveTab: PropTypes.bool,
+    activeTabColor: PropTypes.string
   },
 
   render () {
