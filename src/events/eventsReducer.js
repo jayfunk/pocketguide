@@ -4,7 +4,7 @@ export default function eventsReducer (state = defaultState(), action = {}) {
     case 'data:load:error': return handleDataLoadError(state, action)
     case 'events:filter': return handleEventsFilter(state, action)
     case 'events:sort': return handleEventsSort(state, action)
-    case 'event:toggle:visible': return handleToggleVisible(state, action)
+    case 'event:set:show-event-detail': return handleSetShowEventDetail(state, action)
     default: return state
   }
 }
@@ -15,7 +15,7 @@ function defaultState () {
     events: [],
     filter: null,
     isLoading: false,
-    eventVisible: false,
+    showEventDetail: false,
     errorMessage: null
   }
 }
@@ -46,8 +46,8 @@ function handleEventsSort (state, {sort}) {
   })
 }
 
-function handleToggleVisible (state, action) {
+function handleSetShowEventDetail (state, action) {
   return Object.assign({}, state, {
-    eventVisible: !state.eventVisible
+    showEventDetail: action.showEventDetail
   })
 }

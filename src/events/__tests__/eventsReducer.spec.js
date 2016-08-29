@@ -9,7 +9,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     })
   })
@@ -20,7 +20,7 @@ describe('eventsReducer', () => {
       isLoading: true,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     }
 
@@ -40,7 +40,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     })
   })
@@ -51,7 +51,7 @@ describe('eventsReducer', () => {
       isLoading: true,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     }
 
@@ -65,7 +65,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: 'Thing didnt load'
     })
   })
@@ -76,7 +76,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     }
 
@@ -90,7 +90,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: 'something',
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     })
   })
@@ -101,7 +101,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     }
 
@@ -115,31 +115,33 @@ describe('eventsReducer', () => {
       isLoading: false,
       sort: 'DESC',
       filter: null,
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     })
   })
 
-  it('should handle event:toggle:visible', () => {
+  it('should handle event:set:show-event-detail', () => {
     const state = {
       events: [],
       isLoading: true,
       filter: null,
       sort: 'ASC',
-      eventVisible: false,
+      showEventDetail: false,
       errorMessage: null
     }
 
     const actual = reducer(state, {
-      type: 'event:toggle:visible'
+      type: 'event:set:show-event-detail',
+      showEventDetail: true
     })
 
-    expect(actual.eventVisible).to.be.true
+    expect(actual.showEventDetail).to.be.true
 
     const actual2 = reducer(actual, {
-      type: 'event:toggle:visible'
+      type: 'event:set:show-event-detail',
+      showEventDetail: false
     })
 
-    expect(actual2.eventVisible).to.be.false
+    expect(actual2.showEventDetail).to.be.false
   })
 })
