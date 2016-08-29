@@ -2,7 +2,8 @@ import staticAnnotations from '../data/staticData/staticMapAnnotations'
 
 export default function mapReducer (state = defaultState(), action = {}) {
   switch (action.type) {
-    case 'map:filter:update': return handleMapFilterUpdate(state, action)
+    case 'map:toggle:show-annotations': return handleToggleShowAnnotations(state, action)
+    case 'map:toggle:show-static-annotations': return handleToggleStaticShowAnnotations(state, action)
     case 'data:load:complete': return handleDataLoadComplete(state, action)
     case 'data:load:error': return handleDataLoadError(state, action)
     case 'map:event:selected': return handleEventSelected(state, action)
@@ -30,11 +31,20 @@ function defaultState () {
   }
 }
 
-function handleMapFilterUpdate (state, {showAnnotations, showStaticAnnotations}) {
+function handleToggleShowAnnotations (state) {
   return Object.assign({}, state, {
     filter: {
-      showAnnotations,
-      showStaticAnnotations
+      showAnnotations: !state.filter.showAnnotations,
+      showStaticAnnotations: state.filter.showStaticAnnotations
+    }
+  })
+}
+
+function handleToggleStaticShowAnnotations (state) {
+  return Object.assign({}, state, {
+    filter: {
+      showAnnotations: state.filter.showAnnotations,
+      showStaticAnnotations: !state.filter.showStaticAnnotations
     }
   })
 }

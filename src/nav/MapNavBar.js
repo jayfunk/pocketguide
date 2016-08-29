@@ -39,7 +39,7 @@ const MapNavBar = React.createClass({
         </View>
         <View style={[styles.corner, styles.alignRight, styles.navBarButtons]}>
           <TouchableOpacity
-            onPress={this.props.showStaticAnnotations}
+            onPress={this.props.toggleShowStaticAnnotations}
           >
             {this._renderOpsIcon()}
           </TouchableOpacity>
@@ -70,24 +70,16 @@ function mapStateToProps (state, ownProps) {
   }
 }
 
-function mapDispatchToProps (dispatch, props) {
+function mapDispatchToProps (dispatch, ownProps) {
   return {
     toggleShowAnnotations: () => {
       dispatch({
-        type: 'map:filter:update',
-        filter: {
-          showStaticAnnotations: props.showStaticAnnotations,
-          showAnnotations: !props.showAnnotations
-        }
+        type: 'map:toggle:show-annotations'
       })
     },
     toggleShowStaticAnnotations: () => {
       dispatch({
-        type: 'map:filter:update',
-        filter: {
-          showAnnotations: props.showAnnotations,
-          showStaticAnnotations: !props.showStaticAnnotations
-        }
+        type: 'map:toggle:show-static-annotations'
       })
     }
   }

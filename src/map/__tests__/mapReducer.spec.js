@@ -23,11 +23,9 @@ describe('mapReducer', () => {
     })
   })
 
-  it('should handle map:filter:update', () => {
+  it('should handle map:toggle:show-annotations', () => {
     const actual = reducer(reducer(), {
-      type: 'map:filter:update',
-      showAnnotations: false,
-      showStaticAnnotations: true
+      type: 'map:toggle:show-annotations'
     })
 
     expect(actual.filter).to.eql({
@@ -36,12 +34,20 @@ describe('mapReducer', () => {
     })
 
     const actual2 = reducer(actual, {
-      type: 'map:filter:update',
-      showAnnotations: true,
+      type: 'map:toggle:show-static-annotations',
       showStaticAnnotations: false
     })
 
     expect(actual2.filter).to.eql({
+      showAnnotations: false,
+      showStaticAnnotations: false
+    })
+
+    const actual3 = reducer(actual2, {
+      type: 'map:toggle:show-annotations'
+    })
+
+    expect(actual3.filter).to.eql({
       showAnnotations: true,
       showStaticAnnotations: false
     })
