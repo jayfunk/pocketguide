@@ -9,7 +9,7 @@ import React, {
 import {connect} from 'react-redux'
 import styles from '../../styles/EventViewStyles'
 import {GENERAL_FONT} from '../../styles/ColorConstants'
-import { createRoute } from '../../appRoutes'
+import {createRoute} from '../../appRoutes'
 
 const EventView = React.createClass({
   propTypes: {

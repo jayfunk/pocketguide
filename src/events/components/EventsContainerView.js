@@ -2,7 +2,6 @@ import React, {PropTypes} from 'react-native'
 import {connect} from 'react-redux'
 import EventsView from './EventsView'
 import EventView from './EventView'
-import {createRoute} from '../../appRoutes'
 
 const EventsContainerView = React.createClass({
   propTypes: {
