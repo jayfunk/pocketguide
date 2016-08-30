@@ -6,14 +6,16 @@ import React, {
   TouchableHighlight,
   PropTypes
 } from 'react-native'
+import {connect} from 'react-redux'
 import styles from '../../styles/EventViewStyles'
 import {GENERAL_FONT} from '../../styles/ColorConstants'
 import { createRoute } from '../../appRoutes'
 
-export default React.createClass({
+const EventView = React.createClass({
   propTypes: {
-    navigator: PropTypes.object,
-    event: PropTypes.object
+    navigator: PropTypes.object.isRequired,
+    event: PropTypes.object.isRequired,
+    handleLocatePress: PropTypes.func.isRequired
   },
 
   render: function () {
@@ -61,16 +63,26 @@ export default React.createClass({
 
     return (
       <View>
-        <TouchableHighlight style={styles.locateButton} underlayColor={GENERAL_FONT} onPress={this._handleLocatePress}>
+        <TouchableHighlight style={styles.locateButton} underlayColor={GENERAL_FONT} onPress={this.props.handleLocatePress}>
             <Image source={require('../../../images/events/Locate_Button.png')}/>
         </TouchableHighlight>
         <Text style={styles.locateText}>LOCATE</Text>
       </View>
     )
-  },
-
-  _handleLocatePress () {
-    const mapRoute = createRoute('map', { selectedEvent: this.props.event })
-    this.props.navigator.push(mapRoute)
   }
 })
+
+function mapDispatchToProps (dispatch, ownProps) {
+  return {
+    handleLocatePress: () => {
+      const mapRoute = createRoute('map', { selectedEvent: ownProps.event })
+      ownProps.navigator.push(mapRoute)
+      dispatch({
+        type: 'map:event:selected',
+        selectedEvent: ownProps.event
+      })
+    }
+  }
+}
+
+export default connect(null, mapDispatchToProps)(EventView)
