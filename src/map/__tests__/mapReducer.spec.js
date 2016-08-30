@@ -63,7 +63,7 @@ describe('mapReducer', () => {
       }]
     })
 
-    expect(actual.events).to.eql([{
+    expect(actual.annotations).to.eql([{
       id: 1,
       type: 'point',
       title: 'test',

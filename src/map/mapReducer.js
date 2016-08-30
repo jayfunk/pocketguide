@@ -51,7 +51,7 @@ function handleToggleStaticShowAnnotations (state) {
 
 function handleDataLoadComplete (state, {events}) {
   return Object.assign({}, state, {
-    events: buildEventAnnotations(events)
+    annotations: buildEventAnnotations(events)
   })
 }
 
