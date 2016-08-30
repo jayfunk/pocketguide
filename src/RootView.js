@@ -25,7 +25,12 @@ const styles = StyleSheet.create({
 
 const RootView = React.createClass({
   propTypes: {
+    loadData: PropTypes.func.isRequired,
     changeActiveTab: PropTypes.func.isRequired
+  },
+
+  componentWillMount () {
+    this.props.loadData()
   },
 
   componentDidMount () {
