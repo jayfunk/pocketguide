@@ -43,11 +43,6 @@ const RootView = React.createClass({
     })
   },
 
-  _isOnMainRoute () {
-    const currentRoutes = this.navigator.getCurrentRoutes()
-    return currentRoutes.length === 1 && currentRoutes[0].name === appRoutes.events.name
-  },
-
   render () {
     return (
       <View style={styles.view}>
