@@ -17,6 +17,7 @@ export default React.createClass({
     if (this._isPrinciples()) {
       return <PrinciplesNavBar/>
     }
+    
     return <EventsNavBar
       navigator={this.props.navigator}
     />

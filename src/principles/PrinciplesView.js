@@ -1,12 +1,10 @@
-import React from 'react-native'
-import tenPrinciples from '../../images/principles/Ten_Principles.png'
-import styles from '../styles/PrinciplesViewStyles'
-
-const {
+import React, {
   ScrollView,
   Text,
   Image
-} = React
+} from 'react-native'
+import tenPrinciples from '../../images/principles/Ten_Principles.png'
+import styles from '../styles/PrinciplesViewStyles'
 
 export default React.createClass({
   render () {

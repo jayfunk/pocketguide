@@ -1,12 +1,11 @@
-import React from 'react-native'
-import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
-
-const {
+import React, {
   View,
   ListView,
   Text,
-  TouchableOpacity
-} = React
+  TouchableOpacity,
+  PropTypes
+} from 'react-native'
+import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
 
 const styles = {
   eventView: {
@@ -33,8 +32,8 @@ const styles = {
 
 export default React.createClass({
   propTypes: {
-    events: React.PropTypes.array,
-    onEventPress: React.PropTypes.func
+    events: PropTypes.array.isRequired,
+    onEventPress: PropTypes.func.isRequired
   },
 
   render () {
@@ -47,7 +46,7 @@ export default React.createClass({
   },
 
   _createDataSource () {
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
+    const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
     return ds.cloneWithRows(this._getRows(this.props.events))
   },
 
@@ -72,6 +71,6 @@ export default React.createClass({
   },
 
   _handleEventPress (rowId) {
-    return this.props.onEventPress(this.props.events[rowId])
+    this.props.onEventPress(this.props.events[rowId])
   }
 })

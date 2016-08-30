@@ -1,17 +1,17 @@
-import appRoutes from './nav/appRoutes'
-import DataStore from './data/DataStore'
-import {EventEmitter} from 'events'
-import NavBar from './nav/NavBar'
-import React from 'react-native'
-import TabBar from './nav/TabBar'
-import {NAV_BAR_SIZE} from './styles/StyleConstants'
-import {CONTENT_BACKGROUND} from './styles/ColorConstants'
-const {
+import React, {
   View,
   Navigator,
   BackAndroid,
-  StyleSheet
-} = React
+  StyleSheet,
+  PropTypes
+} from 'react-native'
+import {loadData} from './actionCreators'
+import {connect} from 'react-redux'
+import appRoutes from './appRoutes'
+import NavBar from './nav/NavBar'
+import TabBar from './tabs/TabBar'
+import {NAV_BAR_SIZE} from './styles/StyleConstants'
+import {CONTENT_BACKGROUND} from './styles/ColorConstants'
 
 const styles = StyleSheet.create({
   view: {
@@ -23,27 +23,17 @@ const styles = StyleSheet.create({
   }
 })
 
-export default React.createClass({
-  childContextTypes: {
-    eventChannel: React.PropTypes.object
+const RootView = React.createClass({
+  propTypes: {
+    loadData: PropTypes.func.isRequired,
+    changeActiveTab: PropTypes.func.isRequired
   },
 
-  getInitialState () {
-    const eventChannel = new EventEmitter()
-    return {
-      eventChannel,
-      dataStore: new DataStore(eventChannel)
-    }
-  },
-
-  getChildContext () {
-    return {
-      eventChannel: this.state.eventChannel
-    }
+  componentWillMount () {
+    this.props.loadData()
   },
 
   componentDidMount () {
-    this.state.dataStore.load()
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.navigator && this.navigator.getCurrentRoutes().length > 1) {
         this.navigator.pop()
@@ -51,11 +41,6 @@ export default React.createClass({
       }
       return false
     })
-  },
-
-  _isOnMainRoute () {
-    const currentRoutes = this.navigator.getCurrentRoutes()
-    return currentRoutes.length === 1 && currentRoutes[0].name === appRoutes.events.name
   },
 
   render () {
@@ -76,7 +61,6 @@ export default React.createClass({
             if (route.component) {
               return <route.component
                 navigator={navigator}
-                dataStore={this.state.dataStore}
                 {...route.props}
               />
             }
@@ -93,9 +77,7 @@ export default React.createClass({
   },
 
   _setTabState (route) {
-    if (this.refs.tabBar) {
-      this.refs.tabBar.setActiveTabName(route.name)
-    }
+    this.props.changeActiveTab(route.name)
   },
 
   onTabChange (route) {
@@ -111,3 +93,19 @@ export default React.createClass({
     this.navigator = navigator
   }
 })
+
+function mapDispatchToProps (dispatch, props) {
+  return {
+    loadData: () => {
+      dispatch(loadData())
+    },
+    changeActiveTab: (name) => {
+      dispatch({
+        type: 'tabs:active:update',
+        activeTab: name
+      })
+    }
+  }
+}
+
+export default connect(null, mapDispatchToProps)(RootView)

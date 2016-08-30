@@ -1,11 +1,11 @@
-import React from 'react-native'
-import styles from '../styles/NavBarStyles'
-
-const {
+import React, {
   Image,
   TextInput,
-  TouchableOpacity
-} = React
+  TouchableOpacity,
+  PropTypes
+} from 'react-native'
+import {connect} from 'react-redux'
+import styles from '../styles/NavBarStyles'
 
 const textInput = {
   width: 200,
@@ -18,9 +18,10 @@ const image = {
   marginRight: 10
 }
 
-export default React.createClass({
-  contextTypes: {
-    eventChannel: React.PropTypes.object
+const NavSearchButton = React.createClass({
+  propTypes: {
+    search: PropTypes.func.isRequired,
+    clearSearch: PropTypes.func.isRequired
   },
 
   getInitialState () {
@@ -57,9 +58,7 @@ export default React.createClass({
   },
 
   _clearSearchTerm () {
-    this.context.eventChannel.emit('event:search', {
-      searchTerm: null
-    })
+    this.props.clearSearch()
   },
 
   _resetSearchButton () {
@@ -69,9 +68,7 @@ export default React.createClass({
   },
 
   _handleSearchInput (searchTerm) {
-    this.context.eventChannel.emit('event:search', {
-      searchTerm
-    })
+    this.props.search(searchTerm)
   },
 
   onSearchPress () {
@@ -80,3 +77,22 @@ export default React.createClass({
     })
   }
 })
+
+function mapDispatchToProps (dispatch, props) {
+  return {
+    search: (filter) => {
+      dispatch({
+        type: 'events:filter',
+        filter
+      })
+    },
+    clearSearch: () => {
+      dispatch({
+        type: 'events:filter',
+        filter: null
+      })
+    }
+  }
+}
+
+export default connect(null, mapDispatchToProps)(NavSearchButton)

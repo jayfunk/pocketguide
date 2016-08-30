@@ -3,23 +3,50 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "tape tests/**/*Test.js",
-    "build-map-data": "node scripts/exportKMLToAnnotations.js",
-    "build-android": "cd android && ./gradlew assembleRelease && cd ../",
-    "install-release-android": "cd android && ./gradlew installRelease && cd ../"
+    "test": "mocha",
+    "build:map-data": "node scripts/exportKMLToAnnotations.js",
+    "build:android": "cd android && ./gradlew assembleRelease && cd ../",
+    "install:release-android": "cd android && ./gradlew installRelease && cd ../",
+    "clean:android": "cd android && ./gradlew clean && cd ../",
+    "start": "react-native run-android",
+    "reset:react-native": "react-native start --reset-cache"
   },
   "dependencies": {
     "events": "^1.1.0",
     "react": "^0.14.7",
     "react-native": "^0.22.0",
     "react-native-mapbox-gl": "^4.1.0",
-    "react-native-simple-store": "^0.1.0"
+    "react-native-simple-store": "^0.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.12.0",
     "jsdom": "^8.3.1",
+    "mocha": "^2.5.3",
     "node-uuid": "^1.4.7",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
     "standard": "^5.4.1",
-    "tape": "^4.4.0",
     "togeojson": "^0.13.0"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
   }
 }
