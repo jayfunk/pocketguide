@@ -5,6 +5,7 @@ import React, {
   StyleSheet,
   PropTypes
 } from 'react-native'
+import {loadData} from './actionCreators'
 import {connect} from 'react-redux'
 import appRoutes from './appRoutes'
 import NavBar from './nav/NavBar'
@@ -95,6 +96,9 @@ const RootView = React.createClass({
 
 function mapDispatchToProps (dispatch, props) {
   return {
+    loadData: () => {
+      dispatch(loadData())
+    },
     changeActiveTab: (name) => {
       dispatch({
         type: 'tabs:active:update',

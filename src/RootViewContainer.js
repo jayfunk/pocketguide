@@ -5,6 +5,8 @@ import thunk from 'redux-thunk'
 import RootView from './RootView'
 import reducers from './reducers'
 import createLogger from 'redux-logger'
+import {NetInfo} from 'react-native'
+import store from 'react-native-simple-store'
 
 const logger = createLogger()
 
@@ -14,7 +16,7 @@ export default React.createClass({
       store: createStore(
         reducers,
         applyMiddleware(
-          thunk,
+          thunk.withExtraArgument({netInfo: NetInfo, diskStore: store}),
           logger
         )
       )
