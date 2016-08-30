@@ -39,10 +39,7 @@ function loadFromDisk (dispatch, diskStore) {
   return diskStore
     .get(LAST_DATA)
     .then(data => {
-      dispatch({
-        type: 'data:load:complete',
-        events: data.events
-      })
+      loadComplete(dispatch, data)
     })
     .catch(error => {
       dispatch({
@@ -50,6 +47,13 @@ function loadFromDisk (dispatch, diskStore) {
         errorMessage: `Unable to load data from disk. ${error}`
       })
     })
+}
+
+function loadComplete (dispatch, data) {
+  dispatch({
+    type: 'data:load:complete',
+    events: data.events
+  })
 }
 
 function fetchData (dispatch, diskStore, lastModified) {
@@ -73,10 +77,7 @@ function fetchData (dispatch, diskStore, lastModified) {
   }).then(data => {
     if (data) {
       writeToDisk(data, diskStore)
-      dispatch({
-        type: 'data:load:complete',
-        events: data.events
-      })
+      loadComplete(dispatch, data)
     }
   }).catch(error => {
     console.error(error)
