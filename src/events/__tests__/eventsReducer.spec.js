@@ -34,20 +34,19 @@ describe('eventsReducer', () => {
 
     const event = {
       id: 1,
-      eventName: 'D20 Adventuring ',
-      startTime: '5:11:00 PM ',
-      endTime: '7:11:00 PM ',
-      whoAreYou: 'Wagon Drunk',
-      location: 'Margaritaville: D20 ',
+      name: 'D20 Adventuring',
+      startTime: '5:11:00 PM',
+      endTime: '7:11:00 PM',
       dateOfEvent: '4/29/2016',
+      location: 'Margaritaville: D20',
+      description: 'Come for a silly adventure as our fates are controlled by a giant inflatable D20 as master minded by a Wagon Drunk Christine.',
+      shortDescription: 'Come for a silly adventure as our fates are controlled by a giant infl...',
+      coordinates: [33.376888, -83.336285],
+      latitude: 33.376888,
+      longitude: -83.336285,
+      hasCoordinates: true,
       intendedAges: 'All Ages',
-      themeCampName: 'Margaritaville:D20',
-      whatsYourEmail: 'redacted@gmail.com',
-      eventDescription: 'Come for a silly adventure as our fates are controlled by a giant inflatable D20 as master minded by a Wagon Drunk Christine. ',
-      locationLatitude: '33.376888 ',
-      locationLongitude: '-83.336285',
-      whatTypeOfEventIsThis: 'Adventure',
-      timestamp: '4/8/2016 17:28:11'
+      themeCampName: 'Margaritaville:D20'
     }
 
     const actual = reducer(state, {
@@ -56,22 +55,7 @@ describe('eventsReducer', () => {
     })
 
     expect(actual).to.eql({
-      events: [{
-        id: 1,
-        name: 'D20 Adventuring',
-        startTime: '5:11:00 PM',
-        endTime: '7:11:00 PM',
-        dateOfEvent: '4/29/2016',
-        location: 'Margaritaville: D20',
-        description: 'Come for a silly adventure as our fates are controlled by a giant inflatable D20 as master minded by a Wagon Drunk Christine.',
-        shortDescription: 'Come for a silly adventure as our fates are controlled by a giant infl...',
-        coordinates: [33.376888, -83.336285],
-        latitude: 33.376888,
-        longitude: -83.336285,
-        hasCoordinates: true,
-        intendedAges: 'All Ages',
-        themeCampName: 'Margaritaville:D20'
-      }],
+      events: [event],
       isLoading: false,
       filter: null,
       sort: 'ASC',

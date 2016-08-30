@@ -57,7 +57,7 @@ export default React.createClass({
   },
 
   _renderLocateButton () {
-    if (!this.props.event.hasCoordinates()) return
+    if (!this.props.event.hasCoordinates) return
 
     return (
       <View>

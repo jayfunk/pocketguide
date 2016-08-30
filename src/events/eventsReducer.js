@@ -1,5 +1,3 @@
-import transformEvents from './transformEvents'
-
 export default function eventsReducer (state = defaultState(), action = {}) {
   switch (action.type) {
     case 'data:load': return handleDataLoad(state, action)
@@ -32,7 +30,7 @@ function handleDataLoad (state) {
 
 function handleDataLoadComplete (state, {events}) {
   return Object.assign({}, state, {
-    events: transformEvents(events),
+    events,
     isLoading: false
   })
 }
