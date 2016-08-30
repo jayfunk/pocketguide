@@ -1,3 +1,6 @@
-import chai from 'chai';
+import chai from 'chai'
+import sinonChai from 'sinon-chai'
 
-global.expect = chai.expect;
+chai.use(sinonChai)
+
+global.expect = chai.expect
