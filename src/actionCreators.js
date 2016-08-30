@@ -1,6 +1,13 @@
-// android local url: http://10.0.2.2:3000/api
-// ios local url: http://localhost:3000/api
-// heroku url: http://pocketguide-web-server.herokuapp.com/api/mobile
+// android emulator url:
+// const URL = 'http://10.0.2.2:3000/api/mobile'
+
+//genymotion emulator url:
+// const URL = 'http://10.0.3.2:3000/api/mobile'
+
+// ios local url:
+// const URL = 'http://10.0.2.2:3000/api/mobile'
+
+// heroku url:
 const URL = 'http://pocketguide-web-server.herokuapp.com/api/mobile'
 
 const LAST_DATA = 'LAST_DATA'
