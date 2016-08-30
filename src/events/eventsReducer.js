@@ -1,5 +1,6 @@
 export default function eventsReducer (state = defaultState(), action = {}) {
   switch (action.type) {
+    case 'data:load': return handleDataLoad(state, action)
     case 'data:load:complete': return handleDataLoadComplete(state, action)
     case 'data:load:error': return handleDataLoadError(state, action)
     case 'events:filter': return handleEventsFilter(state, action)
@@ -17,6 +18,13 @@ function defaultState () {
     isLoading: false,
     showEventDetail: false,
     errorMessage: null
+  }
+}
+
+function handleDataLoad (state) {
+  return {
+    ...state,
+    isLoading: true
   }
 }
 

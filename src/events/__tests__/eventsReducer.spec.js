@@ -14,6 +14,14 @@ describe('eventsReducer', () => {
     })
   })
 
+  it('should handle data:load', () => {
+    const actual = reducer(reducer(), {
+      type: 'data:load'
+    })
+
+    expect(actual.isLoading).to.be.true
+  })
+
   it('should handle data:load:complete', () => {
     const state = {
       events: [],
