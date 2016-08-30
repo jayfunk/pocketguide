@@ -36,7 +36,8 @@ function handleToggleShowAnnotations (state) {
     filter: {
       showAnnotations: !state.filter.showAnnotations,
       showStaticAnnotations: state.filter.showStaticAnnotations
-    }
+    },
+    selectedEvent: null
   })
 }
 
@@ -45,7 +46,8 @@ function handleToggleStaticShowAnnotations (state) {
     filter: {
       showAnnotations: state.filter.showAnnotations,
       showStaticAnnotations: !state.filter.showStaticAnnotations
-    }
+    },
+    selectedEvent: null
   })
 }
 
@@ -81,7 +83,11 @@ function handleDataLoadError (state, {errorMessage}) {
 
 function handleEventSelected (state, {selectedEvent}) {
   return Object.assign({}, state, {
-    selectedEvent
+    selectedEvent,
+    filter: {
+      showAnnotations: false,
+      showStaticAnnotations: false
+    }
   })
 }
 

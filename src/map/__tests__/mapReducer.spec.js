@@ -34,8 +34,7 @@ describe('mapReducer', () => {
     })
 
     const actual2 = reducer(actual, {
-      type: 'map:toggle:show-static-annotations',
-      showStaticAnnotations: false
+      type: 'map:toggle:show-static-annotations'
     })
 
     expect(actual2.filter).to.eql({
@@ -51,6 +50,28 @@ describe('mapReducer', () => {
       showAnnotations: true,
       showStaticAnnotations: false
     })
+  })
+
+  it('should handle clear selectedEvent when filters are changed', () => {
+    const state = {
+      filter: {
+        showAnnotations: false,
+        showStaticAnnotations: false
+      },
+      selectedEvent: {}
+    }
+
+    const actual = reducer(state, {
+      type: 'map:toggle:show-annotations'
+    })
+
+    expect(actual.selectedEvent).to.not.exist
+
+    const actual2 = reducer(state, {
+      type: 'map:toggle:show-static-annotations'
+    })
+
+    expect(actual2.selectedEvent).to.not.exist
   })
 
   it('should handle data:load:complete', () => {
@@ -96,6 +117,8 @@ describe('mapReducer', () => {
     expect(actual.selectedEvent).to.eql({
       id: 1
     })
+    expect(actual.filter.showAnnotations).to.be.false
+    expect(actual.filter.showStaticAnnotations).to.be.false
   })
 
   it('should handle map:annotation:selected', () => {
