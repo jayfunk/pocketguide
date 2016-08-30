@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react-native'
 import {connect} from 'react-redux'
 import EventsView from './EventsView'
+import EventView from './EventView'
 import {createRoute} from '../../appRoutes'
 
 const EventsContainerView = React.createClass({
@@ -10,22 +11,22 @@ const EventsContainerView = React.createClass({
     filter: PropTypes.string,
     sort: PropTypes.string.isRequired,
     isLoading: PropTypes.bool.isRequired,
-    showEventDetail: PropTypes.bool.isRequired,
+    selectedEvent: PropTypes.object,
     errorMessage: PropTypes.string,
-    resetFilterAndEventSetVisible: PropTypes.func.isRequired
+    handleEventPress: PropTypes.func.isRequired
   },
 
   render () {
+    if (this.props.selectedEvent) {
+      return <EventView
+        navigator={this.props.navigator}
+        event={this.props.selectedEvent}
+      />
+    }
     return <EventsView
       events = {this.props.events}
-      onEventPress = {this._handleEventPress}
+      onEventPress = {this.props.handleEventPress}
     />
-  },
-
-  _handleEventPress (selectedEvent) {
-    this.props.resetFilterAndEventSetVisible()
-    const eventRoute = createRoute('event', {event: selectedEvent})
-    this.props.navigator.push(eventRoute)
   }
 })
 
@@ -46,16 +47,12 @@ function filterEvents ({events, filter}) {
   })
 }
 
-function mapDispatchToProps (dispatch) {
+function mapDispatchToProps (dispatch, ownProps) {
   return {
-    resetFilterAndEventSetVisible: () => {
+    handleEventPress: (selectedEvent) => {
       dispatch({
-        type: 'events:filter',
-        filter: null
-      })
-      dispatch({
-        type: 'event:set:show-event-detail',
-        showEventDetail: true
+        type: 'event:selected',
+        selectedEvent
       })
     }
   }

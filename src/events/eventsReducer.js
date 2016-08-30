@@ -5,7 +5,7 @@ export default function eventsReducer (state = defaultState(), action = {}) {
     case 'data:load:error': return handleDataLoadError(state, action)
     case 'events:filter': return handleEventsFilter(state, action)
     case 'events:sort': return handleEventsSort(state, action)
-    case 'event:set:show-event-detail': return handleSetShowEventDetail(state, action)
+    case 'event:selected': return handleEventSelected(state, action)
     default: return state
   }
 }
@@ -16,7 +16,7 @@ function defaultState () {
     events: [],
     filter: null,
     isLoading: false,
-    showEventDetail: false,
+    selectedEvent: null,
     errorMessage: null
   }
 }
@@ -54,8 +54,9 @@ function handleEventsSort (state, {sort}) {
   })
 }
 
-function handleSetShowEventDetail (state, action) {
+function handleEventSelected (state, action) {
   return Object.assign({}, state, {
-    showEventDetail: action.showEventDetail
+    filter: null,
+    selectedEvent: action.selectedEvent
   })
 }

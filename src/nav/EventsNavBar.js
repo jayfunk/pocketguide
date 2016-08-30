@@ -63,7 +63,7 @@ const EventsNavBar = React.createClass({
 
 function mapStateToProps (state, ownProps) {
   return {
-    showEventDetail: state.events.showEventDetail
+    showEventDetail: !!state.events.selectedEvent
   }
 }
 
@@ -72,8 +72,8 @@ function mapDispatchToProps (dispatch, ownProps) {
     hideEventDetail: () => {
       ownProps.navigator.pop()
       dispatch({
-        type: 'event:set:show-event-detail',
-        showEventDetail: false
+        type: 'event:selected',
+        selectedEvent: null
       })
     }
   }

@@ -9,7 +9,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     })
   })
@@ -28,7 +28,7 @@ describe('eventsReducer', () => {
       isLoading: true,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     }
 
@@ -59,7 +59,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     })
   })
@@ -70,7 +70,7 @@ describe('eventsReducer', () => {
       isLoading: true,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     }
 
@@ -84,7 +84,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: 'Thing didnt load'
     })
   })
@@ -95,7 +95,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     }
 
@@ -109,7 +109,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: 'something',
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     })
   })
@@ -120,7 +120,7 @@ describe('eventsReducer', () => {
       isLoading: false,
       filter: null,
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     }
 
@@ -134,33 +134,27 @@ describe('eventsReducer', () => {
       isLoading: false,
       sort: 'DESC',
       filter: null,
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     })
   })
 
-  it('should handle event:set:show-event-detail', () => {
+  it('should handle event:selected', () => {
     const state = {
       events: [],
       isLoading: true,
-      filter: null,
+      filter: 'something',
       sort: 'ASC',
-      showEventDetail: false,
+      selectedEvent: null,
       errorMessage: null
     }
 
     const actual = reducer(state, {
-      type: 'event:set:show-event-detail',
-      showEventDetail: true
+      type: 'event:selected',
+      selectedEvent: {}
     })
 
-    expect(actual.showEventDetail).to.be.true
-
-    const actual2 = reducer(actual, {
-      type: 'event:set:show-event-detail',
-      showEventDetail: false
-    })
-
-    expect(actual2.showEventDetail).to.be.false
+    expect(actual.selectedEvent).to.eql({})
+    expect(actual.filter).to.not.exist
   })
 })
