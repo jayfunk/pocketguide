@@ -16,7 +16,8 @@ const background = {
 const EventsNavBar = React.createClass({
   propTypes: {
     navigator: PropTypes.object,
-    showEventDetail: PropTypes.bool.isRequired
+    showEventDetail: PropTypes.bool.isRequired,
+    hideEventDetail: PropTypes.func.isRequired
   },
 
   render () {
@@ -45,7 +46,7 @@ const EventsNavBar = React.createClass({
 
     return (
       <TouchableOpacity
-        onPress={() => this.props.navigator.pop()}
+        onPress={this.props.hideEventDetail}
       >
         <Text style={styles.navbarText}>
           Back
@@ -66,4 +67,16 @@ function mapStateToProps (state, ownProps) {
   }
 }
 
-export default connect(mapStateToProps)(EventsNavBar)
+function mapDispatchToProps (dispatch, ownProps) {
+  return {
+    hideEventDetail: () => {
+      ownProps.navigator.pop()
+      dispatch({
+        type: 'event:set:show-event-detail',
+        showEventDetail: false
+      })
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(EventsNavBar)
