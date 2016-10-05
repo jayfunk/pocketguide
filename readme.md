@@ -11,7 +11,7 @@ Clone the repo
 
 `npm install`
 
-React Native requires the basic setup explained at React Native Getting Started.
+React Native requires the basic setup explained at [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started.html).
 
 After installing these dependencies there are two simple commands to get a React Native project all set up for development.
 
