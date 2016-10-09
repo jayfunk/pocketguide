@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native'
-import {GENERAL_FONT} from '../styles/ColorConstants'
+import {GENERAL_FONT, ERROR_FONT} from '../styles/ColorConstants'
 
 const styles = StyleSheet.create({
   logoImage: {
@@ -10,13 +10,12 @@ const styles = StyleSheet.create({
     marginBottom: 50
   },
   eventName: {
-    flex: 1,
     alignSelf: 'center',
     color: GENERAL_FONT,
-    marginBottom: 15
+    marginBottom: 20
   },
   eventDesc: {
-    flex: 1,
+    alignSelf: 'center',
     color: GENERAL_FONT
   },
   times: {
@@ -32,6 +31,17 @@ const styles = StyleSheet.create({
   locateText: {
     textAlign: 'center',
     color: GENERAL_FONT
+  },
+  errorMessage: {
+    textAlign: 'center',
+    color: ERROR_FONT
+  },
+  loadingIndicator: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0
   }
 })
 

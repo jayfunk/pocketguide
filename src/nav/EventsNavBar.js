@@ -1,9 +1,5 @@
-import React, {
-  View,
-  Text,
-  TouchableOpacity,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {View, Text, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
 import NavSearchButton from './NavSearchButton'
 import {EVENTS_THEME} from '../styles/ColorConstants'

@@ -45,6 +45,10 @@ Open /Users/jfunk/projects/pocketguide/ios/pocketguide.xcodeproj in Xcode
 
 Hit the Run button
 
+###Annotations
+
+Generally annotations are exported from a google map or some other format. KML formatted annotations from google maps is the preferred starting format. Currently, annotations are broken up into different catagories for simplicity when managing. Once you have split all of the KML annotaitons into their separate categories KML file use the `npm run map-data:build` command to transform the KML annotations into `react-native-mapbox-gl` compatible annotations. You will need to manually configure the annotaitonImage for annotaitons of different types.
+
 ##License
 
 © 2016 [Tyler Cook](https://github.com/jayfunk)

@@ -1,8 +1,5 @@
-import React, {
-  ScrollView,
-  Text,
-  Image
-} from 'react-native'
+import React from 'react'
+import {ScrollView, Text, Image} from 'react-native'
 import tenPrinciples from '../../images/principles/Ten_Principles.png'
 import styles from '../styles/PrinciplesViewStyles'
 
@@ -12,13 +9,13 @@ export default React.createClass({
       <ScrollView>
         <Image style={styles.tenImage} source={tenPrinciples}/>
         <Text style={styles.sectionHeader}>Radical Inclusion</Text>
-        <Text style={styles.sectionDefinition}>Anyone may be a part of Euphoria. We welcome and respect the stranger. No prerequisites exist for participation in our community.</Text>
+        <Text style={styles.sectionDefinition}>Anyone may be a part of Alchemy. We welcome and respect the stranger. No prerequisites exist for participation in our community.</Text>
         <Text style={styles.sectionHeader}>Gifting</Text>
-        <Text style={styles.sectionDefinition}>Euphoria is devoted to acts of gift giving. The value of a gift is unconditional. Gifting does not contemplate a return or an exchange for something of equal value.</Text>
+        <Text style={styles.sectionDefinition}>Alchemy is devoted to acts of gift giving. The value of a gift is unconditional. Gifting does not contemplate a return or an exchange for something of equal value.</Text>
         <Text style={styles.sectionHeader}>Decommodification</Text>
         <Text style={styles.sectionDefinition}>In order to preserve the spirit of gifting, our community seeks to create social environments that are unmediated by commercial sponsorships, transactions, or advertising. We stand ready to protect our culture from such exploitation. We resist the substitution of consumption for participatory experience.</Text>
         <Text style={styles.sectionHeader}>Radical Self-reliance</Text>
-        <Text style={styles.sectionDefinition}>Euphoria encourages the individual to discover, exercise and rely on his or her inner resources.</Text>
+        <Text style={styles.sectionDefinition}>Alchemy encourages the individual to discover, exercise and rely on his or her inner resources.</Text>
         <Text style={styles.sectionHeader}>Radical Self-expression</Text>
         <Text style={styles.sectionDefinition}>Radical self-expression arises from the unique gifts of the individual. No one other than the individual or a collaborating group can determine its content. It is offered as a gift to others. In this spirit, the giver should respect the rights and liberties of the recipient.</Text>
         <Text style={styles.sectionHeader}>Communal Effort</Text>

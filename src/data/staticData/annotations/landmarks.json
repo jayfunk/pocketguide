@@ -1,30 +1,745 @@
 [
   {
-    "id": "ecd3daed-0d29-4f08-8d22-446fec54cc57",
-    "title": "Effigy",
+    "id": "efd11ce3-9f4c-4219-9adc-c9c1432c1e63",
     "coordinates": [
-      33.3792983,
-      -83.3394634
+      33.4822343,
+      -85.2694443
     ],
     "type": "point",
+    "title": "Center Stage\n",
     "annotationImage": {
-      "url": "image!effigy_pin",
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "12e9fb8d-5cca-480c-88ed-95d776e82cd5",
+    "coordinates": [
+      33.4829814,
+      -85.2714533
+    ],
+    "type": "point",
+    "title": "Stage @ Elevation Station\n",
+    "subtitle": "Contact email: theartofnova@gmail.comWe also plan to have day time workshops and are looking for more who are interested in teaching subjects along the line of yoga, mediation, nutrition, consciousness, reality, controlling ones mind, etcHowever, at night we plan to keep beautiful acts going as long as we can find them.]]>",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "b13f138a-3c26-4a66-a28d-aa4e9f59bde8",
+    "coordinates": [
+      33.4795944,
+      -85.2691425
+    ],
+    "type": "point",
+    "title": "Stage @ The Rubáiyát\n",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "6c8a6165-bc49-49fa-b932-ba00196523e3",
+    "coordinates": [
+      33.4818662,
+      -85.267261
+    ],
+    "type": "point",
+    "title": "Ye Olde Theatre\n",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "d033fe88-aae5-440e-967e-4bb67b31deae",
+    "coordinates": [
+      33.4824759,
+      -85.2696508
+    ],
+    "type": "point",
+    "title": "APW, Rangers, LNT\n",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "dca45594-8f76-4f60-bc1e-e4708a7ebc70",
+    "coordinates": [
+      [
+        33.4826269,
+        -85.2696991
+      ],
+      [
+        33.4826302,
+        -85.2696522
+      ],
+      [
+        33.4826716,
+        -85.2696012
+      ],
+      [
+        33.4830139,
+        -85.2697742
+      ],
+      [
+        33.4829803,
+        -85.2698748
+      ],
+      [
+        33.4826269,
+        -85.2696991
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "2f4c8fc7-03a2-4f65-9b6d-57be0b50097e",
+    "coordinates": [
+      [
+        33.4820866,
+        -85.2677839
+      ],
+      [
+        33.4821268,
+        -85.2678845
+      ],
+      [
+        33.482062,
+        -85.2679611
+      ],
+      [
+        33.4819893,
+        -85.2680307
+      ],
+      [
+        33.4819244,
+        -85.2679396
+      ],
+      [
+        33.4818785,
+        -85.2678617
+      ],
+      [
+        33.4819565,
+        -85.2677752
+      ],
+      [
+        33.4820278,
+        -85.2677021
+      ],
+      [
+        33.4820866,
+        -85.2677839
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "cb0c2aa2-6565-4228-a200-73c0e861644a",
+    "coordinates": [
+      [
+        33.4809088,
+        -85.2697662
+      ],
+      [
+        33.4808472,
+        -85.2697541
+      ],
+      [
+        33.480779,
+        -85.2697608
+      ],
+      [
+        33.4807298,
+        -85.269687
+      ],
+      [
+        33.48076,
+        -85.2695422
+      ],
+      [
+        33.4808439,
+        -85.2695315
+      ],
+      [
+        33.4808886,
+        -85.269561
+      ],
+      [
+        33.480902,
+        -85.2696468
+      ],
+      [
+        33.4808998,
+        -85.2697098
+      ],
+      [
+        33.4809088,
+        -85.2697662
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "a9d026cb-2f72-482d-af2f-d81ef67a75db",
+    "coordinates": [
+      [
+        33.4783841,
+        -85.2711998
+      ],
+      [
+        33.4783528,
+        -85.2712025
+      ],
+      [
+        33.4783528,
+        -85.2711327
+      ],
+      [
+        33.4783841,
+        -85.2711341
+      ],
+      [
+        33.4783841,
+        -85.2711998
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "22d9ac1b-e304-4d15-b7ad-b45ae76315ee",
+    "coordinates": [
+      [
+        33.4823584,
+        -85.2694524
+      ],
+      [
+        33.4823024,
+        -85.2695931
+      ],
+      [
+        33.4820631,
+        -85.2694349
+      ],
+      [
+        33.4821458,
+        -85.2692727
+      ],
+      [
+        33.4822857,
+        -85.2693652
+      ],
+      [
+        33.4823584,
+        -85.2694524
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "b8c6fbec-888a-402d-9493-f28284f2adc6",
+    "coordinates": [
+      33.482118,
+      -85.2693666
+    ],
+    "type": "point",
+    "title": "Connexus",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "c2ef4530-27ce-4c43-a43f-eedf81b6906c",
+    "coordinates": [
+      33.4786906,
+      -85.2708001
+    ],
+    "type": "point",
+    "title": "Effigy",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "ca764b4c-2e9d-438d-9c01-3f628ad3a104",
+    "coordinates": [
+      [
+        33.4783919,
+        -85.2710456
+      ],
+      [
+        33.4783908,
+        -85.2710268
+      ],
+      [
+        33.4783807,
+        -85.2707063
+      ],
+      [
+        33.4783796,
+        -85.2703938
+      ],
+      [
+        33.4784601,
+        -85.2702677
+      ],
+      [
+        33.478675,
+        -85.2701457
+      ],
+      [
+        33.4789042,
+        -85.2702074
+      ],
+      [
+        33.4790374,
+        -85.2703535
+      ],
+      [
+        33.4790686,
+        -85.2705105
+      ],
+      [
+        33.4790955,
+        -85.2707438
+      ],
+      [
+        33.4790507,
+        -85.2709812
+      ],
+      [
+        33.4789803,
+        -85.2711046
+      ],
+      [
+        33.4788472,
+        -85.2712146
+      ],
+      [
+        33.4786861,
+        -85.2711918
+      ],
+      [
+        33.4785105,
+        -85.2711596
+      ],
+      [
+        33.4783919,
+        -85.2710456
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "a7bf4324-9a29-4bd6-a3c3-aca9df454016",
+    "coordinates": [
+      33.4795083,
+      -85.2681327
+    ],
+    "type": "point",
+    "title": "Gate",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "a83b184d-62be-450d-8f2f-bc4184d32bd4",
+    "coordinates": [
+      33.4795909,
+      -85.2688287
+    ],
+    "type": "point",
+    "title": "Greeters/Education\n",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "3f54b8f5-f1ea-4a51-aea9-d1a0c2c692b4",
+    "coordinates": [
+      [
+        33.4819423,
+        -85.269337
+      ],
+      [
+        33.4819211,
+        -85.269325
+      ],
+      [
+        33.4819345,
+        -85.2692887
+      ],
+      [
+        33.4819546,
+        -85.2692887
+      ],
+      [
+        33.4819423,
+        -85.269337
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "1cc5ad76-4c6c-4b4a-813a-95892ded904b",
+    "coordinates": [
+      33.4806291,
+      -85.2693276
+    ],
+    "type": "point",
+    "title": "Lamplighters",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "607d232d-f3e9-4764-a0b3-6a2b2a879747",
+    "coordinates": [
+      33.4786973,
+      -85.2713621
+    ],
+    "type": "point",
+    "title": "Security Station\n",
+    "annotationImage": {
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
+    }
+  },
+  {
+    "id": "965b5d3f-7122-4676-92aa-d7484bce6bb4",
+    "coordinates": [
+      33.4789131,
+      -85.2706204
+    ],
+    "type": "point",
+    "title": "Steffigy",
+    "annotationImage": {
+      "source": {"uri": "effigy_pin"},
+      "height": 44,
+      "width": 44
+    }
+  },
+  {
+    "id": "1485b0e2-82b6-4a9f-a428-746adba97098",
+    "coordinates": [
+      [
+        33.4785228,
+        -85.2696159
+      ],
+      [
+        33.4784601,
+        -85.2702677
+      ],
+      [
+        33.4783684,
+        -85.2703308
+      ],
+      [
+        33.4783841,
+        -85.2696186
+      ],
+      [
+        33.4783931,
+        -85.2685833
+      ],
+      [
+        33.4789456,
+        -85.2686343
+      ],
+      [
+        33.4786134,
+        -85.2689749
+      ],
+      [
+        33.4785228,
+        -85.2696159
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "6657d026-afb8-469a-93b2-b80cdc6dddf2",
+    "coordinates": [
+      33.4786861,
+      -85.2704716
+    ],
+    "type": "point",
+    "title": "Temple",
+    "annotationImage": {
+      "source": {"uri": "temple_pin"},
       "width": 44,
       "height": 44
     }
   },
   {
-    "id": "7e09788e-c103-488c-9b91-fd86d7aff0a4",
-    "title": "Temple",
+    "id": "d85c4cb0-82d8-4527-aebd-812411ab0a04",
     "coordinates": [
-      33.3788705,
-      -83.3340481
+      33.48022,
+      -85.26805999999999
     ],
     "type": "point",
+    "title": "Tranquility Base\n",
     "annotationImage": {
-      "url": "image!temple_pin",
-      "width": 44,
-      "height": 44
+      "source": {"uri": "pin"},
+      "height": 70,
+      "width": 30
     }
+  },
+  {
+    "id": "cd0f1200-f471-48b0-b3f4-209c2aefd546",
+    "coordinates": [
+      [
+        33.4819401,
+        -85.2690956
+      ],
+      [
+        33.4819457,
+        -85.2690702
+      ],
+      [
+        33.4820306,
+        -85.2691238
+      ],
+      [
+        33.4820229,
+        -85.2691466
+      ],
+      [
+        33.4819401,
+        -85.2690956
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "3ed8bc7f-1a5f-4542-9ea9-c1c0b04aebff",
+    "coordinates": [
+      [
+        33.4813304,
+        -85.2689186
+      ],
+      [
+        33.481213,
+        -85.268893
+      ],
+      [
+        33.4813003,
+        -85.2687872
+      ],
+      [
+        33.4813304,
+        -85.2689186
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "7b930b20-8f7b-454e-8ba0-a637dffdcdba",
+    "coordinates": [
+      [
+        33.4818462,
+        -85.2682132
+      ],
+      [
+        33.481826,
+        -85.2681878
+      ],
+      [
+        33.4819434,
+        -85.2680281
+      ],
+      [
+        33.4819625,
+        -85.2680428
+      ],
+      [
+        33.4818462,
+        -85.2682132
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "5a17978c-644a-48f7-ac4c-0bb80a67009c",
+    "coordinates": [
+      [
+        33.4812018,
+        -85.2701939
+      ],
+      [
+        33.4811414,
+        -85.2701081
+      ],
+      [
+        33.4811682,
+        -85.270092
+      ],
+      [
+        33.481222,
+        -85.2701725
+      ],
+      [
+        33.4812018,
+        -85.2701939
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "c70ff343-48b5-4780-b510-91677b60d7d8",
+    "coordinates": [
+      [
+        33.4799176,
+        -85.2692713
+      ],
+      [
+        33.4799289,
+        -85.2692444
+      ],
+      [
+        33.4800262,
+        -85.2692794
+      ],
+      [
+        33.4800217,
+        -85.2693102
+      ],
+      [
+        33.4799176,
+        -85.2692713
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "f6f29cd0-2360-4462-974c-1229e4f7b698",
+    "coordinates": [
+      [
+        33.4783874,
+        -85.2701041
+      ],
+      [
+        33.4784221,
+        -85.2700974
+      ],
+      [
+        33.478421,
+        -85.2703147
+      ],
+      [
+        33.4783807,
+        -85.2703187
+      ],
+      [
+        33.4783874,
+        -85.2701041
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
+  },
+  {
+    "id": "539fe2f8-c406-47c4-bdc7-cdb3576a5a08",
+    "coordinates": [
+      [
+        33.4800295,
+        -85.2693544
+      ],
+      [
+        33.4800116,
+        -85.2693947
+      ],
+      [
+        33.4799457,
+        -85.2693625
+      ],
+      [
+        33.4799535,
+        -85.2693222
+      ],
+      [
+        33.4800295,
+        -85.2693544
+      ]
+    ],
+    "type": "polygon",
+    "strokeWidth": 5,
+    "strokeAlpha": 0.5,
+    "fillColor": "#0E3453",
+    "fillAlpha": 0.5
   }
 ]

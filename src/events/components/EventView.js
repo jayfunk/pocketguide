@@ -1,11 +1,5 @@
-import React, {
-  View,
-  ScrollView,
-  Text,
-  Image,
-  TouchableHighlight,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {View, ScrollView, Text, Image, TouchableHighlight} from 'react-native'
 import {connect} from 'react-redux'
 import styles from '../../styles/EventViewStyles'
 import {GENERAL_FONT} from '../../styles/ColorConstants'

@@ -1,430 +1,126 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>Roads</name>
-		<Placemark>
-			<name>Ingress Road</name>
-			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3374465,33.387808,0.0 -83.3373955,33.3875269,0.0 -83.3372855,33.3872951,0.0 -83.33702800000002,33.3868225,0.0 -83.337425,33.3861059,0.0 -83.3372855,33.3853981,0.0 -83.33757250000001,33.3847273,0.0 -83.3377737,33.3840252,0.0 -83.3380285,33.3835572,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Path to the L</name>
-			<description><![CDATA[Unsure how wide. Path shown here is approximated.]]></description>
-			<styleUrl>#line-FFFFFF-3</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.33664180000001,33.3800431,0.0 -83.3384792,33.37859840000001,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Polygon 5</name>
-			<styleUrl>#poly-000000-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3375323,33.3823992,0.0 -83.3375873,33.3823634,0.0 -83.33757250000001,33.3823242,0.0 -83.3375229,33.3822973,0.0 -83.3374706,33.3823444,0.0 -83.3374894,33.3823959,0.0 -83.3375323,33.3823992,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Road to Gazebo</name>
-			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3365975,33.3824261,0.0 -83.3371655,33.3830891,0.0 -83.3380285,33.3835572,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Back Road </name>
-			<styleUrl>#line-7C3592-5-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3397384,33.3806243,0.0 -83.3406705,33.37968020000001,0.0 -83.3408381,33.3795413,0.0 -83.3405954,33.3790598,0.0 -83.3396606,33.3774964,0.0 -83.3388767,33.3771851,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Dirt Road</name>
-			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3380687,33.3769264,0.0 -83.339371,33.3790374,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Dirt Road</name>
-			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3341943,33.3789086,0.0 -83.3358733,33.3775423,0.0 -83.3362945,33.3772875,0.0 -83.3375035,33.3770118,0.0 -83.3380687,33.3769264,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Gravel Road</name>
-			<styleUrl>#line-FFFFFF-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3365975,33.3824261,0.0 -83.336212,33.3806971,0.0 -83.33664180000001,33.3800431,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Walking Path</name>
-			<styleUrl>#line-7C3592-5-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.339371,33.3790374,0.0 -83.3404076,33.3787507,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Line 15</name>
-			<styleUrl>#line-F8971B-5-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.339371,33.3790374,0.0 -83.3388493,33.3791819,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Line 16</name>
-			<styleUrl>#line-F8971B-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3384792,33.37859840000001,0.0 -83.33893640000001,33.3783532,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Line 28</name>
-			<styleUrl>#line-7C3592-4-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3382927,33.3772848,0.0 -83.3388948,33.3771918,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Line 16</name>
-			<styleUrl>#line-FFFFFF-2-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.3362609,33.3808628,0.0 -83.3364916,33.3807643,0.0 -83.33664180000001,33.3804754,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Line 17</name>
-			<styleUrl>#line-FFFFFF-3-nodesc</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>-83.33664180000001,33.3804754,0.0 -83.336509,33.3802581,0.0</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Traffic Position</name>
-			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.336454,33.3802738,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Style id='icon-503-DB4436-nodesc-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-503-DB4436-nodesc-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='icon-503-DB4436-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-7C3592-4-nodesc-normal'>
-			<LineStyle>
-				<color>ff92357C</color>
-				<width>4</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-7C3592-4-nodesc-highlight'>
-			<LineStyle>
-				<color>ff92357C</color>
-				<width>6.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-7C3592-4-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-7C3592-4-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-7C3592-4-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-7C3592-5-nodesc-normal'>
-			<LineStyle>
-				<color>ff92357C</color>
-				<width>5</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-7C3592-5-nodesc-highlight'>
-			<LineStyle>
-				<color>ff92357C</color>
-				<width>8.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-7C3592-5-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-7C3592-5-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-7C3592-5-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-F8971B-4-nodesc-normal'>
-			<LineStyle>
-				<color>ff1B97F8</color>
-				<width>4</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-F8971B-4-nodesc-highlight'>
-			<LineStyle>
-				<color>ff1B97F8</color>
-				<width>6.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-F8971B-4-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-F8971B-4-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-F8971B-4-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-F8971B-5-nodesc-normal'>
-			<LineStyle>
-				<color>ff1B97F8</color>
-				<width>5</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-F8971B-5-nodesc-highlight'>
-			<LineStyle>
-				<color>ff1B97F8</color>
-				<width>8.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-F8971B-5-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-F8971B-5-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-F8971B-5-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-FFFFFF-2-nodesc-normal'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>2</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-FFFFFF-2-nodesc-highlight'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>3.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-FFFFFF-2-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-FFFFFF-2-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-FFFFFF-2-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-FFFFFF-3-normal'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>3</width>
-			</LineStyle>
-		</Style>
-		<Style id='line-FFFFFF-3-highlight'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>5.0</width>
-			</LineStyle>
-		</Style>
-		<StyleMap id='line-FFFFFF-3'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-FFFFFF-3-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-FFFFFF-3-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-FFFFFF-3-nodesc-normal'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>3</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-FFFFFF-3-nodesc-highlight'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>5.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-FFFFFF-3-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-FFFFFF-3-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-FFFFFF-3-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='line-FFFFFF-4-nodesc-normal'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>4</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='line-FFFFFF-4-nodesc-highlight'>
-			<LineStyle>
-				<color>ffFFFFFF</color>
-				<width>6.0</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='line-FFFFFF-4-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#line-FFFFFF-4-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#line-FFFFFF-4-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='poly-000000-1-76-nodesc-normal'>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4C000000</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='poly-000000-1-76-nodesc-highlight'>
-			<LineStyle>
-				<color>ff000000</color>
-				<width>2.0</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4C000000</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='poly-000000-1-76-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-000000-1-76-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-000000-1-76-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-	</Document>
+<Document>
+  <name>Roads</name>
+  <Placemark>
+    <name>Boulevard 1
+</name>
+    <styleUrl>#line-E65100-8-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2693812,33.4820173,0.0 -85.2693679,33.4819244,0.0 -85.2691573,33.4816817,0.0 -85.2690232,33.4815609,0.0 -85.2689454,33.4814155,0.0 -85.2689213,33.4813215,0.0 -85.2688998,33.4811806,0.0 -85.2689213,33.4810709,0.0 -85.26905,33.4809188,0.0 -85.2691573,33.4807756,0.0 -85.2692673,33.4806548,0.0 -85.2693397,33.4805497,0.0 -85.2694014,33.480411,0.0 -85.2694094,33.4802611,0.0 -85.2693719,33.4801067,0.0 -85.269282,33.4799054,0.0 -85.2691694,33.4797353,0.0 -85.2690611,33.4796288,0.0 -85.2689286,33.4795424,0.0 -85.2686423,33.4794501,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Boulevard 2
+</name>
+    <styleUrl>#line-E65100-7-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2706043,33.4790329,0.0 -85.2705306,33.479185,0.0 -85.2704474,33.4792756,0.0 -85.2702329,33.4794132,0.0 -85.2701014,33.4794814,0.0 -85.2698882,33.4795698,0.0 -85.2697809,33.4796526,0.0 -85.2696803,33.4797588,0.0 -85.2695476,33.479892,0.0 -85.2693558,33.4800597,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Boulevard 3
+</name>
+    <styleUrl>#line-E65100-8-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2693491,33.4805508,0.0 -85.2693839,33.4806605,0.0 -85.2695301,33.4807533,0.0 -85.2696911,33.4807219,0.0 -85.2697715,33.4807756,0.0 -85.2697635,33.4808562,0.0 -85.2697742,33.4809166,0.0 -85.2698976,33.4810486,0.0 -85.2699646,33.4811179,0.0 -85.2700424,33.4812052,0.0 -85.2702141,33.4813528,0.0 -85.2703992,33.4814826,0.0 -85.2705681,33.48159,0.0 -85.270721,33.4816884,0.0 -85.2709034,33.4818002,0.0 -85.2711073,33.4819367,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name></name>
+    <styleUrl>#line-E65100-10-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2693839,33.4806605,0.0 -85.2692498,33.4806806,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name></name>
+    <styleUrl>#line-E65100-8-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2695301,33.4807533,0.0 -85.2695194,33.480845,0.0 -85.269561,33.4808886,0.0 -85.2696548,33.4809143,0.0 -85.2697219,33.4809076,0.0 -85.2697742,33.4809166,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Boulevard 4
+</name>
+    <styleUrl>#line-E65100-8-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2688931,33.4812029,0.0 -85.2679637,33.4819467,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Timmy Lane
+</name>
+    <styleUrl>#line-E65100-10-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2691613,33.4816917,0.0 -85.2690621,33.4817902,0.0 -85.2690406,33.4819009,0.0 -85.2690567,33.4819815,0.0 -85.2691358,33.4821224,0.0 -85.2694188,33.4823741,0.0 -85.2694872,33.4825105,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name></name>
+    <styleUrl>#line-E65100-11-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2689132,33.4813394,0.0 -85.2687724,33.481308,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Exit road
+</name>
+    <styleUrl>#line-FFEA00-5-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.268653,33.4794155,0.0 -85.268653,33.4791783,0.0 -85.2686825,33.4784489,0.0 -85.2690312,33.4783796,0.0 -85.2691733,33.4783841,0.0 -85.2693986,33.4783818,0.0 -85.2697313,33.4783818,0.0 -85.2702758,33.4783707,0.0 -85.2704743,33.4783707,0.0 -85.270717,33.4783785,0.0 -85.2710375,33.4783886,0.0 -85.2711448,33.4783819,0.0 -85.2711823,33.4783685,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>path
+</name>
+    <styleUrl>#line-FFCC80-4-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2691144,33.4816414,0.0 -85.2699995,33.4811649,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>path</name>
+    <styleUrl>#line-FBC02D-5-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.267843,33.4821626,0.0 -85.2681099,33.4823708,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>path</name>
+    <styleUrl>#line-FBC02D-5-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.267906,33.482119,0.0 -85.2677397,33.4822902,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>path</name>
+    <styleUrl>#line-FBC02D-5-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2679758,33.4818898,0.0 -85.267725,33.4816996,0.0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>path
+</name>
+    <styleUrl>#line-FBC02D-3-nodesc</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-85.2694014,33.4803573,0.0 -85.2691975,33.4803293,0.0</coordinates>
+    </LineString>
+  </Placemark>
+</Document>
 </kml>

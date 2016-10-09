@@ -1,125 +1,113 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>Open Camping</name>
-		<Placemark>
-			<name>Open Camping</name>
-			<description><![CDATA[This is Open Camping]]></description>
-			<styleUrl>#poly-FFDD5E-1-79</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3401045,33.3788235,0.0 -83.3402561,33.3787709,0.0 -83.3404083,33.379030099999994,0.0 -83.3403061,33.3790735,0.0 -83.3405849,33.3794894,0.0 -83.3407403,33.3794227,0.0 -83.3405739,33.3790643,0.0 -83.339678,33.37752329999999,0.0 -83.3389967,33.3772635,0.0 -83.3401045,33.3788235,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>RV Open Camping</name>
-			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3390115,33.37890410000001,0.0 -83.3387299,33.37849320000001,0.0 -83.3384804,33.3786252,0.0 -83.3387192,33.3790128,0.0 -83.3390115,33.37890410000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Open Camping</name>
-			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3349305,33.378782099999995,0.0 -83.3346999,33.3785895,0.0 -83.3340534,33.379190799999996,0.0 -83.3342828,33.3793644,0.0 -83.3349305,33.378782099999995,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Open Camping</name>
-			<styleUrl>#poly-FFDD5E-1-79-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3378434,33.3770574,0.0 -83.3365238,33.3772948,0.0 -83.3365452,33.3773844,0.0 -83.3373284,33.3772993,0.0 -83.3378434,33.3770574,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Style id='poly-FFDD5E-1-79-normal'>
-			<LineStyle>
-				<color>ff5EDDFF</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4F5EDDFF</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-		</Style>
-		<Style id='poly-FFDD5E-1-79-highlight'>
-			<LineStyle>
-				<color>ff5EDDFF</color>
-				<width>2.0</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4F5EDDFF</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-		</Style>
-		<StyleMap id='poly-FFDD5E-1-79'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-FFDD5E-1-79-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-FFDD5E-1-79-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='poly-FFDD5E-1-79-nodesc-normal'>
-			<LineStyle>
-				<color>ff5EDDFF</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4F5EDDFF</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='poly-FFDD5E-1-79-nodesc-highlight'>
-			<LineStyle>
-				<color>ff5EDDFF</color>
-				<width>2.0</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4F5EDDFF</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='poly-FFDD5E-1-79-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-FFDD5E-1-79-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-FFDD5E-1-79-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
+  <name>Open Camping</name>
+  <Placemark>
+    <name>Note to open campers:
+	</name>
+	    <description><![CDATA[Open camping is not necessarily limited to the blue areas.  However, some of the space that is not reserved is probably too steep to camp on, and so is not marked for open camping.]]></description>
+	    <styleUrl>#poly-0288D1-1-189</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2712065,33.4809904,0.0 -85.2712012,33.4807264,0.0 -85.2708149,33.4807085,0.0 -85.270831,33.4809948,0.0 -85.2712065,33.4809904,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>All of Frontwoods is open camping.
+	</name>
+	    <description><![CDATA[You may wish to bring means of removing small saplings and undergrowth.]]></description>
+	    <styleUrl>#poly-0288D1-1-77</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2714612,33.479704,0.0 -85.2711985,33.4798562,0.0 -85.2711502,33.4801202,0.0 -85.2707479,33.4798684,0.0 -85.2704501,33.4799479,0.0 -85.2700343,33.4801112,0.0 -85.2699512,33.4803685,0.0 -85.2701819,33.4810038,0.0 -85.2711985,33.4818427,0.0 -85.2714587,33.4818596,0.0 -85.2714612,33.479704,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>Open Camping: The Thumb
+	</name>
+	    <styleUrl>#poly-0288D1-1-77-nodesc</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2673709,33.4822164,0.0 -85.2674782,33.4820016,0.0 -85.2674246,33.4819345,0.0 -85.2686638,33.4809255,0.0 -85.2683607,33.48059,0.0 -85.267784,33.4811358,0.0 -85.2678671,33.4812387,0.0 -85.2676257,33.481458,0.0 -85.2674675,33.4813662,0.0 -85.2673575,33.4816862,0.0 -85.2673119,33.4819054,0.0 -85.2673709,33.4822164,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>Open Camping: Middle Ground
+	</name>
+	    <styleUrl>#poly-0288D1-1-77-nodesc</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2686477,33.4807443,0.0 -85.2689534,33.480543,0.0 -85.2691466,33.4803662,0.0 -85.2691841,33.4801873,0.0 -85.2691519,33.4800038,0.0 -85.2688301,33.4802454,0.0 -85.2686477,33.4807443,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>The edge of Backwoods is open camping.
+	</name>
+	    <description><![CDATA[Most of Backwoods is too steep to camp on.  You may want to bring means of removing small saplings and underbrush.]]></description>
+	    <styleUrl>#poly-0288D1-1-77</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2715096,33.4832611,0.0 -85.2710509,33.4833752,0.0 -85.2708954,33.4836749,0.0 -85.2706593,33.4839523,0.0 -85.2701229,33.4840776,0.0 -85.2696401,33.4841,0.0 -85.2692646,33.4840552,0.0 -85.2692163,33.4843058,0.0 -85.2696776,33.4844668,0.0 -85.2705628,33.4844982,0.0 -85.2712065,33.4842745,0.0 -85.2715042,33.48378,0.0 -85.2715096,33.4832611,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>Open Camping: Mount Effigy
+	</name>
+	    <styleUrl>#poly-0288D1-1-77-nodesc</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2710563,33.4790709,0.0 -85.2706218,33.479138,0.0 -85.2703428,33.4790978,0.0 -85.2701175,33.4789188,0.0 -85.27008,33.4787264,0.0 -85.2701497,33.4785206,0.0 -85.2696159,33.4785228,0.0 -85.2695435,33.4787398,0.0 -85.2699995,33.4788517,0.0 -85.2699083,33.4790754,0.0 -85.2700263,33.4791291,0.0 -85.2699512,33.4793662,0.0 -85.2697206,33.4794333,0.0 -85.2694738,33.4793662,0.0 -85.2694362,33.4794244,0.0 -85.2696991,33.4800061,0.0 -85.2699298,33.4801716,0.0 -85.2701497,33.480024,0.0 -85.2701175,33.4798763,0.0 -85.2707183,33.4797286,0.0 -85.2709034,33.4795027,0.0 -85.2712601,33.4796078,0.0 -85.2713621,33.4792499,0.0 -85.271346,33.4790485,0.0 -85.2710563,33.4790709,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>NO CAMPING
+	</name>
+	    <styleUrl>#poly-E65100-1-77-nodesc</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.2686128,33.4794177,0.0 -85.2685913,33.4783483,0.0 -85.2685377,33.4783438,0.0 -85.267961,33.4783214,0.0 -85.267835,33.4787622,0.0 -85.2678135,33.478798,0.0 -85.2678081,33.4788293,0.0 -85.2676284,33.4791246,0.0 -85.2681568,33.4794065,0.0 -85.2685109,33.479411,0.0 -85.2686128,33.4794177,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
+	  <Placemark>
+	    <name>NO CAMPING
+	</name>
+	    <styleUrl>#poly-E65100-1-77-nodesc</styleUrl>
+	    <Polygon>
+	      <outerBoundaryIs>
+	        <LinearRing>
+	          <tessellate>1</tessellate>
+	          <coordinates>-85.268822,33.4802208,0.0 -85.2691358,33.4799792,0.0 -85.2688301,33.4796548,0.0 -85.268307,33.4795743,0.0 -85.268079,33.4796436,0.0 -85.2684264,33.4799165,0.0 -85.2678691,33.4803796,0.0 -85.268013,33.4809221,0.0 -85.268822,33.4802208,0.0</coordinates>
+	        </LinearRing>
+	      </outerBoundaryIs>
+	    </Polygon>
+	  </Placemark>
 	</Document>
 </kml>

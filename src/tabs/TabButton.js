@@ -1,9 +1,5 @@
-import React, {
-  Image,
-  TouchableHighlight,
-  StyleSheet,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {Image, TouchableHighlight, StyleSheet} from 'react-native'
 
 const styles = StyleSheet.create({
   tab: {

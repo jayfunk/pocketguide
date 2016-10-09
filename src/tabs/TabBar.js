@@ -1,8 +1,5 @@
-import React, {
-  StyleSheet,
-  View,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {StyleSheet, View} from 'react-native'
 import {connect} from 'react-redux'
 import TabButton from './TabButton'
 import appRoutes from '../appRoutes'

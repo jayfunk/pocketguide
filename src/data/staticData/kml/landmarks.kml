@@ -1,324 +1,308 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>Landmarks</name>
-		<Placemark>
-			<name>Hinterlands</name>
-			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.34030030000001,33.3771918,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking</name>
-			<styleUrl>#icon-995-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.33568420000002,33.3804686,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Effigy</name>
-			<styleUrl>#icon-1239-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3394634,33.3792983,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Temple</name>
-			<styleUrl>#icon-1337-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3340481,33.3788705,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Large Foot Bridge</name>
-			<description><![CDATA[No cars or trucks may cross.]]></description>
-			<styleUrl>#icon-1305</styleUrl>
-			<Point>
-				<coordinates>-83.340012,33.3788717,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bridge</name>
-			<description><![CDATA[This bridge is pretty small, but sturdy enough for foot traffic. It should be redone/reinforced before the event]]></description>
-			<styleUrl>#icon-1305</styleUrl>
-			<Point>
-				<coordinates>-83.3388855,33.3771952,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Small Foot Bridge</name>
-			<description><![CDATA[Small sturdy bridge. Should be widened. Needs new hand rail]]></description>
-			<styleUrl>#icon-1305</styleUrl>
-			<Point>
-				<coordinates>-83.3399892,33.380005,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Earthen Bridge</name>
-			<description><![CDATA[This is a large earth enbankment]]></description>
-			<styleUrl>#icon-1305</styleUrl>
-			<Point>
-				<coordinates>-83.3405793,33.3797743,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Education Station</name>
-			<styleUrl>#icon-1197-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3363655,33.3807463,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Gate.</name>
-			<styleUrl>#icon-1261-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3371005,33.3872167,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Connexus</name>
-			<styleUrl>#icon-1203-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3383235,33.3772534,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lamplighters</name>
-			<styleUrl>#icon-1439-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3381681,33.3769847,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Rangers</name>
-			<styleUrl>#icon-1059-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.338644,33.37718970000001,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LNT</name>
-			<styleUrl>#icon-1379-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.338243,33.3771425,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Fire Safety</name>
-			<styleUrl>#icon-1155-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3384752,33.3769453,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Art Burn</name>
-			<styleUrl>#icon-1147-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3393965,33.3798213,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Large Vehicle Shuttle Station</name>
-			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.33664180000001,33.3804754,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>T-base</name>
-			<styleUrl>#icon-1021-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.3390075,33.3807665,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Artax</name>
-			<styleUrl>#icon-1373-nodesc</styleUrl>
-			<Point>
-				<coordinates>-83.335176,33.3783016,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Giving Tree</name>
-			<description><![CDATA[LNT!]]></description>
-			<styleUrl>#icon-1191</styleUrl>
-			<Point>
-				<coordinates>-83.3358559,33.3775222,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Style id='icon-1021-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1021-biz-flower.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1059-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1059-biz-outdoor.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1147-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1147-crisis-fire.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1155-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1155-crisis-infestation-monsters.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1191'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1191-crisis-wind.png</href>
-				</Icon>
-			</IconStyle>
-		</Style>
-		<Style id='icon-1197-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1203-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1203-fac-info.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1239-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1239-poi-civic.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1261-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1261-poi-historic-building.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1305'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
-				</Icon>
-			</IconStyle>
-		</Style>
-		<Style id='icon-1337-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1337-poi-temple.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1373-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1373-rec-horse.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1379-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1379-rec-park.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-1439-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1439-trans-lighthouse.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-503-DB4436-nodesc'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-995-nodesc'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/995-biz-car-dealer.png</href>
-				</Icon>
-			</IconStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-	</Document>
+<Document>
+      <name>Landmarks</name>
+      <Placemark>
+        <name>Center Stage
+</name>
+        <styleUrl>#icon-1708-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2694443,33.4822343,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage @ Elevation Station
+</name>
+        <description><![CDATA[Open to: Dancers, Experienced Fire Performers, Flow Artists, Acro Yoga, Circus, Beautiful Anomalies, speakers, postive workshops<br><br>Contact email: theartofnova@gmail.com<br><br>We also plan to have day time workshops and are looking for more who are interested in teaching subjects along the line of yoga, mediation, nutrition, consciousness, reality, controlling ones mind, etc<br><br>However, at night we plan to keep beautiful acts going as long as we can find them.]]></description>
+        <styleUrl>#icon-1708-F57C00</styleUrl>
+        <Point>
+          <coordinates>-85.2714533,33.4829814,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage @ The Rubáiyát
+</name>
+        <styleUrl>#icon-1708-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2691425,33.4795944,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ye Olde Theatre
+</name>
+        <description><![CDATA[Come one! Come All! You have a small show to entertain us? You have a jolly band of minstrels that needs a place to perform? Then come to Ye Olde Theatre, a 12ft x 8ft covered stage. You'll be rockin like it's 1399 (No amplification)]]></description>
+        <styleUrl>#icon-1708-F57C00</styleUrl>
+        <Point>
+          <coordinates>-85.267261,33.4818662,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>APW, Rangers, LNT
+</name>
+        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2696508,33.4824759,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>APW Vehicles</name>
+        <styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2696991,33.4826269,0.0 -85.2696522,33.4826302,0.0 -85.2696012,33.4826716,0.0 -85.2697742,33.4830139,0.0 -85.2698748,33.4829803,0.0 -85.2696991,33.4826269,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Art Burn Square
+</name>
+        <styleUrl>#poly-CE93D8-1-87-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2677839,33.4820866,0.0 -85.2678845,33.4821268,0.0 -85.2679611,33.482062,0.0 -85.2680307,33.4819893,0.0 -85.2679396,33.4819244,0.0 -85.2678617,33.4818785,0.0 -85.2677752,33.4819565,0.0 -85.2677021,33.4820278,0.0 -85.2677839,33.4820866,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>The Art Garden
+</name>
+        <styleUrl>#poly-CE93D8-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2697662,33.4809088,0.0 -85.2697541,33.4808472,0.0 -85.2697608,33.480779,0.0 -85.269687,33.4807298,0.0 -85.2695422,33.48076,0.0 -85.2695315,33.4808439,0.0 -85.269561,33.4808886,0.0 -85.2696468,33.480902,0.0 -85.2697098,33.4808998,0.0 -85.2697662,33.4809088,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Back gate
+</name>
+        <styleUrl>#poly-FFFFFF-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2711998,33.4783841,0.0 -85.2712025,33.4783528,0.0 -85.2711327,33.4783528,0.0 -85.2711341,33.4783841,0.0 -85.2711998,33.4783841,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Center Camp
+</name>
+        <styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2694524,33.4823584,0.0 -85.2695931,33.4823024,0.0 -85.2694349,33.4820631,0.0 -85.2692727,33.4821458,0.0 -85.2693652,33.4822857,0.0 -85.2694524,33.4823584,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Connexus</name>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2693666,33.482118,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Effigy</name>
+        <description><![CDATA[The Effigy burns on Sat at 9:30 pm]]></description>
+        <styleUrl>#icon-1706-0288D1</styleUrl>
+        <Point>
+          <coordinates>-85.2708001,33.4786906,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Effigy burn perimeter
+</name>
+        <styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2710456,33.4783919,0.0 -85.2710268,33.4783908,0.0 -85.2707063,33.4783807,0.0 -85.2703938,33.4783796,0.0 -85.2702677,33.4784601,0.0 -85.2701457,33.478675,0.0 -85.2702074,33.4789042,0.0 -85.2703535,33.4790374,0.0 -85.2705105,33.4790686,0.0 -85.2707438,33.4790955,0.0 -85.2709812,33.4790507,0.0 -85.2711046,33.4789803,0.0 -85.2712146,33.4788472,0.0 -85.2711918,33.4786861,0.0 -85.2711596,33.4785105,0.0 -85.2710456,33.4783919,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Gate</name>
+        <description><![CDATA[Have your ticket ready!]]></description>
+        <styleUrl>#icon-1713-0288D1</styleUrl>
+        <Point>
+          <coordinates>-85.2681327,33.4795083,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greeters/Education
+</name>
+        <description><![CDATA[Welcome Home!]]></description>
+        <styleUrl>#icon-1832-0288D1</styleUrl>
+        <Point>
+          <coordinates>-85.2688287,33.4795909,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Head
+</name>
+        <styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.269337,33.4819423,0.0 -85.269325,33.4819211,0.0 -85.2692887,33.4819345,0.0 -85.2692887,33.4819546,0.0 -85.269337,33.4819423,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lamplighters</name>
+        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2693276,33.4806291,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Security Station
+</name>
+        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.2713621,33.4786973,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steffigy</name>
+        <description><![CDATA[A memorial to Stefanie Roberts - a legendary burner that left this world at the end of this past Euphoria. She cherished and embodied the principals of participation, civic responsibility and communal effort. In line with those principles, this memorial is designed to be a place for the community to contribute to. Around the burn, there are shrines made to Stefanie. Saturday afternoon, the shrines will be taken to the main structure to be burned at midnight Saturday night.]]></description>
+        <styleUrl>#icon-1706-0288D1</styleUrl>
+        <Point>
+          <coordinates>-85.2706204,33.4789131,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RV camping
+</name>
+        <styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2696159,33.4785228,0.0 -85.2702677,33.4784601,0.0 -85.2703308,33.4783684,0.0 -85.2696186,33.4783841,0.0 -85.2685833,33.4783931,0.0 -85.2686343,33.4789456,0.0 -85.2689749,33.4786134,0.0 -85.2696159,33.4785228,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Temple</name>
+        <description><![CDATA[The Temple burns on Sun at 10:00 am.]]></description>
+        <styleUrl>#icon-1706-0288D1</styleUrl>
+        <Point>
+          <coordinates>-85.2704716,33.4786861,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tranquility Base
+</name>
+        <styleUrl>#icon-1592-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>-85.26805999999999,33.48022,0.0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties/HeadSpace</name>
+        <styleUrl>#poly-795548-1-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2690956,33.4819401,0.0 -85.2690702,33.4819457,0.0 -85.2691238,33.4820306,0.0 -85.2691466,33.4820229,0.0 -85.2690956,33.4819401,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties/Blvd4</name>
+        <styleUrl>#poly-795548-1-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2689186,33.4813304,0.0 -85.268893,33.481213,0.0 -85.2687872,33.4813003,0.0 -85.2689186,33.4813304,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties/Thumb</name>
+        <styleUrl>#poly-795548-1-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2682132,33.4818462,0.0 -85.2681878,33.481826,0.0 -85.2680281,33.4819434,0.0 -85.2680428,33.4819625,0.0 -85.2682132,33.4818462,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties/Tongue</name>
+        <styleUrl>#poly-795548-1-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2701939,33.4812018,0.0 -85.2701081,33.4811414,0.0 -85.270092,33.4811682,0.0 -85.2701725,33.481222,0.0 -85.2701939,33.4812018,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties Blvd1
+</name>
+        <styleUrl>#poly-795548-0-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2692713,33.4799176,0.0 -85.2692444,33.4799289,0.0 -85.2692794,33.4800262,0.0 -85.2693102,33.4800217,0.0 -85.2692713,33.4799176,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties Effigy
+</name>
+        <styleUrl>#poly-795548-0-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2701041,33.4783874,0.0 -85.2700974,33.4784221,0.0 -85.2703147,33.478421,0.0 -85.2703187,33.4783807,0.0 -85.2701041,33.4783874,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>PortaPotties/Blvd1</name>
+        <styleUrl>#poly-795548-1-255-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>-85.2693544,33.4800295,0.0 -85.2693947,33.4800116,0.0 -85.2693625,33.4799457,0.0 -85.2693222,33.4799535,0.0 -85.2693544,33.4800295,0.0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
 </kml>

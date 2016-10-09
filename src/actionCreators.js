@@ -1,11 +1,11 @@
 // android emulator url:
 // const URL = 'http://10.0.2.2:3000/api/mobile'
 
-//genymotion emulator url:
+// genymotion emulator url:
 // const URL = 'http://10.0.3.2:3000/api/mobile'
 
 // ios local url:
-// const URL = 'http://10.0.2.2:3000/api/mobile'
+// const URL = 'http://localhost:3000/api/mobile'
 
 // heroku url:
 const URL = 'http://pocketguide-web-server.herokuapp.com/api/mobile'
@@ -19,10 +19,9 @@ export function loadData () {
       type: 'data:load'
     })
 
-    return netInfo.isConnected.fetch().then(isConnected => {
-      if (!isConnected) {
-        return loadFromDisk(dispatch, diskStore)
-      }
+    netInfo.addEventListener('change', isConnected => {
+      if (!isConnected) return loadFromDisk(dispatch, diskStore)
+
       return diskStore.get(LAST_MODIFIED).then(lastModified => {
         return fetchData(dispatch, diskStore, lastModified)
       }).catch(error => {
@@ -59,9 +58,7 @@ function loadComplete (dispatch, data) {
 function fetchData (dispatch, diskStore, lastModified) {
   return fetch(URL, {
     timeout: 10000,
-    headers: {
-      'Last-Modified': lastModified
-    }
+    headers: getHeaders(lastModified)
   }).then(response => {
     const status = response.status
     if (response.ok) {
@@ -83,6 +80,13 @@ function fetchData (dispatch, diskStore, lastModified) {
     console.error(error)
     return loadFromDisk(dispatch, diskStore)
   })
+}
+
+function getHeaders (lastModified) {
+  if (lastModified === null) return {}
+  return {
+    'Last-Modified': lastModified
+  }
 }
 
 function writeToDisk (data, diskStore) {

@@ -1,704 +1,1500 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>TCs</name>
-		<Placemark>
-			<name>Flying Spaghetti Monster</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33518,33.3789411,0.0 -83.3349895,33.37875520000001,0.0 -83.3348058,33.3789266,0.0 -83.3350311,33.379127,0.0 -83.33518,33.3789411,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>CampDama</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.334763,33.3783833,0.0 -83.3346369,33.3782624,0.0 -83.3345431,33.378333000000005,0.0 -83.334665,33.3784585,0.0 -83.334763,33.3783833,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>simpatico</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3408246,33.378744,0.0 -83.34059,33.378809,0.0 -83.3406725,33.379003899999994,0.0 -83.3407898,33.3789591,0.0 -83.3408696,33.3788414,0.0 -83.3408246,33.378744,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Pretty Lights</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3380084,33.3766486,0.0 -83.3373232,33.3759487,0.0 -83.3370214,33.376166,0.0 -83.337126,33.376287,0.0 -83.3374224,33.3766005,0.0 -83.3376328,33.3769779,0.0 -83.3379427,33.376914,0.0 -83.3380084,33.3766486,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Do It Less Shitty</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3406195,33.37971770000001,0.0 -83.3408099,33.3795391,0.0 -83.3407443,33.3794373,0.0 -83.3404801,33.3795436,0.0 -83.3406195,33.37971770000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Munchkinland</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3388948,33.3773889,0.0 -83.33875,33.3772254,0.0 -83.3385435,33.3772612,0.0 -83.3386709,33.3774472,0.0 -83.3388948,33.3773889,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Business Casual</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3394742,33.3782468,0.0 -83.3393642,33.3780967,0.0 -83.3389337,33.3782647,0.0 -83.33901960000001,33.3784069,0.0 -83.3394742,33.3782468,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Discordia</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3395493,33.3783789,0.0 -83.3394742,33.3782468,0.0 -83.33901960000001,33.3784069,0.0 -83.3391041,33.3785469,0.0 -83.3395493,33.3783789,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Sleepy Fox Tea House</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3384242,33.377547899999996,0.0 -83.3383129,33.3773621,0.0 -83.3380862,33.3774505,0.0 -83.3382015,33.3776275,0.0 -83.3384242,33.377547899999996,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Ab Fab</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3350311,33.379127,0.0 -83.3348058,33.3789266,0.0 -83.3346556,33.3790463,0.0 -83.3348783,33.3792636,0.0 -83.3350311,33.379127,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Black Lodge</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3366867,33.37689670000001,0.0 -83.3369677,33.3767852,0.0 -83.3371553,33.3770305,0.0 -83.3373525,33.3770047,0.0 -83.3371273,33.3767191,0.0 -83.3374224,33.3766005,0.0 -83.3370214,33.376166,0.0 -83.3363816,33.3766306,0.0 -83.3366867,33.37689670000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>3 old men</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3363816,33.3766306,0.0 -83.3360544,33.3769028,0.0 -83.3362635,33.3770854,0.0 -83.33639510000002,33.37699349999999,0.0 -83.33653410000001,33.3771619,0.0 -83.33667680000002,33.3771194,0.0 -83.3365744,33.3769677,0.0 -83.3366867,33.37689670000001,0.0 -83.3366002,33.376821,0.0 -83.3363816,33.3766306,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Ra</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3357781,33.377581600000006,0.0 -83.3355394,33.3773385,0.0 -83.3353878,33.377455,0.0 -83.3356427,33.3776958,0.0 -83.3357781,33.377581600000006,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp PHC</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3386991,33.3779746,0.0 -83.3385918,33.3777943,0.0 -83.3383222,33.3778919,0.0 -83.3384295,33.3780799,0.0 -83.3386991,33.3779746,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Raven's King's Library</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3348783,33.3792636,0.0 -83.3346718,33.37906149999999,0.0 -83.3344639,33.37919420000001,0.0 -83.3347146,33.3794204,0.0 -83.3348783,33.3792636,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Random Noise</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3385878,33.3778011,0.0 -83.3384966,33.377651,0.0 -83.3382752,33.37773959999999,0.0 -83.3383236,33.3778897,0.0 -83.3385878,33.3778011,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Brownie Brothel</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3384966,33.377651,0.0 -83.3384242,33.377547899999996,0.0 -83.3382015,33.3776275,0.0 -83.3382752,33.37773959999999,0.0 -83.3384966,33.377651,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Fucking Awesome!</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3403808,33.379024,0.0 -83.3402628,33.3788134,0.0 -83.340126,33.3788537,0.0 -83.34027620000002,33.379062,0.0 -83.3403808,33.379024,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Shameless</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3388747,33.3786925,0.0 -83.3390759,33.3786119,0.0 -83.338931,33.3783822,0.0 -83.3387299,33.37849320000001,0.0 -83.3388747,33.3786925,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Southtown Compound</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3384952,33.3785727,0.0 -83.33891630000001,33.3783509,0.0 -83.3388519,33.37824,0.0 -83.3384175,33.3784429,0.0 -83.3384952,33.3785727,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Meating Place</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3390115,33.37890410000001,0.0 -83.3392154,33.3788414,0.0 -83.3390759,33.3786119,0.0 -83.3388747,33.3786925,0.0 -83.3390115,33.37890410000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Phoenix Nest</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33564,33.3777014,0.0 -83.3353851,33.3774606,0.0 -83.335235,33.3775804,0.0 -83.3354924,33.3778156,0.0 -83.33564,33.3777014,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Radio Free Alchemy </name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3391819,33.378667899999996,0.0 -83.3392462,33.3787726,0.0 -83.3394232,33.37870490000001,0.0 -83.3394541,33.378773,0.0 -83.3397344,33.3786746,0.0 -83.3396351,33.3784943,0.0 -83.3391819,33.378667899999996,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Polite as Fuck</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3380392,33.37737220000001,0.0 -83.3382594,33.3772881,0.0 -83.3380942,33.3770071,0.0 -83.3379709,33.3772221,0.0 -83.3380392,33.37737220000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Hue-Manatee</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3388948,33.3773889,0.0 -83.3384483,33.377512100000004,0.0 -83.3385207,33.3776398,0.0 -83.3389592,33.3775065,0.0 -83.3388948,33.3773889,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Team Bad Idea</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3389592,33.3775065,0.0 -83.3385207,33.3776398,0.0 -83.3386052,33.3777652,0.0 -83.3390437,33.3776219,0.0 -83.3389592,33.3775065,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Reading Rainbow</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33878090000002,33.378110099999994,0.0 -83.3383491,33.37829730000001,0.0 -83.3383675,33.3783558,0.0 -83.3388151,33.3781724,0.0 -83.33878090000002,33.378110099999994,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Island of Misfit Toys</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3388506,33.3782412,0.0 -83.3388151,33.3781724,0.0 -83.3385579,33.3782707,0.0 -83.3383759,33.3783555,0.0 -83.3384175,33.3784429,0.0 -83.3388506,33.3782412,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>ABC - Athens Burn Consortium</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3390437,33.3776219,0.0 -83.3386052,33.3777652,0.0 -83.3386829,33.37788390000001,0.0 -83.3391215,33.3777439,0.0 -83.3390437,33.3776219,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Queer Home Ec</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3380392,33.37737220000001,0.0 -83.3380862,33.3774505,0.0 -83.3383129,33.3773621,0.0 -83.3382594,33.3772881,0.0 -83.3380392,33.37737220000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>#ZeroFucks</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3386709,33.3774472,0.0 -83.3385314,33.377259,0.0 -83.3383195,33.3773016,0.0 -83.3384483,33.377512100000004,0.0 -83.3386709,33.3774472,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Tiki Madness</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3391215,33.3777439,0.0 -83.3386829,33.37788390000001,0.0 -83.3387486,33.3779915,0.0 -83.3389807,33.3779175,0.0 -83.3390383,33.378021600000004,0.0 -83.3392704,33.3779399,0.0 -83.3391215,33.3777439,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Against Humanity</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3389807,33.3779175,0.0 -83.3387486,33.3779915,0.0 -83.338817,33.3781,0.0 -83.3390383,33.378021600000004,0.0 -83.3389807,33.3779175,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Pop!</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3347737,33.3783833,0.0 -83.3348957,33.3782894,0.0 -83.3346462,33.378053,0.0 -83.3345309,33.3781437,0.0 -83.3347737,33.3783833,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Giggle Dome</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3353449,33.3779309,0.0 -83.33507940000001,33.377698,0.0 -83.3349412,33.3778133,0.0 -83.3351988,33.3780362,0.0 -83.3353449,33.3779309,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Detoured Souls</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3350674,33.378146,0.0 -83.3348058,33.37792640000001,0.0 -83.3346448,33.3780519,0.0 -83.3348997,33.378284799999996,0.0 -83.3350674,33.378146,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Condom Fairy</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3394232,33.37870490000001,0.0 -83.3392462,33.3787726,0.0 -83.3392838,33.3788291,0.0 -83.3394541,33.378773,0.0 -83.3394232,33.37870490000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Society of Sensation</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3393642,33.3780967,0.0 -83.339324,33.3780362,0.0 -83.3392596,33.3779534,0.0 -83.3390383,33.378021600000004,0.0 -83.3391107,33.3781494,0.0 -83.3389002,33.37822890000001,0.0 -83.3389203,33.3782647,0.0 -83.3393642,33.3780967,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>No Key</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3390383,33.378021600000004,0.0 -83.3388278,33.37809000000001,0.0 -83.3389002,33.37822890000001,0.0 -83.3389297,33.37821660000001,0.0 -83.3391107,33.3781494,0.0 -83.3390383,33.378021600000004,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Tir Na nOg</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3408246,33.378744,0.0 -83.3406302,33.378585,0.0 -83.3404988,33.3785783,0.0 -83.34059,33.378809,0.0 -83.3408246,33.378744,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Camp Flying Fuck</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3391819,33.378667899999996,0.0 -83.3396338,33.3784943,0.0 -83.3395493,33.3783789,0.0 -83.3391041,33.3785469,0.0 -83.3391819,33.378667899999996,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Gentlemen's Hunting Club</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3363825,33.3772201,0.0 -83.3362635,33.3770854,0.0 -83.3360544,33.3769028,0.0 -83.3358978,33.3770328,0.0 -83.3361871,33.3772904,0.0 -83.3362607,33.3772637,0.0 -83.3363825,33.3772201,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Blue Lagoon Labs</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3361871,33.3772904,0.0 -83.3358978,33.3770328,0.0 -83.3357727,33.37711,0.0 -83.3360598,33.377381,0.0 -83.3361871,33.3772904,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Scheherazade</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3353436,33.37792650000001,0.0 -83.3354884,33.3778189,0.0 -83.335231,33.3775837,0.0 -83.3350808,33.377698,0.0 -83.3353436,33.37792650000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Memento Moebius Minimus</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3359282,33.3774595,0.0 -83.3360598,33.377381,0.0 -83.3357727,33.37711,0.0 -83.3356507,33.3772109,0.0 -83.3359282,33.3774595,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Third Floor Society Presents: Make Euphoria Great Again</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.335813,33.3773565,0.0 -83.3356507,33.3772109,0.0 -83.3355394,33.3773385,0.0 -83.3356708,33.3774763,0.0 -83.335813,33.3773565,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Queers Next Door</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3352002,33.3780407,0.0 -83.3349386,33.3778178,0.0 -83.3348112,33.3779275,0.0 -83.3350728,33.3781471,0.0 -83.3352002,33.3780407,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Initimacy Station</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3345484,33.3783364,0.0 -83.33464220000002,33.3782658,0.0 -83.3345255,33.3781471,0.0 -83.3344356,33.378218800000006,0.0 -83.3345484,33.3783364,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Where the Wild Things Are</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3381318,33.37678520000001,0.0 -83.3380137,33.3766463,0.0 -83.3377818,33.3768602,0.0 -83.337901,33.3769095,0.0 -83.3380727,33.3769101,0.0 -83.3381318,33.37678520000001,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Seems Legit</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3376315,33.3769712,0.0 -83.3374224,33.3766005,0.0 -83.3371273,33.3767191,0.0 -83.3373525,33.3770047,0.0 -83.3376315,33.3769712,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>The Broken Drum</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3371553,33.3770305,0.0 -83.3369677,33.3767852,0.0 -83.3366867,33.37689670000001,0.0 -83.3368155,33.3770877,0.0 -83.3371553,33.3770305,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Mr. Roger's Neighborhood</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.3347146,33.3794204,0.0 -83.3344639,33.37919420000001,0.0 -83.3342828,33.3793644,0.0 -83.3345497,33.3795761,0.0 -83.3347146,33.3794204,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Nuudhofn</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33653410000001,33.3771619,0.0 -83.33639510000002,33.37699349999999,0.0 -83.3362635,33.3770854,0.0 -83.3363862,33.377213100000006,0.0 -83.33653410000001,33.3771619,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>War Stories</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33667680000002,33.3771194,0.0 -83.3368155,33.3770877,0.0 -83.3366867,33.37689670000001,0.0 -83.3365744,33.3769677,0.0 -83.33667680000002,33.3771194,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>iOpener Lounge</name>
-			<styleUrl>#poly-3F5BA9-1-76-nodesc</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<tessellate>1</tessellate>
-						<coordinates>-83.33878090000002,33.378110099999994,0.0 -83.3386991,33.3779746,0.0 -83.3382726,33.3781448,0.0 -83.3383491,33.37829730000001,0.0 -83.33878090000002,33.378110099999994,0.0</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Style id='poly-3F5BA9-1-76-nodesc-normal'>
-			<LineStyle>
-				<color>ffA95B3F</color>
-				<width>1</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4CA95B3F</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='poly-3F5BA9-1-76-nodesc-highlight'>
-			<LineStyle>
-				<color>ffA95B3F</color>
-				<width>2.0</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4CA95B3F</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='poly-3F5BA9-1-76-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-3F5BA9-1-76-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-3F5BA9-1-76-nodesc-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-	</Document>
+<Document>
+    <name>Theme Camps</name>
+    <Placemark>
+      <name>3 Old Men
+</name>
+      <description><![CDATA[3 Old Men is an installation of an octagonal, multicursal labyrinth. Burners are invited to enter the labyrinth for meditation throughout the burn. During the ritual offered at points during the day, at three of the four exits an officiant (Old Man) offers an agon/experience. Project details can be found at http://goo.gl/C9jJDD]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694228,33.481043,0.0 -85.2692411,33.4811196,0.0 -85.2691104,33.4812499,0.0 -85.2691828,33.4815206,0.0 -85.2696334,33.4812522,0.0 -85.2694228,33.481043,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>ABC: Automatic Burn Consortium
+</name>
+      <description><![CDATA[We are all about the funk. Come dance with us under the pyramid, spin fire, spend time with your friends lounging in the comfy zone, get cuddly in the cuddle wagon, and drink with us at our Sunday Bloody Mary Bar! We'll be kicking tunes every day and every night.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2711757,33.4828953,0.0 -85.271507,33.4828494,0.0 -85.2714774,33.4826873,0.0 -85.2711515,33.4827298,0.0 -85.2711757,33.4828953,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Applousaville</name>
+      <description><![CDATA[A quiet place for apples to rest]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2697849,33.483119,0.0 -85.2697702,33.4830877,0.0 -85.2696924,33.4831101,0.0 -85.2697071,33.4831425,0.0 -85.2697849,33.483119,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Barefoot Barbaloots
+</name>
+      <description><![CDATA[Come wander through our Truffula tree grove and join us for a game of Stump (BYOB)!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695516,33.4814635,0.0 -85.2696521,33.4815755,0.0 -85.2698547,33.4814916,0.0 -85.2697594,33.4813674,0.0 -85.2695516,33.4814635,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Bizzarnival</name>
+      <description><![CDATA[Ready for that mustache ride that you've been waiting for all year? Hello, darling! We've got what you need. Worn out? come take a chill on our Hammocks of Doom (now with 99 percent Organic Doom!). All kinds of entertainments and off-kilter gaming pleasures await, they just need you. Are you prepared to tempt fate and test your skills with our carnival games? Come on by! Also, returning with everybody's favorite, the Bureau of Butthurt. Air grievances. Get validated! We are on team you!]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696374,33.4790497,0.0 -85.2697206,33.4788024,0.0 -85.2694429,33.4787387,0.0 -85.2693732,33.4789982,0.0 -85.2696374,33.4790497,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Black Lodge
+</name>
+      <description><![CDATA[Your favorite (and only) Twin Peaks-themed camp returns to Alchemy X bringing more karaoke, more coffee, and more red curtains than ever before.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2674541,33.4823304,0.0 -85.2673347,33.4822365,0.0 -85.2671684,33.4824143,0.0 -85.2673414,33.4825229,0.0 -85.2674541,33.4823304,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Broken Drum
+</name>
+      <description><![CDATA[Discworld's favorite bar is back at it again! Scumble, beer, tunes, and Pratchett, plus some fire. Stop by by a beer and hit up the Damsel in Dis Dress costume shop for a new look. See you on the disc!]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2704528,33.4812152,0.0 -85.2703026,33.4811178,0.0 -85.2701765,33.4812555,0.0 -85.2703254,33.481364,0.0 -85.2704528,33.4812152,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Brownie Brothel
+</name>
+      <description><![CDATA["Fuck your waistline," call the denizens of the Brownie Brothel, purveyors of the most titillating gourmet baked goods this side of Default Camp! Come by our boulangerie of iniquity to hang out and consume too many calories regardless of your dietary restrictions! We've got you covered. And if ya wanna, let your friendly neighborhood cookie pimps teach you a little brownie-based lesson about how sexy consent can be. Come by for dessert any time. Full-service available Friday/Satyrday noon-6pm or by appointment. We'll leave the red light on for you. ;-)]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2690232,33.4809199,0.0 -85.2691104,33.480807,0.0 -85.2688488,33.4806436,0.0 -85.2687429,33.4807365,0.0 -85.2690232,33.4809199,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Business Casual
+</name>
+      <description><![CDATA[Come one, come all, to the extremely laid back yet fully certified pseudo-lounge environment known as Camp Business Casual. Big headliners, several effigies, internationally acclaimed motivational coaches, and yearly sales quotas are all things you won't find in this camp. Although we do have a meeting in an hour, don't think you have to be a high roller to hang with the Business Casualty Elite. We only expect contributions in the form of good laughs, great drinks, and only the purest <CENSORED>. Grab a chair, have some pickles, enjoy our music, tell us a bit about yourself, or go find something else to do. We're not your boss, and we don't work here.<br>Disclaimer: Camp Business Casual is not responsible for any damages, epiphanies, ego deaths, misunderstandings, or mass confusion caused directly or indirectly by anyone inside or outside of this camp]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2700048,33.4811079,0.0 -85.270041,33.481062,0.0 -85.2700169,33.4809378,0.0 -85.2699754,33.4808506,0.0 -85.2698453,33.4809322,0.0 -85.2700048,33.4811079,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>caaamp.?murder%berr*#!.guv</name>
+      <description><![CDATA[All your bass are belong to us!!1! Weary traveler! Welcome to the oasis of bass-us: the ultimate relaxation hydration station. Join us for some mad bass from our resident djs (last featured at Imagine Festival and Iris), lounge in our air conditioned, covered, comfy seating areas, take in a show from our fire spinning wizards, and quench your thirst with our infused water hydration station. When all else fails to quench the inner thirst: caaamp.?murder%berr*#!.guv (or for short: caaaaaamp murderberrr.guv)]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2675976,33.4814446,0.0 -85.2678242,33.4812701,0.0 -85.2676029,33.4811079,0.0 -85.2673548,33.4812645,0.0 -85.2675976,33.4814446,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Against Humanity (CAH)
+</name>
+      <description><![CDATA[Camp Against Humanity is again offering our esoteric experience, the Oracle of Silent Hill. We know Silent Hill is no more, but that's where we last saw our Oracle. If you're over by the old farm could you bring her with you? We think of her often. Bad booze and good advice or good booze and bad advice, your choice! The Oracle and her minions will provide! We will have an afternoon of high-falutin' wine and cheese, for the most discriminating palates. Our menu will include American cheese slices, cheez whiz, spam, bologna, saltine crackers, complemented by a wide variety of boxed and fortified wines. Expect laughter, interactive burner tv and probably just the right dose of horrible people.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2678068,33.4817991,0.0 -85.2676928,33.481713,0.0 -85.2674527,33.4819322,0.0 -85.2676378,33.4820754,0.0 -85.2678122,33.481911,0.0 -85.2677451,33.4818584,0.0 -85.2678068,33.4817991,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Between the Lines
+</name>
+      <description><![CDATA[Camp Between The Lines is a part of Discordia. We will be creating "space" for fellow burners and discordians. This will include projection-mapped visuals, shows, and experiments all night every night. We will also be gifting hot dogs with no buns on Friday along with various other surprises throughout the weekend. Hail Eris!]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694765,33.4795284,0.0 -85.269333,33.4793081,0.0 -85.2691828,33.4793841,0.0 -85.2693343,33.4795832,0.0 -85.2694765,33.4795284,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Bon Temps
+</name>
+      <description><![CDATA[A gathering of New Orleans inspired revelry. The sounds, sights, tastes and spirit of all that is Mardi Gras!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2689373,33.4810273,0.0 -85.2690232,33.4809199,0.0 -85.2687254,33.4807298,0.0 -85.2686235,33.4808383,0.0 -85.2689373,33.4810273,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>A Camp Called Quest
+</name>
+      <description><![CDATA[The premier debut of our theme camp designed to house Puzzle Quest and to provide a relaxing atmosphere for the beautiful souls wandering the burn. Cuddle domes, soft floors, and light music for a revitalizing repose from the excitement of Alchemy.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2697501,33.4792622,0.0 -85.2695596,33.4792018,0.0 -85.269506,33.4793238,0.0 -85.2697045,33.4793842,0.0 -85.2697501,33.4792622,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Cat Butthole!
+</name>
+      <description><![CDATA[An intimate safe haven for our Cluster; a space to recharge our mortal batteries before turning back into beasts on the open fields of Alchemy!]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2705105,33.4800587,0.0 -85.2703696,33.4798316,0.0 -85.2702248,33.4798931,0.0 -85.2703656,33.4801191,0.0 -85.2705105,33.4800587,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Cockwomble
+</name>
+      <description><![CDATA[Feeling lazy, bored, or just want to chill? Come to Camp Cockwomble! A camp for any and all burners to hang during the day. Offering games of all kinds for your entertainment (board games, card games, people games, aggressive meditation, and blackjack day). We will also be throwing a 10th year birthday party for Alchemy on Saturday.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695113,33.4810609,0.0 -85.269502,33.4810676,0.0 -85.2694805,33.4810888,0.0 -85.2697648,33.4812846,0.0 -85.2699358,33.4811906,0.0 -85.2699284,33.4811682,0.0 -85.2697366,33.4811448,0.0 -85.2695113,33.4810609,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Detoured Souls
+</name>
+      <description><![CDATA[We smoke meat, and play beats with lots of flames and visual treats.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2688556,33.4811738,0.0 -85.2686342,33.4809993,0.0 -85.2684801,33.481147,0.0 -85.2686839,33.4813159,0.0 -85.2688556,33.4811738,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Heathen Life
+</name>
+      <description><![CDATA[More heathen than you are!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692458,33.4798953,0.0 -85.2691439,33.4797354,0.0 -85.2690379,33.4797902,0.0 -85.2691291,33.4799423,0.0 -85.2692458,33.4798953,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Just People
+</name>
+      <description><![CDATA[Mos Eisley Spaceport. You will never find a more wretched hive of scum and villainy. We must be cautious.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.267269,33.4815955,0.0 -85.267328,33.4814356,0.0 -85.2672368,33.4814121,0.0 -85.2671711,33.4815777,0.0 -85.267269,33.4815955,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Kittyland Love Center
+</name>
+      <description><![CDATA[an expansive supervised play area for cats]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2707653,33.4816615,0.0 -85.2709691,33.4814445,0.0 -85.2708203,33.4813428,0.0 -85.2706164,33.4815665,0.0 -85.2707653,33.4816615,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Latch Key
+</name>
+      <description><![CDATA[Reluctant adults and inner children gather here]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2702959,33.4814748,0.0 -85.270155,33.4813718,0.0 -85.2699981,33.4815397,0.0 -85.2701296,33.4816426,0.0 -85.2702959,33.4814748,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp No
+</name>
+      <description><![CDATA[No. The answer is no.]]></description>
+      <styleUrl>#poly-87CEAC-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2705145,33.4802398,0.0 -85.2703857,33.4802477,0.0 -85.2704018,33.4803282,0.0 -85.2705212,33.4803249,0.0 -85.2705145,33.4802398,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp of Ooo
+</name>
+      <description><![CDATA[Throughout the burn you will find many different camps, and many different people. In the midst of all the adventuring, many require rest for a short while. This is when Camp of Ooo comes in. We started as an Adventure Time themed camp and have moved to a movie theatre that hosts several cartoons and mind bending videos. We welcome all to come and regain their strength in our cuddle puddle as they allow their minds to continue adventuring through film and humor. We run from dusk till dawn and provide all ages friendly shows until 10 pm. Highlights include: Adventure Time, Reefer Madness (the musical), Orgazmo, Rick & Morty, Steven Univers, Fear and Loathing in Las Vegas, and many more.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.269569,33.4819603,0.0 -85.2695274,33.4819088,0.0 -85.2694215,33.4819602,0.0 -85.2694644,33.4820127,0.0 -85.269569,33.4819603,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp One Nightstand
+</name>
+      <description><![CDATA[We are a fun, playful group that brings activity based interaction to the burn. Burn day bubble, a Friday night secular Jewish Sabbath dinner, and hair art are just a few of the tricks we have up our sleeves. Come find us out and about on our menage a bleu tandem bike, participate in one of our activities, leave your mark on our nightstand, or burn with us in your own way!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.267847,33.4824703,0.0 -85.267725,33.4824758,0.0 -85.2677397,33.4826526,0.0 -85.267957,33.482628,0.0 -85.267847,33.4824703,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp PHC
+</name>
+      <description><![CDATA[Emancipation!<br>Liberation!<br>Intoxication!<br><br>1. Personal Space. 2. Camp PHC is a close-knit group of burners who originated in the glorious Party Hard Corps, a guerrilla group of militant revelers fighting against the tyranny of boredom and sobriety. Camp PHC continues in that anarchic spirit and pledges to fight the good fight! We are a part-time sound camp and you may recognize us by our loud shenanigans, stationary Tank art car, drinking games and Pantera Power Hour featuring awful whiskey, heavy use of camo, and the eventual return of the Party Hard Cart. 3. Stay Outta My Personal Space.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2680482,33.4819758,0.0 -85.2683016,33.4821705,0.0 -85.2684613,33.4820262,0.0 -85.2682225,33.4818416,0.0 -85.2680577,33.4819658,0.0 -85.2680482,33.4819758,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Polite As Fuck
+</name>
+      <description><![CDATA[Our camp offers food, a chill space and warm fire. Non-sound camp.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2698815,33.4790217,0.0 -85.2699633,33.4788908,0.0 -85.2697299,33.4788125,0.0 -85.269683,33.4789367,0.0 -85.2698708,33.4790206,0.0 -85.2698815,33.4790217,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Pretty Lights
+</name>
+      <description><![CDATA[An interplay of pretty lights to entice the mind and entrance the spirit...]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.269392,33.4805139,0.0 -85.2695596,33.4805989,0.0 -85.2695462,33.4806258,0.0 -85.2696615,33.4806436,0.0 -85.2697098,33.4806246,0.0 -85.2695569,33.4801951,0.0 -85.2694282,33.4802164,0.0 -85.2694406,33.4803207,0.0 -85.2694316,33.4804205,0.0 -85.269392,33.4805139,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Right Meow
+</name>
+      <description><![CDATA[Right Meow is a clan of die harder burner evangelist phoenix monks. Unadulterated, unfiltered, uncorrupted, unashamed, unforgettable. Enter Alchemy's amalgamation of wonderliscious ecstasy. Do you consent to social phallic trepanation? Instant transmission intoxicating euphoric enlightenment atmosphere sparks stargaze embrace buried beneath the heavens dance. The psychedelic beat harmonizing into sapient vocabulary indulges primal instinct...AKA phuck your burn and burn your phucks. Ask to touch our butts first, we will probably grant consent. If we are not here we are hunting sparkle ponies and/or bottling unicorn sweat. No we don't have toilet paper for you, would you like a potato?? WELCOME HOME MEOW]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2701403,33.4813617,0.0 -85.2699968,33.4812197,0.0 -85.2698533,33.481326,0.0 -85.2700397,33.4814837,0.0 -85.2701403,33.4813617,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Sick Fuks
+</name>
+      <description><![CDATA[A place to chill and let your inner Sick Fuk out to play]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694644,33.4799826,0.0 -85.2695194,33.4800754,0.0 -85.2696629,33.4800049,0.0 -85.2696119,33.479845,0.0 -85.2694644,33.4799826,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp Toxic
+</name>
+      <description><![CDATA[We are the people your parents warned you about.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696025,33.4830788,0.0 -85.2694215,33.4831202,0.0 -85.2694577,33.483232,0.0 -85.2696388,33.4831929,0.0 -85.2696025,33.4830788,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp WAIT
+</name>
+      <description><![CDATA[Let's go! WAIT! What are we waiting for? DON'T PANIC! WAIT! Why are we waiting? Let's go! WAIT! We'll wait. Just. Don't. Panic... WAIIIT!]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695556,33.4792018,0.0 -85.2694001,33.4791414,0.0 -85.2693464,33.4792689,0.0 -85.269502,33.4793238,0.0 -85.2695556,33.4792018,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp We're Sorry
+</name>
+      <description><![CDATA[Travelers from afar, come to teach the burn about the true art of apologizing profusely.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695154,33.4806962,0.0 -85.2695529,33.4805989,0.0 -85.2693853,33.4805139,0.0 -85.2693732,33.4805407,0.0 -85.2693759,33.4806056,0.0 -85.2695154,33.4806962,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>CampDama
+</name>
+      <description><![CDATA[We’re a camp all about teaching you something new! Come learn kendama with us. Kendama is a Japanese skill toy similar to the familiar ball in a cup, but with a little more flair. Its great for hand eye coordination, flow, and muscle memory.<br>So come play some games and learn to flip physics with us!]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695275,33.4820877,0.0 -85.2695838,33.4821593,0.0 -85.2696991,33.4821056,0.0 -85.2696494,33.4820318,0.0 -85.2695275,33.4820877,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Camp'ra Obscura
+</name>
+      <description><![CDATA[Enjoy Camp'ra Obscura’s Peep Show, get your photo taken and printed, and grab a bite on the go.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695838,33.4821593,0.0 -85.2696427,33.4822231,0.0 -85.2697326,33.4821828,0.0 -85.2696856,33.482118,0.0 -85.2695838,33.4821593,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Castle WillPower
+</name>
+      <description><![CDATA[We have a castle n shit. And maaaaaaybe a super awesome fun secret maze!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2671376,33.4819435,0.0 -85.2672677,33.4819613,0.0 -85.2672918,33.481751,0.0 -85.2671456,33.4817231,0.0 -85.2671376,33.4819435,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Catarina's Lemonade Stand
+</name>
+      <description><![CDATA[Catarina's Lemonade Stand provides 24/7 custom flavored lemonade while also fighting capitalism.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2689427,33.4813315,0.0 -85.2689896,33.4814467,0.0 -85.2690647,33.481562,0.0 -85.2691265,33.4815306,0.0 -85.2690728,33.4813573,0.0 -85.2689427,33.4813315,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Conspiracy Camp
+</name>
+      <description><![CDATA[Conspiracy Camp is a gathering site for any and all who know the Truth.  Other camps bring the peace, love and fun. We bring the knowledge, anger, and creeping paranoia. Information will set you free.... or keep you up all night.  Wake up Sheeple!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2693826,33.4802331,0.0 -85.2693316,33.4800676,0.0 -85.2692176,33.4800911,0.0 -85.2692498,33.4802298,0.0 -85.2693826,33.4802331,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Darkest Deep
+</name>
+      <description><![CDATA[Plunging to the darkest depths of your aquatic soul with art, fun, and relaxation.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2693464,33.4792689,0.0 -85.2693491,33.4792577,0.0 -85.2694001,33.4791414,0.0 -85.2693075,33.4790139,0.0 -85.2693638,33.4789948,0.0 -85.2694322,33.478742,0.0 -85.2691439,33.478883,0.0 -85.2691144,33.4791201,0.0 -85.2693464,33.4792689,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Do It Less Shitty
+</name>
+      <description><![CDATA[A Shed and Breakfast specializing in the most ratchet of games and drinks! Come by to play a game, relax in our weather proofish area, enjoy some tunes, and get real ratchet.]]></description>
+      <styleUrl>#poly-EDA29B-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2710684,33.4799333,0.0 -85.2712186,33.4796716,0.0 -85.2709463,33.4795374,0.0 -85.2707894,33.4797812,0.0 -85.2710684,33.4799333,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Double Rainbow
+</name>
+      <description><![CDATA[What does it mean?]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694268,33.4808987,0.0 -85.26951,33.4807779,0.0 -85.2693933,33.4807164,0.0 -85.2692901,33.4808338,0.0 -85.2694268,33.4808987,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Dragonfly</name>
+      <description><![CDATA[Dragonfly (formerly Knotley Crewe) offers a unique bohemian themed bus for lounging and smoking hookah. If you want to engage your more decadent side come chill in our dome to watch or participate in shibari and rope suspensions.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2690594,33.4816638,0.0 -85.2689803,33.4815654,0.0 -85.2688153,33.4816637,0.0 -85.2689011,33.4817544,0.0 -85.2690192,33.4816884,0.0 -85.2690594,33.4816638,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Elevation Station
+</name>
+      <description><![CDATA[All aboard to the Elevation Station where you can have any incredible experience you wish. During the daytime we will have Yoga, workshops, meditation, seminars, art, shower and coffee! At night the train stops at high energy dance music, performers, fire, sound, lighting, decor, and art! Enjoy the High Grounds Coffee Bar and our choose your own experience LED Showers. Get Lifted as we boost you through your journey of enhancing your mind, body, and soul while dancing, Yoga and meditation, meeting new friends, learning new concepts, playing games, and Elevating your overall personal awareness through positive creativity. Once you get off at your stop you will feel that you have reached a higher platform of consciousness and will be ready to spread your new found wonder with the world.<br>Join the Elevation Nation & Come Get Lifted!]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2715364,33.483015,0.0 -85.2715055,33.4828517,0.0 -85.2712387,33.4828886,0.0 -85.2712816,33.4830452,0.0 -85.2715364,33.483015,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Fire Triangle
+</name>
+      <description><![CDATA[The Fire Triangle is a group of burners and fire spinners from the Raleigh/Durham/Chapel Hill area. We are participating as part of the Big Trouble Village Our mega-camp has been a smashing success the past two years at Transformus and now we want to bring it down to you!! Are you excited? I am excited. We will be hosting a plethora of poofers, our custom Fire Triangle Triangle Fire Bar, fire spinning area with backdrop, DJ's, music, dancing and all the fun we cultivated from our home burn. So come by to participate in some shenanigans!]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2707291,33.4817432,0.0 -85.2705869,33.4816571,0.0 -85.2703724,33.4818864,0.0 -85.2705279,33.4819815,0.0 -85.2707291,33.4817432,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Firefly Base Camp
+</name>
+      <description><![CDATA[We are the home of the Airship Firefly. We will be hosting a KitKat Tasting (KitKats from Japan) on Saturday at 1pm and Hot Buttered Rum darkish on Friday. Stop by for a visit!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.267835,33.482468,0.0 -85.267792,33.4823931,0.0 -85.2677277,33.4823405,0.0 -85.2677404,33.4823031,0.0 -85.2676526,33.4822466,0.0 -85.26755,33.4823165,0.0 -85.2675842,33.4824076,0.0 -85.2677169,33.482468,0.0 -85.2678055,33.482468,0.0 -85.267835,33.482468,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Flying Fuck
+</name>
+      <description><![CDATA[Come chill in our loud ass yurt. ;)]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2681689,33.4823685,0.0 -85.268354,33.4822287,0.0 -85.2682346,33.4821291,0.0 -85.268055,33.4822667,0.0 -85.2681689,33.4823685,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Flying Spaghetti Monster
+</name>
+      <description><![CDATA[Come be touched by his noodly appendages by participating in The Holy Day Dick-athalon.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2688287,33.4811515,0.0 -85.2689373,33.4810273,0.0 -85.2687362,33.4809043,0.0 -85.2686517,33.4810105,0.0 -85.2688287,33.4811515,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Food &amp; Drug Administration (FDA)
+</name>
+      <description><![CDATA[The name pretty much speaks for itself, we're providing a slice of Atlanta's club and party scene to alchemy.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2715029,33.4820911,0.0 -85.2715243,33.4819043,0.0 -85.2712816,33.4818797,0.0 -85.2712655,33.482081,0.0 -85.2715029,33.4820911,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fort Kick Ass
+</name>
+      <description><![CDATA[Welcome to Fort Kick Ass, where your authority is not recognized! We’re a frontier outpost located at the intersection of multiple realities. As long as our fires are burning, you are invited to stop by to get warm and get weird. We'll be hosting art, cooking food, and cracking wise.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695569,33.4801951,0.0 -85.2694644,33.4799826,0.0 -85.2693705,33.4800553,0.0 -85.2694282,33.4802164,0.0 -85.2695301,33.4801973,0.0 -85.2695569,33.4801951,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fractalicious</name>
+      <description><![CDATA[A collection of eccentric individuals getting their weird on!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2700531,33.4809568,0.0 -85.2701376,33.4809155,0.0 -85.2700853,33.4806996,0.0 -85.2700491,33.4807041,0.0 -85.2699968,33.4808148,0.0 -85.2700531,33.4809568,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fucking Awesome
+</name>
+      <description><![CDATA[As well as a safe and consent-oriented space, Fucking Awesome provides a dome with beds and other furniture for sexy times at Alchemy.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2682105,33.4825407,0.0 -85.2679517,33.4822891,0.0 -85.2677894,33.4823853,0.0 -85.2679825,33.4826414,0.0 -85.2681904,33.4825542,0.0 -85.2682105,33.4825407,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Funaholics Unanimous
+</name>
+      <description><![CDATA[Funaholics Unanimous is a collective of individuals who admit the fun addiction is real! To satisfy our fix, we bring big sound, fire, art and fun, as well as lounge spaces and big ass vehicles!]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2705869,33.4816571,0.0 -85.270434,33.4815631,0.0 -85.2702154,33.4817925,0.0 -85.2703643,33.4818853,0.0 -85.2705869,33.4816571,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Furry Animal Patrol
+</name>
+      <description><![CDATA[Returning for its 4th year, Camp FAP brings costumers and performers together from the Atlanta, Orlando, and Baltimore areas in order to bring smiles and entertainment to the burn.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2671456,33.4817231,0.0 -85.2672918,33.481751,0.0 -85.2673307,33.4816,0.0 -85.2671725,33.4815754,0.0 -85.2671456,33.4817231,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Furry Old Farts
+</name>
+      <description><![CDATA[Furries who like to camp]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2703696,33.4798316,0.0 -85.2704501,33.4799479,0.0 -85.2706405,33.4798874,0.0 -85.2705655,33.4797633,0.0 -85.2703696,33.4798316,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Gentlemen's Hunt Club
+</name>
+      <description><![CDATA[Gentlemen who hunt. Or perhaps we're hunting Gentlemen.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694027,33.4800027,0.0 -85.2696066,33.4798159,0.0 -85.2696012,33.4797823,0.0 -85.2693477,33.4798819,0.0 -85.2694027,33.4800027,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Gothidelic</name>
+      <description><![CDATA[Goths and cheerful mind-expanded folks hosting build-a-bloody-mary bar in the afternoon.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2673321,33.4814434,0.0 -85.2674461,33.4813259,0.0 -85.2673562,33.4812678,0.0 -85.2672409,33.4814042,0.0 -85.2673321,33.4814434,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Haven</name>
+      <description><![CDATA[A bedroom camp for ex-Scientists and friends]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694429,33.482921,0.0 -85.2692672,33.4830127,0.0 -85.2693651,33.483138,0.0 -85.2695368,33.483053,0.0 -85.2694429,33.482921,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The High Life
+</name>
+      <description><![CDATA[The High Life is a place to relax & unwind.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2714211,33.4821202,0.0 -85.2714747,33.4825262,0.0 -85.2715793,33.4825329,0.0 -85.2715833,33.4821235,0.0 -85.2714211,33.4821202,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Home Skool
+</name>
+      <description><![CDATA[We are a camp dedicated to the education of virgin burners. We will be offering breakfast Friday and Saturday morning around nine. We will also be having a tie-dye party Sunday morning around eleven.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2679436,33.4822868,0.0 -85.2678457,33.4822019,0.0 -85.2677223,33.4823293,0.0 -85.2677894,33.4823853,0.0 -85.2679436,33.4822868,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Inner Alchemy
+</name>
+      <description><![CDATA[Come by Inner Alchemy for a seven minute experience called Rebooting into Safe Mode. When we get out of or normal peaceful Alchemy mindset, the energy bubble we walk around in has gotten full of stuff. Stop by, grab a seat in the waiting area and in a few minutes an Energy Alchemist will help reboot your energetic body through grounding, chakra balancing and energy clearing. When you open your eyes you will find you are happy, calm and ready to get back out there for more wonderful Alchemy fun. This is a process you can experience, learn and share. It is offered throughout the weekend from Friday till Sunday morning.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2690969,33.481156,0.0 -85.2689669,33.4810743,0.0 -85.268926,33.4811889,0.0 -85.2689427,33.4813371,0.0 -85.2690513,33.4813506,0.0 -85.2690969,33.481156,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Invasive Food Camp (IFC)
+</name>
+      <description><![CDATA[We are the Invasive Food Camp coming to invade your mouths with the tasty goodness of our souls (whoops I meant soups). Last year we fed hundreds of hungry hippies as Camp Not Your Mom, and this year we're doing it better (some would say we're doing it less shitty, whatever that means). We'll be popping up Friday night at different larger theme camps serving up six different tasty soups with our crew of soup ninjas. No more waiting in silly lines for tasty food! We'll be where the party is so you can dance and eat at the same damn time! And find us Sunday morning as we gift out bearclaws, teddy bears and bear hugs, all while dressed as bears!<br><br>Also come hangout by our warm fires and more surprises.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2691949,33.4807074,0.0 -85.2692914,33.4805877,0.0 -85.2690741,33.4804759,0.0 -85.2689937,33.4805877,0.0 -85.2691949,33.4807074,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>iOpener Lounge
+</name>
+      <description><![CDATA[The iOpener Lounge is a chillaxin' relaxin' space complete with downtempo tunes, comfy and loung-ey seating, and a silky smooth ambiance. We're aiming to create a space that facilitates good conversation, the fostering of old friendships, and the building of new ones all to a backdrop of quality groovy music and dancing lights. We'll also be serving extra delicious tea and hookahs at approximately burner-o'clock! Come and chill with us!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2701376,33.4809155,0.0 -85.2700531,33.4809568,0.0 -85.2700773,33.4810508,0.0 -85.2700504,33.4811213,0.0 -85.2700799,33.4811526,0.0 -85.2702087,33.4810721,0.0 -85.2701376,33.4809155,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>It's All One Circle
+</name>
+      <description><![CDATA[It’s All One Circle Camp is taking it back to chill this year. Come to play Boxketball and hang out for the chill vibes, and the ever evolving choose your own music kiosk. Which we hope will encourage all forms of fire and object manipulate to your favorite tunes.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2700062,33.4807454,0.0 -85.2700438,33.4806638,0.0 -85.2699472,33.4804434,0.0 -85.2697018,33.4806369,0.0 -85.2696911,33.4807219,0.0 -85.2697715,33.4807645,0.0 -85.2699472,33.4807555,0.0 -85.2700062,33.4807454,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Kaleidescope</name>
+      <description><![CDATA[A tie dyed pirate ship 50'x80']]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2697822,33.4792767,0.0 -85.2699351,33.4793203,0.0 -85.2700263,33.4791179,0.0 -85.2698774,33.4790686,0.0 -85.2697822,33.4792767,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Kamp Khaos
+</name>
+      <description><![CDATA[Octagon Ring with games and pretend gladiator fights using foam weapons]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2683513,33.4815799,0.0 -85.2681502,33.481411,0.0 -85.2679718,33.4815475,0.0 -85.2681864,33.4817265,0.0 -85.2683513,33.4815799,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Katnip &amp; Chill
+</name>
+      <description><![CDATA[Katnip and Chill, Katnip and Chill, the place where the crazy meet with the chill. We are formally Cats in Space and Camp Eden merged into one purrfect combination. It’s a known fact that cats sleep during half the day, so while the sun is up you can find us chillin’ and kickin’ up our paws to find our inner kitten. But at night the wild cats come out to play, entertaining the masses with music and fire like you’ve never experienced before. Come romp around in our ball pit, snuggle up with your favorite cat and enjoy all the treats we have to offer at Camp Katnip and Chill.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.270473,33.4814669,0.0 -85.2706164,33.4815665,0.0 -85.2708216,33.4813405,0.0 -85.2706727,33.4812466,0.0 -85.270473,33.4814669,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>kibbles&amp;Klits</name>
+      <description><![CDATA[A Dominant Women and submissive boy/puppy camp. All are welcome to come play with the puppies! Women are welcome to come get pampered by the puppies.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2682655,33.4824971,0.0 -85.2683138,33.4825576,0.0 -85.2684184,33.4824859,0.0 -85.268354,33.4824266,0.0 -85.2682655,33.4824971,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Kitty Cuddle Pirate Dome
+</name>
+      <description><![CDATA[Kitten Cuddles and Pirate Booty!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2682387,33.4825755,0.0 -85.2682909,33.4825463,0.0 -85.2682547,33.4825039,0.0 -85.2682024,33.482534,0.0 -85.2682387,33.4825755,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Libertine Gypsies of Drunken Debauchery</name>
+      <description><![CDATA[All are welcome at the Gypsy Camp, We would love to offer a very cool chill space Chai Tea and Hookah lounge in a comfortable gypsy style environment. In addition we bring Gypsy Fire, Dancing, Costumes and Libertine Shenanigans. Fortune Telling, Random Misfortune Readings, Games and more. Come run away with the Gypsies.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2675694,33.4824188,0.0 -85.2674541,33.4823304,0.0 -85.2673414,33.4825229,0.0 -85.2675332,33.4826,0.0 -85.2675694,33.4824188,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Margaritaville: D20
+</name>
+      <description><![CDATA["Inebriated Adventuring (Don't Die with the Die)<br>Amusing Games (And Bad Puns)<br>Good People (Well... Mostly Not Terrible)<br>Adequate Alcohol (Fancy or Bucket)<br>Margaritaville: D20 We are a fun loving bunch of nerds who believe it's five o'clock somewhere. We will be serving terrible margaritas made from the cheapest of bucket mixes and the saddest of tequilas. (If Clifford is around, you should ask to get yours all fancy schmancy.)We also go on several adventures lead by Wagon Drunk Christine and her fabulous giant inflatable D20.<br>Note: Camp mates are in no way responsible for, or obligated by, the actions of others... Specifically and including permissions granted by TCO. Which is to say, she has no actual authority. Seriously. Even if... "Drunk Christine Said It Was OK!""]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2693531,33.4804736,0.0 -85.2693813,33.4803774,0.0 -85.269227,33.4803472,0.0 -85.2692029,33.4804211,0.0 -85.2693531,33.4804736,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Memento Moebius
+</name>
+      <description><![CDATA[We bring the Decadence...OF SPACE! Visit our environment inspired by Moebius' alien landscapes and the thought landscapes of Terence McKenna and others. Come check out our space lounge dome, dance floor, learn some decadent baking skills, drink tea and take breakfast with us in the morning, sample elixirs from our bar, and unlock the secrets of our 8-foot tall spinning space crystal. We will waft welcoming whiffs on the winds from our Wandering Waffle Wagon. Stay curious, share your inspiration.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2714345,33.4824468,0.0 -85.2714104,33.482345,0.0 -85.2710684,33.4823729,0.0 -85.2710872,33.4824658,0.0 -85.2714345,33.4824468,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Memento Mori (Goth camp)
+</name>
+      <description><![CDATA["memento mori - "remember you will die" <br><br>without the darkness we do not know light. <br><br>put on your finest black garments, smear on the eyeliner, and join us for deliciously dark tunes, hot drinks, fancy libations, and sweet treats served with a slice of apathy and a hint of ennui."]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2676512,33.4820843,0.0 -85.2675426,33.4820016,0.0 -85.2674474,33.4820899,0.0 -85.2675734,33.4821761,0.0 -85.2676512,33.4820843,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Ministry of the Butterfly
+</name>
+      <description><![CDATA[Ministry....will build 3 domes... 1... the butterfly dome and lounge. with artful water feature and gifting table. 2. The Guest artist dome... w/ Alexia and guest artists doing full body painting. 3. The last dome the chrysalis/chill dome. a place to take a respite, relax, recharge and chill if you need a break. good music..nice lights and always conversation if you like. come burn and chill w/ the Ministry.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696079,33.4797723,0.0 -85.2694765,33.4795284,0.0 -85.2691439,33.4796626,0.0 -85.2692994,33.4798953,0.0 -85.2696079,33.4797723,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Morning Has Broken
+</name>
+      <description><![CDATA[We offer coffee service to all with their own mug/cup/heatproof container in the mornings.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2678779,33.4818595,0.0 -85.2678068,33.4817991,0.0 -85.2677451,33.4818584,0.0 -85.2678122,33.481911,0.0 -85.2678779,33.4818595,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Nameless City
+</name>
+      <description><![CDATA[Loosely based on the H. P. Lovecraft Cthulhu Mythos, the Nameless art collective seeks to provide a fully immersed experience for its participants through art, performance, fire and theatrical creative expression.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2686611,33.481449,0.0 -85.2683754,33.4816772,0.0 -85.2686504,33.4819199,0.0 -85.2687,33.4818841,0.0 -85.2686625,33.4818327,0.0 -85.2688864,33.481741,0.0 -85.2688127,33.481656,0.0 -85.2688449,33.4816414,0.0 -85.2686611,33.481449,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Nerdy Psouth
+</name>
+      <description><![CDATA[Psychedelia & Galactic Funk Space]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2717161,33.4816615,0.0 -85.2716303,33.4816682,0.0 -85.2716437,33.4817801,0.0 -85.2717309,33.4817711,0.0 -85.2717161,33.4816615,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Not A Cult, Not Occult, Nautical-t</name>
+      <description><![CDATA[This camp is not a cult, we are nautical themed. We will be serving kool-aid and conducting bizarre rituals at random times, with chanting and sea shanties!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2695288,33.4810385,0.0 -85.2695502,33.481043,0.0 -85.2697608,33.4811168,0.0 -85.2699217,33.4811347,0.0 -85.2697031,33.4809177,0.0 -85.2696508,33.4809233,0.0 -85.2695891,33.4809066,0.0 -85.2695288,33.4810385,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Out of the Hat
+</name>
+      <description><![CDATA[Musical entourage of people who enjoy sharing and communication via music]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2704689,33.4814636,0.0 -85.2706727,33.4812466,0.0 -85.2705131,33.4811448,0.0 -85.2703241,33.481373,0.0 -85.2704689,33.4814636,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Palmetto  Bug
+</name>
+      <description><![CDATA[A tiny yet insignificant tribute the not-so-great state of South Carolina, centered on said state's unofficial mascot, the Palmetto Bug.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2697098,33.4830798,0.0 -85.269683,33.4830262,0.0 -85.2696065,33.4830474,0.0 -85.269632,33.4831056,0.0 -85.2697098,33.4830798,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Platypus Technology Group
+</name>
+      <description><![CDATA[We are the PTC, an intergalactic art collective creating support for the Space Otter Army and their battles against the Mundane Empire and their campaign to press everyone in the universe into the same mold.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694671,33.482015,0.0 -85.2695234,33.4820866,0.0 -85.2696494,33.4820318,0.0 -85.2695878,33.481958,0.0 -85.2694671,33.482015,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Porcine Aviation
+</name>
+      <description><![CDATA[Come play games and meet "Shitumz" our magical pup. He's the only one that gives a shit.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.269117,33.4817119,0.0 -85.2690728,33.4816705,0.0 -85.2688729,33.4817756,0.0 -85.2690138,33.4818864,0.0 -85.2690473,33.4817919,0.0 -85.269117,33.4817119,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>PsychOasiS</name>
+      <description><![CDATA[A refuge from the madness while enjoying the madness. A chill reading room and lending/gifting library. Coffe and espressos available. A spot to relax, reflect and recharge.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2684585,33.4823405,0.0 -85.2683191,33.4822488,0.0 -85.2680911,33.4824199,0.0 -85.2682078,33.4825251,0.0 -85.2684438,33.4823573,0.0 -85.2684585,33.4823405,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Queers Next Door
+</name>
+      <description><![CDATA[We open our lovely living room and playful front lawn for every kind of burner to have a comfy place to chill, hang out with other queer burners, and play.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2677263,33.4824758,0.0 -85.2675734,33.4824166,0.0 -85.2675292,33.4826403,0.0 -85.2677143,33.4826705,0.0 -85.2677263,33.4824758,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Ra!</name>
+      <description><![CDATA[The one GOD, the SUN GOD, Ra, Ra, Ra! We are a 100% solar powered camp that offers charging of small devices (phone, camera, poi, e-cigs...). We are also known for our beacon chandelier - which will be hang high in the trees. We are also home to 2 more projects; Postcards from Home and Tintinntabulum.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2691184,33.4808819,0.0 -85.2689696,33.4810743,0.0 -85.2690956,33.481147,0.0 -85.2692619,33.480949,0.0 -85.2691184,33.4808819,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Radio Free Alchemy (RFA)
+</name>
+      <description><![CDATA[Radio Free Alchemy strives to be your source for good tunes, weather updates, news from Connexus, and all around good times for the burn. We’ve got room to come chill and enjoy our Company as well, and there are DJ’s and room to dance at night. Think of MASH mixed with WKRP, with healthy written by Sgt. Bilko and directed by Hunter S. Thompson.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2683754,33.4816772,0.0 -85.268197,33.4818193,0.0 -85.2684452,33.4820139,0.0 -85.2685605,33.4819854,0.0 -85.2686504,33.4819199,0.0 -85.2683754,33.4816772,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Rok and Squiggle's Intergalactic Space Port and Beauty Emporium</name>
+      <description><![CDATA[Your one-stop shop for face painting, hair braiding, appreciation & random happiness]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692069,33.4807891,0.0 -85.2691197,33.4808774,0.0 -85.2693504,33.4809926,0.0 -85.2694268,33.4808987,0.0 -85.2692069,33.4807891,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Rubáiyát
+</name>
+      <description><![CDATA["The live music venue of the Discordian! Neighborhood, <br>The Rubáiyát is electrified and groovily good. <br>We have a camp full of Discordian! popes<br>masquerading as musicians and musical folks<br>There'll be proper shows from bona fide bands<br>and impromptu jams with anyone who plans <br>So come on down to the ol' Rubáiyát<br>And give us a hand with the fnord Master Knot."]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2691439,33.4796626,0.0 -85.2693343,33.4795832,0.0 -85.2692364,33.479449,0.0 -85.2690433,33.479562,0.0 -85.2691439,33.4796626,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sacred &amp; Profane
+</name>
+      <description><![CDATA[We are artists, burners, spirit workers, body workers, kaseekas. We are Family…a Spirit Tribe. We are not here to show the way but to walk with each other and with those who wish to journey. Find your own voice as a uniquely spiritual individual or sexual adventurer. Sacred & Profane is home of 12-Step meetings, the Smoke Bath Experience, and part of Soul Village. It is not a ‘dry camp’ but it’s not a ‘floodplain’ either. Respect.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.269522,33.4814322,0.0 -85.2693061,33.4815541,0.0 -85.2695073,33.4817588,0.0 -85.2697125,33.4816526,0.0 -85.269522,33.4814322,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Safe &amp; Sound
+</name>
+      <description><![CDATA[A quiet, safe family camp for families of all compositions.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2693893,33.480345,0.0 -85.2693826,33.4802331,0.0 -85.2692498,33.4802298,0.0 -85.2692297,33.4803193,0.0 -85.2693893,33.480345,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Scheherezade</name>
+      <description><![CDATA[1001 Adventures are begun in Scheherazade's Lounge - hookah, food, story, song, dance, crafts, massage and whatever else we want to do!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2678537,33.4821538,0.0 -85.267674,33.482062,0.0 -85.2675841,33.4821638,0.0 -85.2677558,33.48226,0.0 -85.2678537,33.4821538,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Seems Legit
+</name>
+      <description><![CDATA[Got questions? We have answers. Good answers.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2693518,33.480996,0.0 -85.2695194,33.4810464,0.0 -85.2695891,33.4809066,0.0 -85.2695449,33.4808875,0.0 -85.2695194,33.4808428,0.0 -85.2694751,33.4808338,0.0 -85.2693518,33.480996,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Shameless</name>
+      <description><![CDATA[Shameless is a LBGTQWERTY friendly camp and we are truly without shame. There isn’t much that someone from our camp will not do for your entertainment! Shameless is a Sex-Positive, love-filled theme camp …. Plus we drink a LOT.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2688462,33.4816414,0.0 -85.2689816,33.4815654,0.0 -85.268885,33.4813596,0.0 -85.268826,33.481326,0.0 -85.2686624,33.481449,0.0 -85.2688462,33.4816414,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Shitty Cult
+</name>
+      <description><![CDATA[As far as Cults go, maybe we aren’t the best, or 10th best, or even on most lists, but we might just lure you in by having the best most thoughtful group of people you could hope to come across. Come, spend time, drink the kool-aid or cuddle in our dome!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2678765,33.4821436,0.0 -85.2680523,33.4822634,0.0 -85.268236,33.482128,0.0 -85.2680496,33.4819804,0.0 -85.2678765,33.4821436,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sleepy Fox Tea House
+</name>
+      <description><![CDATA[Good Company and Great Tea. A place to caffeinate before adventuring!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692981,33.4805877,0.0 -85.2693531,33.4804736,0.0 -85.2692029,33.4804211,0.0 -85.2691439,33.480506,0.0 -85.2692981,33.4805877,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>SouthTown Compound
+</name>
+      <description><![CDATA[SouthTown is a welcoming place providing sound, art, fire, and friendship. we will be providing interactive art and fun music during the day, then come back at night as we turn up the fire and lights, and see your art transform while jamming out to some psytrance]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2686839,33.4813159,0.0 -85.2684546,33.4811269,0.0 -85.2681233,33.4813897,0.0 -85.2683567,33.4815754,0.0 -85.2686839,33.4813159,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Team Bad Idea
+</name>
+      <description><![CDATA[We immediately escalate everything to a 10. Somebody comes in with some preposterous plan or idea, then all of a sudden everyone’s on the gas, nobody’s on the brakes, nobody’s thinking, everyone’s just talking over each other with one idiotic idea after another. -It's Always Sunny in Philadelphia]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2698453,33.4809322,0.0 -85.2699754,33.4808506,0.0 -85.2699727,33.4808282,0.0 -85.2700062,33.4807454,0.0 -85.2697809,33.4807678,0.0 -85.2697782,33.4808517,0.0 -85.2698453,33.4809322,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Tentacle Brothers Ramen Shop
+</name>
+      <description><![CDATA[Food truck park meets theme camp. Home to the Tentacle Brothers Ramen Shop, Livin la Pita Loca, and other culinary art projects of Alchemy. Come experience food as art and have all of your senses stimulated as we take you on an international culinary tour.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.27043,33.4815609,0.0 -85.2702905,33.481468,0.0 -85.2700599,33.481713,0.0 -85.2702154,33.4817925,0.0 -85.27043,33.4815609,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Thesis Camp
+</name>
+      <description><![CDATA[What does a Burn sound like? What sounds are integral to the Burn atmosphere--regardless of where or when the Burn takes place? What can one learn about Burn culture by listening to what it sounds like? Curious? I am too. My name is Bexx! I'm an ethnomusicologist working on my Master's thesis about regional burn soundscapes. All weekend long I'll be out and about field recording in an effort to capture the sounds of Alchemy X. But I need your help! While I'm out, stop by the Thesis Camp tent (open 24/7). Inside the Thesis Camp tent you can read more about what my project entails, leave me feedback, provide suggestions for what sounds you think I ought to get recorded, ENTER A RAFFLE TO WIN HOMEMADE COOKIES SENT TO YOUR HOUSE, sign up for an interview, or just relax in the cuddle puddle with a snack. Open 24/7 from Thursday-Sunday.]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696588,33.4807197,0.0 -85.2696548,33.4806436,0.0 -85.2695395,33.4806258,0.0 -85.2695154,33.4806962,0.0 -85.269565,33.4807309,0.0 -85.2696481,33.4807197,0.0 -85.2696588,33.4807197,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Third Aid
+</name>
+      <description><![CDATA["Welcome to Third Aid - Unfuck your Burn!<br>We run several massage tables for any action hippies in need of repair throughout the event but our availability may vary depending on human factors [this shit's hard work]. One way or another feel free to pull up a chair!"]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2691949,33.4807074,0.0 -85.268983,33.4805843,0.0 -85.2689092,33.4806794,0.0 -85.2691064,33.4808058,0.0 -85.2691949,33.4807074,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Third Floor Society Presents: Colonizing the Subconscious</name>
+      <description><![CDATA[Signs! Symbols! Flags! Jungian Psychology! Good ole' Korzybski said, "the map is not the territory," but in the spirit of the Third Floor, we're gonna take that up to eleven. We've got flags! We've got tarot cards! We've got a five-dimensional time crystal that's rotating into existence, and we need to ensure the leylines are prepared for this massive burst of occult energy. Also we like to cook, drink, and converse about the finer points of semantics, rhetoric, and architecture.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2714037,33.4823439,0.0 -85.2713822,33.4822264,0.0 -85.2710389,33.4822622,0.0 -85.2710751,33.4823707,0.0 -85.2714037,33.4823439,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Tir na nÓg
+</name>
+      <description><![CDATA[Nap or relax, day or night and immerse yourself in the mystery of the forest. Rock gently amid the silent Sentinels of this land and let the babbling brooks and whispering leaves lull you away into Neverland full of woodland sprites and fairy lights.]]></description>
+      <styleUrl>#poly-87CEAC-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2707076,33.4802376,0.0 -85.2707103,33.4803047,0.0 -85.27078,33.4803036,0.0 -85.2707773,33.4802354,0.0 -85.2707076,33.4802376,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>TRANCE CAMP
+</name>
+      <description><![CDATA[United in the ecstasy of trance.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2714733,33.4826862,0.0 -85.2714358,33.4824502,0.0 -85.2710885,33.4824692,0.0 -85.2711474,33.4827287,0.0 -85.2714733,33.4826862,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Traveling  Tinker Camp
+</name>
+      <description><![CDATA[I bring my Tinker Trailer and pack it with hand tools, drills, saws, nuts & bolts, rope, cord, zip ties, batteries, inverters, soldering irons, tarps, and other doodads that have turned out to be useful over the years. If I'm in camp, I'm usually available to assist! If I go out and about, I leave a whiteboard on the side of the trailer along with a map of the various Alchemy neighborhoods. Just look for the "Tinker Is IN/OUT/SLEEPING" tag and know at a glance if I'm within earshot (or tucked away inside with earplugs in trying to catch a few winks)! If I'm OUT/SLEEPING, just tag a spot on the map with a pushpin, leave a note on the whiteboard to tell me what you need, and on my next pass, I'll try to stop by and help.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696427,33.4822231,0.0 -85.2696991,33.4822924,0.0 -85.2697902,33.482241,0.0 -85.2697339,33.4821828,0.0 -85.2696427,33.4822231,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Twig &amp; Berries
+</name>
+      <description><![CDATA[A place to discover the wonders of the miracle berry!]]></description>
+      <styleUrl>#poly-A1C2FA-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692901,33.4808338,0.0 -85.2693933,33.4807164,0.0 -85.2693169,33.4806738,0.0 -85.2692713,33.480685,0.0 -85.2692042,33.4807812,0.0 -85.2692901,33.4808338,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Unbirthday Camp
+</name>
+      <description><![CDATA["A very merry unbirthday to you!<br>And don't forget the tea<br>Come make a wish for your unbirthday with us! We'll hold a lighter"]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2698198,33.479138,0.0 -85.2698815,33.4790306,0.0 -85.2696817,33.4789445,0.0 -85.2696508,33.4790597,0.0 -85.2698198,33.479138,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Unicorn Stampede
+</name>
+      <description><![CDATA[Crazy unicorn decor, a pregnant-belly cast for anyone to paint, and a heated dome that can host a few visitors at a time.]]></description>
+      <styleUrl>#poly-FFCC80-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2690352,33.4795575,0.0 -85.2690433,33.479562,0.0 -85.269227,33.479449,0.0 -85.2690352,33.4793204,0.0 -85.2688743,33.4794613,0.0 -85.2690352,33.4795575,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Welcome to the Dark Ages
+</name>
+      <description><![CDATA[We are a group of freaks and geeks dedicated to the BDSM lifestyle. Come join in our Dark Arts dungeon style (yes, we will have a dungeon setup)! We will have food, merriment, mirth, and torture for everyone! We'll have a screaming good time! PRICK rules apply.]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2688729,33.4817756,0.0 -85.2686731,33.4818361,0.0 -85.2687107,33.4818909,0.0 -85.2686638,33.4819227,0.0 -85.2688475,33.4820642,0.0 -85.2690916,33.4820894,0.0 -85.2690218,33.4819759,0.0 -85.2690138,33.4818864,0.0 -85.2688729,33.4817756,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Where the Wild Things Are
+</name>
+      <description><![CDATA[The night Max wore his wolf suit and made mischief of one kind and another, his mother called him "WILD THING!" and Max said "FUCK YOUR BURN!" so he was sent to the woods without any distractions to build a fun playspace where other Wild Things could come and hang out and tap into their inner wildness. Come say hello and let's play games and remember how to enjoy life once again, together!<br><br>Also Join King Max at Center Camp on Sunday from 2p - 6p for MAX'S STORY TIME CORNER! Bring your favorite children's books and prepare to get really silly! See you there!]]></description>
+      <styleUrl>#poly-FFFF8D-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2681756,33.481722,0.0 -85.2679623,33.4815519,0.0 -85.267784,33.4816873,0.0 -85.2679985,33.481864,0.0 -85.2681756,33.481722,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Where?House</name>
+      <description><![CDATA[Where?House is a collective founded by a group of DJs and friends who have created events in warehouse spaces for decades. For years we created places for people to come feel free and expressive while dancing to great music. The past few years we have been taking our aesthetic into the fields and woods of the world. Come to Where?House to hear great music. We play Funk all day and House all night. Or come relax in our lounge area and share great ideas and laughter while sipping on a signature cocktail, or our notorious Moonshine.]]></description>
+      <styleUrl>#poly-F48FB1-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2715618,33.483156,0.0 -85.2715378,33.4830172,0.0 -85.2713741,33.4830397,0.0 -85.2713929,33.4831772,0.0 -85.2715618,33.483156,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
 </kml>

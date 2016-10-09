@@ -22,8 +22,8 @@ function defaultState () {
     annotations: [],
     staticAnnotations: staticAnnotations,
     center: {
-      latitude: 33.378917,
-      longitude: -83.337274
+      latitude: 33.480632,
+      longitude: -85.269295
     },
     zoomLevel: 15,
     selectedEvent: null,
@@ -62,15 +62,10 @@ function buildEventAnnotations (events) {
     .filter(event => event && event.coordinates)
     .map(event => {
       return {
-        id: event.id,
+        id: `${event.id}`,
         type: 'point',
         title: event.name,
-        coordinates: event.coordinates,
-        annotationImage: {
-          url: 'image!pin',
-          width: 30,
-          height: 70
-        }
+        coordinates: event.coordinates
       }
     })
 }

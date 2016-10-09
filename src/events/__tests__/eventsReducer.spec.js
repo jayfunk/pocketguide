@@ -89,6 +89,31 @@ describe('eventsReducer', () => {
     })
   })
 
+  it('should remove the error message if a data:load:complete occurrs after an error', () => {
+    const state = {
+      events: [],
+      isLoading: true,
+      filter: null,
+      sort: 'ASC',
+      selectedEvent: null,
+      errorMessage: 'error message'
+    }
+
+    const actual = reducer(state, {
+      type: 'data:load:complete',
+      events: []
+    })
+
+    expect(actual).to.eql({
+      events: [],
+      isLoading: false,
+      filter: null,
+      sort: 'ASC',
+      selectedEvent: null,
+      errorMessage: null
+    })
+  })
+
   it('should handle events:filter', () => {
     const state = {
       events: [],

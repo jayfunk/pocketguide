@@ -1,10 +1,5 @@
-import React, {
-  PropTypes,
-  View,
-  Text,
-  TouchableOpacity,
-  Image
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {View, Text, TouchableOpacity, Image} from 'react-native'
 import {connect} from 'react-redux'
 import styles from '../styles/NavBarStyles'
 import {MAP_THEME} from '../styles/ColorConstants'

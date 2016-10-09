@@ -6,16 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3388734,
-          33.3773441,
+          -85.2694859,
+          33.4812443,
           0
         ]
       },
       "properties": {
-        "name": "Road Signs",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Nonsense road signs made to look like official road signs, placed here and throughout the burn. Be on the look out!Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "3 Old Men Labyrinth\n"
       }
     },
     {
@@ -23,16 +20,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3392194,
-          33.3796198,
+          -85.26835,
+          33.4815206,
           0
         ]
       },
       "properties": {
-        "name": "The Octoplatform",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "The Octoplatform is, in short, a platform covered in tentacles. It's made to be a nesting spot for people to relax in, while being temporarily secluded from the burn itself, thanks to the tentacles. Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "All Seeing Eye\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2696924,
+              33.4806817,
+              0
+            ],
+            [
+              -85.2696991,
+              33.4806448,
+              0
+            ],
+            [
+              -85.2696548,
+              33.4806436,
+              0
+            ],
+            [
+              -85.2696548,
+              33.4806839,
+              0
+            ],
+            [
+              -85.2696924,
+              33.4806817,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Altar of Lactose\n"
       }
     },
     {
@@ -40,16 +72,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3386159,
-          33.3776935,
+          -85.2695784,
+          33.4807991,
           0
         ]
       },
       "properties": {
-        "name": "Burning Picket Fences",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Throughout the burn participants will create protest signs and make a fence out of them. Towards the end we'll march through the camp with our protest signs, singing our various slogans in an energetic display of chaotic dissent. Then we burn 'em!Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "Amalchemy"
       }
     },
     {
@@ -57,16 +86,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3410165,
-          33.37940030000001,
+          -85.2696562,
+          33.4808171,
           0
         ]
       },
       "properties": {
-        "name": "Hammock City!",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A tiny village of hammocks and art set deep (or not so deep) in the Hinterlands, where burners can come to relax, make art, do yoga, and connect with nature and each other.Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "Art Garden\n"
       }
     },
     {
@@ -74,16 +100,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3378864,
-          33.3768984,
+          -85.2690393,
+          33.4795116,
           0
         ]
       },
       "properties": {
-        "name": "Infinite Video",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "This will be a twist on my previous projects, instead of LEDs lighting the inside of infinite mirror. I will be using computer monitors with 3D animations reflecting infinitely. The plan is to split a video signal between 5 to 8 computer monitors arranged in polygonal form with one way mirrors capping it off creating the infinite effect making a video tunnel. I am hoping to use this as the ceiling of The Infinite Us. It will also work as a stand alone video portal.Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "belly belly belly\n"
       }
     },
     {
@@ -91,16 +114,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3391872,
-          33.3798504,
+          -85.2697822,
+          33.4812096,
           0
         ]
       },
       "properties": {
-        "name": "Alternative Synergy Kite Farm",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Come fly with us at the Alternative Synergy Kite Farm! Our take on the Topsy-Turvy Laboratory theme is to turn Euphoria's world upside-down and take burners' fun to the sky with a collection of easy-to-fly, sea-themed single line kites!Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "The Blue Box\n"
       }
     },
     {
@@ -108,16 +128,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.33525780000001,
-          33.3779735,
+          -85.2684304,
+          33.4814591,
           0
         ]
       },
       "properties": {
-        "name": "Yum Yum Delivery Service",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "We will coordinate with camps that any camps cooking (primarily large) meals and with the help of volunteers deliver food to hungry hippies across the burn.Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "bottle cap swag\n"
       }
     },
     {
@@ -125,16 +142,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.339395,
-          33.379791100000006,
+          -85.2698386,
+          33.4806213,
           0
         ]
       },
       "properties": {
-        "name": "Recycled Life",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "The project will be in two stages. On Thursday, there will be a large egg with symbols on it. At night the egg will have an ember like glow to it. The next day a wooden phoenix will be quickly constructed from pieces from within the egg. There will be markers, crayons, and paint for people to draw, write, paint on the phoenix. It will be set on fire at sunset on Friday.Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "Boxketball\n",
+        "description": "It is highly competitive, encouraging people to interact with each other physically through \"rebounds\". It can also be enjoyed in a more disorganized fashion, with hippies throwing balls endlessly at baskets, giggling in delight because physics.\"]]>"
       }
     },
     {
@@ -142,16 +157,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.339497,
-          33.3795895,
+          -85.2708793,
+          33.4797622,
           0
         ]
       },
       "properties": {
-        "name": "Puzzle Quest Returns",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A large puzzle whose pieces will be hidden throughout the burn and eventually the participants will gather and put them together. Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "Bubbles Shed & Breakfast\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2691439,
+              33.481864,
+              0
+            ],
+            [
+              -85.2691003,
+              33.4818919,
+              0
+            ],
+            [
+              -85.2691211,
+              33.4819311,
+              0
+            ],
+            [
+              -85.2691814,
+              33.4819479,
+              0
+            ],
+            [
+              -85.2692592,
+              33.4819378,
+              0
+            ],
+            [
+              -85.2693048,
+              33.4819132,
+              0
+            ],
+            [
+              -85.2692338,
+              33.4818293,
+              0
+            ],
+            [
+              -85.2691439,
+              33.481864,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Burning Picket Fences\n",
+        "description": "Participants can then plant their signs in the growing “protest garden” at the art installation, at their own camp or out in the blue.Project volunteers will harvest the garden* Saturday and the signs will be part of the kindling for the Effigy.* Mind your moop! If you plant your sign outside of the garden you'll need to take care of it yourself.]]>"
       }
     },
     {
@@ -159,16 +225,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3356883,
-          33.3776342,
+          -85.2693276,
+          33.4797566,
           0
         ]
       },
       "properties": {
-        "name": "Stagger Sticks",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Participants make their own walking stick with wraps and decoratives we supply.Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "The Butterfly Dome\n"
       }
     },
     {
@@ -176,16 +239,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3389673,
-          33.3781863,
+          -85.2690688,
+          33.4809904,
           0
         ]
       },
       "properties": {
-        "name": "Spindozer Glitterbomb",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Let there be... GLITTER JARS! What's a glitter jar, you ask? Why, it's a lava lamp, which requires no electricity, and is made of GLITTER!!! Watch a rainbow of glitter spin on the SPINDOZER GLITTERBOMB. This Ferris wheel-like contraption holds 8 \"jars\" (plastic!), each at an slight angle. At this angle, as the wheel turns, each jar is flipped over, sending glitter globules oozing and tumbling to the bottom. As the glitter does this, bright light shines through the jars and the glitter, creating a dazzling effect! Brilliant! (Literally!) The SPINDOZER GLITTERBOMB can also be spun quickly, fully agitating the GLITTER RAINBOW. Lie beneath the wheel on our water resistant camping blanket and gaze upon the colors of the glitter as they are altered by turbulent forces! SCIENCE! ART! SCART!Funded Arthttp://www.euphoriaburn.com/content/art-blog]]>"
+        "name": "Chandelier\n"
       }
     },
     {
@@ -193,16 +253,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3363333,
-          33.3768424,
+          -85.2698788,
+          33.4805687,
           0
         ]
       },
       "properties": {
-        "name": "3 Old Men Labyrinth",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "3 Old Men is an installation of an octagonal, multicursal labyrinth. Burners are invited to enter the labyrinth for meditation. At three of the four exits, an officiant (Old Man) offers an agon/experience. Project details can be found at:http://goo.gl/C9jJDD]]>"
+        "name": "The Choose Your Own Music Kiosk\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2692378,
+              33.4819949,
+              0
+            ],
+            [
+              -85.269227,
+              33.4819625,
+              0
+            ],
+            [
+              -85.269164,
+              33.4819647,
+              0
+            ],
+            [
+              -85.2691895,
+              33.4820094,
+              0
+            ],
+            [
+              -85.2692378,
+              33.4819949,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Clothing Portal\n"
       }
     },
     {
@@ -210,16 +305,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3406758,
-          33.3796018,
+          -85.2712923,
+          33.4822913,
           0
         ]
       },
       "properties": {
-        "name": "Castle Do It Less Shitty",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "We're bringing back the castle from Alchemy 2015! We're adding a bar/serving window this year. We are adding walls and improving the upper deck. We may have flame effects, but it will depend on what we can get together prior to the event.]]>"
+        "name": "Colonizing the Subconscious\n"
       }
     },
     {
@@ -227,16 +319,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3383584,
-          33.3773016,
+          -85.2704367,
+          33.4816895,
           0
         ]
       },
       "properties": {
-        "name": "Sparkle Pony Express",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Want to send a letter, parcel, gift, or singing telegram to a fellow Euphoria participant? Leave it the Sparkle Pony Express, your friendly neighborhood bicycle couriers! Simply bring your message to the Sparkle Pony Express drop box located the Art Hub (or Connexus). Fill out a Delivery Instructions form (found in the binder at the drop box), attach it to your message or parcel (if any) and place it in the drop box. Our couriers will periodically check the drop box and make sure your message or parcel reaches its destination. Alternatively, you can flag down a rainbow-cycling-cap-donning bicycle courier who will happily accept your item and deliver it straightaway. Won't be attending the burn or want to set up your delivery ahead of time? No problem! Navigate to https://goo.gl/8NbvcP and fill out the web form! Have a physical parcel for us to deliver? Interested in becoming a courier? Email us at SparklePonyExpressGA@gmail.com!http://www.alchemyfestival.com/art/blog/smoothie-pony-express]]>"
+        "name": "Community Canvas\n"
       }
     },
     {
@@ -244,16 +333,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3391121,
-          33.3797071,
+          -85.2692659,
+          33.4820586,
           0
         ]
       },
       "properties": {
-        "name": "Burn Battle Bots",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Zorb ball painted to look like bender and gir, put in an enclosed netted area where burners can have it put if you will in the zorb balls fun for all ages.http://alchemyburn.com/art/funded-projects/alchemy-2015-funded-project-burn-battle-bots]]>"
+        "name": "Community Pool (Table)\n"
       }
     },
     {
@@ -261,16 +347,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.33930250000002,
-          33.37902960000001,
+          -85.2714278,
+          33.4829255,
           0
         ]
       },
       "properties": {
-        "name": "Odey the Singing Monster",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A monster with a gong in his mouth.http://alchemyburn.com/art/blog/odey-singing-monster]]>"
+        "name": "Consent Portal Reclamation Showers\n"
       }
     },
     {
@@ -278,16 +361,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3379292,
-          33.3770081,
+          -85.2706593,
+          33.4785116,
           0
         ]
       },
       "properties": {
-        "name": "The Sex Gong",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "See, hear, experience a sex act? Bang the gong. http://alchemyburn.com/content/funded-artist-blog-post-10-giggity-sex-gong]]>"
+        "name": "CORE Burn Projects\n"
       }
     },
     {
@@ -295,16 +375,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3394527,
-          33.3789635,
+          -85.2692887,
+          33.4789311,
           0
         ]
       },
       "properties": {
-        "name": "The Music Post",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "Posts of various DIY instruments for kids (of all ages) to play. Such as a post of pots, pans, drumsticks.]]>"
+        "name": "Cuddle Boat\n"
       }
     },
     {
@@ -312,16 +389,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3392582,
-          33.3799893,
+          -85.2684827,
+          33.4814132,
           0
         ]
       },
       "properties": {
-        "name": "The Friction lab",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A large, slick , smooth floor for all your floor sliding needs. every time you were told not to sock skate, now you can! bring your slippiest socks for best results!]]>"
+        "name": "Dancing Colors: an RGB experiment\n"
       }
     },
     {
@@ -329,16 +403,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3372051,
-          33.3769768,
+          -85.2697165,
+          33.4790026,
           0
         ]
       },
       "properties": {
-        "name": "The Black Lodge",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "The Black Lodge returns to Euphoria to continue our Twin Peaks theme with a smaller recreation of David Lynch's Red Room; a karaoke stage.After Alchemud spelled the demise of our previous Room, we've decided to go a little minimalist and recreate a small part of the Room as a stage. We'll be running scheduled karaoke events throughout the burn, and some impromptu jam sessions as well. If you hear us singing badly, you'll know the Room is open.http://alchemyburn.com/art/blog/cross-pollination-art-projects]]>"
+        "name": "Decadence of Dancing Flame\n"
       }
     },
     {
@@ -346,16 +417,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3361134,
-          33.377324,
+          -85.2698439,
+          33.4808618,
           0
         ]
       },
       "properties": {
-        "name": "Memento Moebius Minimus",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A minimal mustering of Memento Moebius aims to provide earthlings and extraterrestrials alike with the chance to experience our 8-foot extraplanetary space crystal. This year we have persuaded it to truly sing upon your contact. The crystal can assist you on your journey; with your cooperation it can open the folded, old creases of your mind and inject life in them as only foreign space crystals can. We will provide you with the crystal's aura, some casual dance music, some delicious plant food, and general peace or airhorn chaos depending on the crystal's desires. Trust no one except the crystal and the learnings you gain from it. Stay curious & wander well.http://alchemyburn.com/art/funded-projects/alchemy-2015-funded-project-moebius-crystal]]>"
+        "name": "Decay-dence: Worm Composting\n"
       }
     },
     {
@@ -363,16 +431,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3377737,
-          33.3769387,
+          -85.269683,
+          33.4807789,
           0
         ]
       },
       "properties": {
-        "name": "Infinite Us",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A 5 sided one way mirror gazebo.http://alchemyburn.com/art/blog/infinite-us]]>"
+        "name": "Destination Station\n",
+        "description": "Step into the Destination Station.By waiting in the Station, you consent to being approached and offered a Destination.Designed like a bus stop, the interior will be lit and the back wall panel inside will have a lighted \"Take Me With You\" CNCed out of plywood.\"]]>"
       }
     },
     {
@@ -380,16 +446,861 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3376691,
-          33.3769477,
+          -85.2693182,
+          33.4820374,
           0
         ]
       },
       "properties": {
-        "name": "Infinte Preformance Platform",
-        "styleUrl": "#icon-503-DB4436",
-        "styleHash": "5f80425a",
-        "description": "A small stage.http://art.alchemyburn.com/infinite-mirror-performance-platform]]>"
+        "name": "Education Decathlon\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2695717,
+          33.4808282,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Field of Inverseness\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2694269,
+              33.4820709,
+              0
+            ],
+            [
+              -85.269337,
+              33.4819546,
+              0
+            ],
+            [
+              -85.2692016,
+              33.4820251,
+              0
+            ],
+            [
+              -85.269286,
+              33.4821347,
+              0
+            ],
+            [
+              -85.2694269,
+              33.4820709,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Game Square\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2675828,
+          33.482779,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Hammock City!\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2698774,
+              33.480921,
+              0
+            ],
+            [
+              -85.2698453,
+              33.4809322,
+              0
+            ],
+            [
+              -85.2698667,
+              33.4809591,
+              0
+            ],
+            [
+              -85.269899,
+              33.4809445,
+              0
+            ],
+            [
+              -85.2698774,
+              33.480921,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "InfiniShower",
+        "description": "The InfiniShower: A purely green showering experience\"]]>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2699043,
+          33.4791817,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kaleidescope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2695422,
+          33.4820463,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kaleidoscope Redux\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2707666,
+          33.4815709,
+          0
+        ]
+      },
+      "properties": {
+        "name": "the kittyland experience\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2694537,
+          33.4800788,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Lesser Key of Solomon\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2699874,
+          33.4795072,
+          0
+        ]
+      },
+      "properties": {
+        "name": "(The Lesser Key of Solomon)\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.269632,
+          33.4808718,
+          0
+        ]
+      },
+      "properties": {
+        "name": "(The Lesser Key of Solomon)\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2679517,
+          33.4818651,
+          0
+        ]
+      },
+      "properties": {
+        "name": "(The Lesser Key of Solomon)\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.269974,
+          33.4810407,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Let Them Eat Cake!\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2692338,
+              33.4818293,
+              0
+            ],
+            [
+              -85.2691948,
+              33.4817801,
+              0
+            ],
+            [
+              -85.2690996,
+              33.4818327,
+              0
+            ],
+            [
+              -85.2691003,
+              33.4818919,
+              0
+            ],
+            [
+              -85.2691439,
+              33.481864,
+              0
+            ],
+            [
+              -85.2692338,
+              33.4818293,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Lighting the Way to Decadence\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2686061,
+          33.4816336,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Mausoleum of Sophia\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2678846,
+          33.4819903,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Memento Mori\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2713741,
+          33.4824278,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Moebius Crystal Cave\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2697246,
+          33.4808047,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Music Post\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2696495,
+          33.4821917,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Peep Show\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.269345,
+          33.4793942,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Perception Pyramid\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2685431,
+          33.481373,
+          0
+        ]
+      },
+      "properties": {
+        "name": "playatech patio\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2702302,
+          33.48126,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Poi Painter\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2690192,
+          33.4810732,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Postcards from Home\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2685887,
+          33.481345,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Prismids"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2686316,
+          33.4813081,
+          0
+        ]
+      },
+      "properties": {
+        "name": "projection volcano\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2696803,
+          33.4793282,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Puzzle Quest\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2685592,
+          33.4812577,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Quincy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2682064,
+          33.481619,
+          0
+        ]
+      },
+      "properties": {
+        "name": "RAGNAROK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2697004,
+          33.4808774,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Revelation Station\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2696669,
+          33.4830508,
+          0
+        ]
+      },
+      "properties": {
+        "name": "S&M Hermaphrocow\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.2696911,
+              33.4807219,
+              0
+            ],
+            [
+              -85.2696937,
+              33.4806906,
+              0
+            ],
+            [
+              -85.2696535,
+              33.4806917,
+              0
+            ],
+            [
+              -85.2696588,
+              33.4807197,
+              0
+            ],
+            [
+              -85.2696911,
+              33.4807219,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Self-Care Kittens\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.269341,
+          33.4804445,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sex Gong\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2701108,
+          33.4810665,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Sky Is Melting\n",
+        "description": "Lay on the plush couches at the iOpener Lounge and gaze up at an out of this world volumetric LED display. Spherical lanterns lit from inside by individually addressable LEDs will transform your field of vision into a shifting, morphing rainbow of psychedelic visual effects. Procedural techniques will allow the lanterns to present nearly infinite patterns in a smooth, gentle way.Twist knobs and push buttons to control the sky! The display will allow participants to affect the effects with a simple interface.]]>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2698882,
+          33.48126,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sky Writings\n",
+        "description": "A 6 foot ‘cloudbuster’ helium balloon is tethered to a sturdy table. Participants can use the provided Sharpie marker to write whatever they wish on the cotton flags. They will then follow the instructions available at the table to tie on their flag.The balloon will lift a trail of colorful flags fluttering and dancing with the breeze. The thought of many is that the wind will spread the goodwill, gratitudes, and dreams on the Sky Writings. All will be able to witness the flags moving in the breeze and can share in the positive energy created. Flags will be included in the temple burning on Sunday morning .\"]]>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2694939,
+          33.4816828,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Smoke Bath Experience\n",
+        "description": "At the Alchemy Smoke Bath Experience will provide an opportunity for Burners to create their own variation of these ritualistic practices. A large tent with all sides covered (to capture the smoke) will be erected and decorated inside with Moroccan string lights and hand painted mural banners featuring elemental symbols. The central focus inside will be a terracotta brazier used to generate smoke from sage, lavender, juniper and other herbs. Participants can use this environment to relax, rejuvenate, cleanse, and commune. Shells will be provided for skin scraping, feathers offered for wafting the smoke, and various acoustic instruments available to use for rhythmic meditation and harmony. Burners are welcome to bring their own drums, flutes, and other instruments.]]>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2694765,
+          33.4806403,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Sorry Board\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2683942,
+          33.4814915,
+          0
+        ]
+      },
+      "properties": {
+        "name": "SouthTown sign\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2697822,
+          33.4806582,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Space Monkeys Dome\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2693075,
+          33.4821515,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sparkle Pony Express\n",
+        "description": "Won't be attending the burn or want to set up your delivery ahead of time? No problem! Navigate to https://goo.gl/8NbvcP and fill out the web form! Have a physical parcel for us to deliver? Interested in becoming a courier? Email us at SparklePonyExpressGA@gmail.com!\"]]>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2695113,
+          33.4805027,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Steffigy Shrine\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2691358,
+          33.4809535,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Steffigy Shrine\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.270894,
+          33.4797029,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Steffigy Shrine\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2695073,
+          33.4804166,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Steffigy Shrine\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.267261,
+          33.4817969,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Super Secret Impregnable Castle Entrance\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2690782,
+          33.4817119,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tangle Dangle\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2702892,
+          33.4816023,
+          0
+        ]
+      },
+      "properties": {
+        "name": "The Tentacle Brothers Ramen Shop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2690527,
+          33.481034,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tintinntabulum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2677424,
+          33.4821313,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Torch & Blade\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2684827,
+          33.481213,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Trippy Badminton\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2697219,
+          33.4815128,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Truffula Tree Grove\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2693115,
+          33.4807712,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Twig & Berries\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2714962,
+          33.4831246,
+          0
+        ]
+      },
+      "properties": {
+        "name": "unnamed interactive coloring project\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2683808,
+          33.4817868,
+          0
+        ]
+      },
+      "properties": {
+        "name": "WRFA Tower\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2699512,
+          33.4810016,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Yum Yum's Delivery Service\n"
       }
     }
   ]

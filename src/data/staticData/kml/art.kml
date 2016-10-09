@@ -1,228 +1,740 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>Art</name>
-		<Placemark>
-			<name>Road Signs</name>
-			<description><![CDATA[Artist: Chris Molnar<br>Nonsense road signs made to look like official road signs, placed here and throughout the burn. Be on the look out!<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3388734,33.3773441,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Octoplatform</name>
-			<description><![CDATA[Artist: Quinn Algood<br>The Octoplatform is, in short, a platform covered in tentacles. It's made to be a nesting spot for people to relax in, while being temporarily secluded from the burn itself, thanks to the tentacles. <br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3392194,33.3796198,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Burning Picket Fences</name>
-			<description><![CDATA[Artist: Jim "Geek" Peacock<br>Throughout the burn participants will create protest signs and make a fence out of them. Towards the end we'll march through the camp with our protest signs, singing our various slogans in an energetic display of chaotic dissent. Then we burn 'em!<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3386159,33.3776935,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Hammock City!</name>
-			<description><![CDATA[Artist: FaerieNymph<br>A tiny village of hammocks and art set deep (or not so deep) in the Hinterlands, where burners can come to relax, make art, do yoga, and connect with nature and each other.<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3410165,33.37940030000001,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Infinite Video</name>
-			<description><![CDATA[Artist: Randy Burnett<br>This will be a twist on my previous projects, instead of LEDs lighting the inside of infinite mirror. I will be using computer monitors with 3D animations reflecting infinitely. The plan is to split a video signal between 5 to 8 computer monitors arranged in polygonal form with one way mirrors capping it off creating the infinite effect making a video tunnel. I am hoping to use this as the ceiling of The Infinite Us. It will also work as a stand alone video portal.<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3378864,33.3768984,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Alternative Synergy Kite Farm</name>
-			<description><![CDATA[Artist: Laura Levy<br>Come fly with us at the Alternative Synergy Kite Farm! Our take on the Topsy-Turvy Laboratory theme is to turn Euphoria's world upside-down and take burners' fun to the sky with a collection of easy-to-fly, sea-themed single line kites!<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3391872,33.3798504,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Yum Yum Delivery Service</name>
-			<description><![CDATA[Artist: Daniel Huffman<br>We will coordinate with camps that any camps cooking (primarily large) meals and with the help of volunteers deliver food to hungry hippies across the burn.<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.33525780000001,33.3779735,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Recycled Life</name>
-			<description><![CDATA[Artist: Jenny Hall & Chip Carder<br>The project will be in two stages. On Thursday, there will be a large egg with symbols on it. At night the egg will have an ember like glow to it. The next day a wooden phoenix will be quickly constructed from pieces from within the egg. There will be markers, crayons, and paint for people to draw, write, paint on the phoenix. It will be set on fire at sunset on Friday.<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.339395,33.379791100000006,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Puzzle Quest Returns</name>
-			<description><![CDATA[Artist: Alyse Longenecker<br>A large puzzle whose pieces will be hidden throughout the burn and eventually the participants will gather and put them together. <br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.339497,33.3795895,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stagger Sticks</name>
-			<description><![CDATA[Artist: Jennifer Mitchell<br>Participants make their own walking stick with wraps and decoratives we supply.<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3356883,33.3776342,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Spindozer Glitterbomb</name>
-			<description><![CDATA[Artist: Matthew "Zeus" Morris<br>Let there be... GLITTER JARS! What's a glitter jar, you ask? Why, it's a lava lamp, which requires no electricity, and is made of GLITTER!!! Watch a rainbow of glitter spin on the SPINDOZER GLITTERBOMB. This Ferris wheel-like contraption holds 8 "jars" (plastic!), each at an slight angle. At this angle, as the wheel turns, each jar is flipped over, sending glitter globules oozing and tumbling to the bottom. As the glitter does this, bright light shines through the jars and the glitter, creating a dazzling effect! Brilliant! (Literally!) The SPINDOZER GLITTERBOMB can also be spun quickly, fully agitating the GLITTER RAINBOW. Lie beneath the wheel on our water resistant camping blanket and gaze upon the colors of the glitter as they are altered by turbulent forces! SCIENCE! ART! SCART!<br>Funded Art<br>http://www.euphoriaburn.com/content/art-blog]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3389673,33.3781863,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>3 Old Men Labyrinth</name>
-			<description><![CDATA[Artist: Old Man Dale<br>3 Old Men is an installation of an octagonal, multicursal labyrinth. Burners are invited to enter the labyrinth for meditation. At three of the four exits, an officiant (Old Man) offers an agon/experience. Project details can be found at:<br>http://goo.gl/C9jJDD]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3363333,33.3768424,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Castle Do It Less Shitty</name>
-			<description><![CDATA[Artist: Do It Less Shitty<br>We're bringing back the castle from Alchemy 2015! We're adding a bar/serving window this year. We are adding walls and improving the upper deck. We may have flame effects, but it will depend on what we can get together prior to the event.]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3406758,33.3796018,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Sparkle Pony Express</name>
-			<description><![CDATA[Artist: David “Pipes” Tyberg<br>Want to send a letter, parcel, gift, or singing telegram to a fellow Euphoria participant? Leave it the Sparkle Pony Express, your friendly neighborhood bicycle couriers! Simply bring your message to the Sparkle Pony Express drop box located the Art Hub (or Connexus). Fill out a Delivery Instructions form (found in the binder at the drop box), attach it to your message or parcel (if any) and place it in the drop box. Our couriers will periodically check the drop box and make sure your message or parcel reaches its destination. Alternatively, you can flag down a rainbow-cycling-cap-donning bicycle courier who will happily accept your item and deliver it straightaway. Won't be attending the burn or want to set up your delivery ahead of time? No problem! Navigate to https://goo.gl/8NbvcP and fill out the web form! Have a physical parcel for us to deliver? Interested in becoming a courier? Email us at SparklePonyExpressGA@gmail.com!<br>http://www.alchemyfestival.com/art/blog/smoothie-pony-express]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3383584,33.3773016,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Burn Battle Bots</name>
-			<description><![CDATA[Artist: Loki & Justin<br>Zorb ball painted to look like bender and gir, put in an enclosed netted area where burners can have it put if you will in the zorb balls fun for all ages.<br>http://alchemyburn.com/art/funded-projects/alchemy-2015-funded-project-burn-battle-bots]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3391121,33.3797071,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Odey the Singing Monster</name>
-			<description><![CDATA[Artist: Loki & Justin<br>A monster with a gong in his mouth.<br>http://alchemyburn.com/art/blog/odey-singing-monster]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.33930250000002,33.37902960000001,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Sex Gong</name>
-			<description><![CDATA[Artist: Wagon Drunk<br>See, hear, experience a sex act? Bang the gong. <br>http://alchemyburn.com/content/funded-artist-blog-post-10-giggity-sex-gong]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3379292,33.3770081,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Music Post</name>
-			<description><![CDATA[Artist: Corey Anne<br>Posts of various DIY instruments for kids (of all ages) to play. Such as a post of pots, pans, drumsticks.]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3394527,33.3789635,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Friction lab</name>
-			<description><![CDATA[Artist: Corey Foster<br>A large, slick , smooth floor for all your floor sliding needs. every time you were told not to sock skate, now you can! bring your slippiest socks for best results!]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3392582,33.3799893,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Black Lodge</name>
-			<description><![CDATA[Artist: David Passmore<br>The Black Lodge returns to Euphoria to continue our Twin Peaks theme with a smaller recreation of David Lynch's Red Room; a karaoke stage.<br>After Alchemud spelled the demise of our previous Room, we've decided to go a little minimalist and recreate a small part of the Room as a stage. We'll be running scheduled karaoke events throughout the burn, and some impromptu jam sessions as well. If you hear us singing badly, you'll know the Room is open.<br>http://alchemyburn.com/art/blog/cross-pollination-art-projects]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3372051,33.3769768,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Memento Moebius Minimus</name>
-			<description><![CDATA[Artist: Memento Moebius<br>A minimal mustering of Memento Moebius aims to provide earthlings and extraterrestrials alike with the chance to experience our 8-foot extraplanetary space crystal. This year we have persuaded it to truly sing upon your contact. The crystal can assist you on your journey; with your cooperation it can open the folded, old creases of your mind and inject life in them as only foreign space crystals can. We will provide you with the crystal's aura, some casual dance music, some delicious plant food, and general peace or airhorn chaos depending on the crystal's desires. Trust no one except the crystal and the learnings you gain from it. Stay curious & wander well.<br>http://alchemyburn.com/art/funded-projects/alchemy-2015-funded-project-moebius-crystal]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3361134,33.377324,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Infinite Us</name>
-			<description><![CDATA[Artist: Randy Burnett<br>A 5 sided one way mirror gazebo.<br>http://alchemyburn.com/art/blog/infinite-us]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3377737,33.3769387,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Infinte Preformance Platform</name>
-			<description><![CDATA[Artist: Randy Burnett<br>A small stage.<br>http://art.alchemyburn.com/infinite-mirror-performance-platform]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>-83.3376691,33.3769477,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Style id='icon-503-DB4436-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-		</Style>
-		<Style id='icon-503-DB4436-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-		</Style>
-		<StyleMap id='icon-503-DB4436'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-503-DB4436-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-	</Document>
+    <name>Art</name>
+    <Placemark>
+      <name>3 Old Men Labyrinth
+</name>
+      <description><![CDATA[3 Old Men is an installation of an octagonal, multicursal labyrinth. Burners are invited to enter the labyrinth for meditation throughout the burn. During the ritual offered at points during the day, at three of the four exits an officiant (Old Man) offers an agon/experience. Project details can be found at http://goo.gl/C9jJDD]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2694859,33.4812443,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>All Seeing Eye
+</name>
+      <description><![CDATA[randomly, a giant eye appears on a floating projection screen. is it watching you?]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.26835,33.4815206,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Altar of Lactose
+</name>
+      <description><![CDATA[The Altar of Lactose returns to Alchemy, ready to receive new members and returning acolytes alike. Come, participate, partake in grilled cheese. Lactose be with you.]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696924,33.4806817,0.0 -85.2696991,33.4806448,0.0 -85.2696548,33.4806436,0.0 -85.2696548,33.4806839,0.0 -85.2696924,33.4806817,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Amalchemy</name>
+      <description><![CDATA[A glowing poem inspired by Alchemy that covers the 10 principles]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2695784,33.4807991,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Art Garden
+</name>
+      <styleUrl>#icon-1502-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>-85.2696562,33.4808171,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>belly belly belly
+</name>
+      <description><![CDATA[A plaster pregnant belly-cast to be painted by the community. Paint supplies are provided or other burners are welcome to bring their own paints.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2690393,33.4795116,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Blue Box
+</name>
+      <description><![CDATA[Once, a daft old man stole a magic box and ran away. I've stolen it from him and it will landing at Alchemy 2016! I'm excited because it's so sexy, and the bluest blue ever. The dimensions are too wibbly wobbly to describe, so just come on over and take a look.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697822,33.4812096,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bottle cap swag
+</name>
+      <description><![CDATA[come on down and build your own bottle cap swag, with many varieties including your favorite beers and sodas, as well as unique novelty caps, and a first this year, CUSTOM alchemy bottle caps]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2684304,33.4814591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boxketball
+</name>
+      <description><![CDATA["Boxketball is a carnival-style game that has been trapping hippies at Alchemy since 2011. It involves players throwing ping-pong balls at boxes to gain points and outscore their opponent. It has been described as a cross between skee-ball and beer pong, with a twist of putt-putt.<br><br>It is highly competitive, encouraging people to interact with each other physically through "rebounds". It can also be enjoyed in a more disorganized fashion, with hippies throwing balls endlessly at baskets, giggling in delight because physics."]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2698386,33.4806213,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bubbles Shed &amp; Breakfast
+</name>
+      <description><![CDATA[The most ratchet of Bed and Breakfasts! Come by and visit one of our various sheds and experience the varying levels of ratchet that only Bubbles Shed and Breakfast can provide! Be sure to bring your cup in case we are having one of our sponsored Beverage hours!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2708793,33.4797622,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burning Picket Fences
+</name>
+      <description><![CDATA[Burning Picket Fences creates a covered art station where participants create their own topical signs. Signs can be anything the artist wishes and we’ve previously seen humor, politics, tender sentiment and trippy wordscapes, to name a few. Need to advertise your theme camp event? Here's your sign!<br><br>Participants can then plant their signs in the growing “protest garden” at the art installation, at their own camp or out in the blue.<br><br>Project volunteers will harvest the garden* Saturday and the signs will be part of the kindling for the Effigy.<br><br>* Mind your moop! If you plant your sign outside of the garden you'll need to take care of it yourself.]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2691439,33.481864,0.0 -85.2691003,33.4818919,0.0 -85.2691211,33.4819311,0.0 -85.2691814,33.4819479,0.0 -85.2692592,33.4819378,0.0 -85.2693048,33.4819132,0.0 -85.2692338,33.4818293,0.0 -85.2691439,33.481864,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Butterfly Dome
+</name>
+      <description><![CDATA[itself is interactive art.; 28 ft. dome 125 butterflies...art by various artists...waterfalls...landscape butterfly flowering plants...]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2693276,33.4797566,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chandelier
+</name>
+      <description><![CDATA[Chandelier serves as a beacon to help lost hippies.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2690688,33.4809904,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Choose Your Own Music Kiosk
+</name>
+      <description><![CDATA[Choose Your Own Music Kiosk - Rather than having a typical sound camp setup with a central DJ, we decided to create this kiosk. It will come out of the ground and hold an iPad that is connected to custom software we’ve written. This software allows the user access to our ~1TB music library, and add music onto the queue. There will be a screen showing the album art/current song playing, as well as who chose it (if they entered their name). This encourages interactivity and discussion regarding music with people who come to our camp.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2698788,33.4805687,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Clothing Portal
+</name>
+      <description><![CDATA[Missing Presto Chango? Me too! Bring an item leave an item at the Clothing Portal. No item to leave? That's OK too!]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692378,33.4819949,0.0 -85.269227,33.4819625,0.0 -85.269164,33.4819647,0.0 -85.2691895,33.4820094,0.0 -85.2692378,33.4819949,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Colonizing the Subconscious
+</name>
+      <description><![CDATA[50 flags, placed at key locations around the burn according to occult and scientific methods. These flags are designed to deliver bursts of non-advertising to your subconscious, further reinforcing the burn atmosphere and allowing each individual to colonize their own subconscious with new meanings. Come by camp to grab your own survey flag!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2712923,33.4822913,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Community Canvas
+</name>
+      <description><![CDATA[Community Canvas is an art collaboration in which all participants are invited to paint daily canvasses in our village. The canvasses are changed daily and completed ones are displayed around the village.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2704367,33.4816895,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Community Pool (Table)
+</name>
+      <description><![CDATA[Interactive alternative to both soccer and pool!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2692659,33.4820586,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Consent Portal Reclamation Showers
+</name>
+      <description><![CDATA[A hot shower trailer that's water is reclaimed, filtered and treated with One-way mirror which will allow to see in or out (not both at the same time)]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2714278,33.4829255,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CORE Burn Projects
+</name>
+      <description><![CDATA[There are 10: The Great Lie—Stick House—Forging New Dreams (On the Anvil Of Experience)—blue—Bio-desic Crystal Skull—Psyche-Pineapple—A Nameless Wind—Simulacrum of the Crystal Manifestation—House of Cards—Harpy's-Hightower-Hookah]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2706593,33.4785116,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cuddle Boat
+</name>
+      <description><![CDATA[Come relax with us in our cuddle boat of doom. You will be surrounded by art, sea creatures, and glowy things.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2692887,33.4789311,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dancing Colors: an RGB experiment
+</name>
+      <description><![CDATA[a 3 foot by 8 foot monolith with an rgb stage light on each side. one side will have a permanent piece of art to demonstrate the effect, while the other side will have black-and-white surfaces and paint for participants to experiment themselves.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2684827,33.4814132,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Decadence of Dancing Flame
+</name>
+      <description><![CDATA[The Fire Wave will dance for you.  All the pendulums will be released and the weights will be flaming.  Some see skulls, some see a dragons tail, some see a Decadence of Dancing Flame. Use your imagination as you watch!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697165,33.4790026,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Decay-dence: Worm Composting
+</name>
+      <description><![CDATA[Daily demonstrations at noon of how a worm composter works. Come feel the worms, learn how to set up your own composter, and bring some food scraps for composting. I'll also have collection buckets set up around the burn for collecting compostable materials. All collections will go home with me to be turned into rich, nutritious plant food.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2698439,33.4808618,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Destination Station
+</name>
+      <description><![CDATA["We've all been there. We've just lost time in a LED forest or eaten too many fried foods and we aren't sure what the future should hold next.<br>Step into the Destination Station.<br>By waiting in the Station, you consent to being approached and offered a Destination.<br>Designed like a bus stop, the interior will be lit and the back wall panel inside will have a lighted "Take Me With You" CNCed out of plywood."]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.269683,33.4807789,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Education Decathlon
+</name>
+      <description><![CDATA[Virgins and Veterans are encouraged to play together, field day style, while learning about our 10 Principles of Burning at Alchemy. Tug with your team mates who are radically expressing communal effort. Better yet, bring your butt and bop to the next destination. You know, cuz you're so radically self reliant and all. ;)]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2693182,33.4820374,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Field of Inverseness
+</name>
+      <description><![CDATA[A destination exhibit not to be missed. An exploration into the notion of inverseness as reflected within our own minds.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2695717,33.4808282,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Game Square
+</name>
+      <description><![CDATA[Education Decathlon, Community Pool (Table)]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2694269,33.4820709,0.0 -85.269337,33.4819546,0.0 -85.2692016,33.4820251,0.0 -85.269286,33.4821347,0.0 -85.2694269,33.4820709,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Hammock City!
+</name>
+      <description><![CDATA[A city of Hammocks, a refuge in the woods, a quiet place to rest and do art]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2675828,33.482779,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>InfiniShower</name>
+      <description><![CDATA["Business Casual's very own Mad Scientist presents:<br>The InfiniShower: A purely green showering experience"]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2698774,33.480921,0.0 -85.2698453,33.4809322,0.0 -85.2698667,33.4809591,0.0 -85.269899,33.4809445,0.0 -85.2698774,33.480921,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Kaleidescope</name>
+      <description><![CDATA[full scale tie die pirate ship pic provided is incomplete ship. have added a spanker and a3rd jib]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2699043,33.4791817,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kaleidoscope Redux
+</name>
+      <description><![CDATA[We will be bringing back one of the Kaleidoscopes from the Kaleidoscope Garden that we brought to Alchemy 2015. Come by, see what you missed in all the mud and rain, see what we have done with it since then.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2695422,33.4820463,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>the kittyland experience
+</name>
+      <description><![CDATA[an immersive visual and sound experince]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2707666,33.4815709,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Lesser Key of Solomon
+</name>
+      <description><![CDATA[The Lesser Key of Solomon is choose your own adventure horror game done in the style of old RPG text adventure. Participants will move from NPCs and checkpoints through out the burn, solving puzzles and riddles to progress the story.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2694537,33.4800788,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>(The Lesser Key of Solomon)
+</name>
+      <description><![CDATA[(Altar 1)]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2699874,33.4795072,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>(The Lesser Key of Solomon)
+</name>
+      <description><![CDATA[(Altar 2)]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.269632,33.4808718,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>(The Lesser Key of Solomon)
+</name>
+      <description><![CDATA[(Altar 3)]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2679517,33.4818651,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Let Them Eat Cake!
+</name>
+      <description><![CDATA[Let Them Eat Cake party on Friday night—now with a 64 sq ft wooden effigy guillotine!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.269974,33.4810407,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lighting the Way to Decadence
+</name>
+      <description><![CDATA[Fun for burners of all ages. Decorate a lantern and then march in the parade or watch as the parade winds through the Farm and enjoy others creations.]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2692338,33.4818293,0.0 -85.2691948,33.4817801,0.0 -85.2690996,33.4818327,0.0 -85.2691003,33.4818919,0.0 -85.2691439,33.481864,0.0 -85.2692338,33.4818293,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>The Mausoleum of Sophia
+</name>
+      <description><![CDATA[A large temple like structure dedicated to the goddess Sophia]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2686061,33.4816336,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Memento Mori
+</name>
+      <description><![CDATA[Free form woven stick sculpture of two-faced skull that will burn in multicolor flame.  Memento Mori will burn on Fri/Sat at midnight.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2678846,33.4819903,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moebius Crystal Cave
+</name>
+      <description><![CDATA[Unlock the secrets of the rotating 8-Foot tall crystal from space in our decadent geodesic space cave.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2713741,33.4824278,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Music Post
+</name>
+      <description><![CDATA[Various reinvented instruments for kids and adults to play...and to recreate.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697246,33.4808047,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peep Show
+</name>
+      <description><![CDATA[Peep show views of fun]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2696495,33.4821917,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Perception Pyramid
+</name>
+      <description><![CDATA[A projection-mapped environment that provides space for inner meditation amidst an atmosphere of perpetually changing stimuli. There is no purpose, only punchlines.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.269345,33.4793942,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>playatech patio
+</name>
+      <description><![CDATA[a nice place to sit down and relax around a fire. playatech benches surround an 8 foot long fire trough]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2685431,33.481373,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poi Painter
+</name>
+      <styleUrl>#icon-1509-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>-85.2702302,33.48126,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Postcards from Home
+</name>
+      <description><![CDATA[Postcards from Home lets you mail a card from Alchemy, also will have a Postcards to the Future box which will be mailed in 6 months.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2690192,33.4810732,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prismids</name>
+      <description><![CDATA[4 small three sided pyramids with magical lights playing along the inside]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2685887,33.481345,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>projection volcano
+</name>
+      <description><![CDATA[a 12 panel 3d projection screen shaped like a volcano]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2686316,33.4813081,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puzzle Quest
+</name>
+      <description><![CDATA[Project by Alyse. The treasure of our camp has been made into a multi pieced puzzle and has been scattered across the burn! All curious adventures who might come across these pieces will be encouraged to bring them to A Camp Called Quest to return it to aid the restoration of the puzzle so that we might get a chance to meet these brave burners and maybe even get a chance to see the completed work of art!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2696803,33.4793282,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quincy</name>
+      <description><![CDATA[a white giraffe with neon spots and LED eyes]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2685592,33.4812577,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RAGNAROK</name>
+      <description><![CDATA[Join us in the RAGNAROK octagon where you can wield foam weapons and armor and battle each other with love.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2682064,33.481619,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Revelation Station
+</name>
+      <description><![CDATA[A stopover for wayward Burners traveling from camp to camp....brrrrinnnggg! It's for you! You never know what you'll find on the other end.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697004,33.4808774,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>S&amp;M Hermaphrocow
+</name>
+      <description><![CDATA[Combo "Brazen Bull" paddling bench and "Cow of Pasiphae". Plan is to gift this project to worthy sex-friendly camp via special ceremony/convoy.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2696669,33.4830508,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Self-Care Kittens
+</name>
+      <description><![CDATA[It is a small team of kitten-themed volunteers carrying various supplies to teach people about self-care and radical self-reliance. There will be a main base for resupply.]]></description>
+      <styleUrl>#poly-CE93D8-1-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>-85.2696911,33.4807219,0.0 -85.2696937,33.4806906,0.0 -85.2696535,33.4806917,0.0 -85.2696588,33.4807197,0.0 -85.2696911,33.4807219,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sex Gong
+</name>
+      <description><![CDATA[It's a gong. If you see, hear, or have sex, you bang the gong to share the news.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.269341,33.4804445,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Sky Is Melting
+</name>
+      <description><![CDATA["The sky is falling! No, it's floating, wait, melting?<br>Lay on the plush couches at the iOpener Lounge and gaze up at an out of this world volumetric LED display. Spherical lanterns lit from inside by individually addressable LEDs will transform your field of vision into a shifting, morphing rainbow of psychedelic visual effects. Procedural techniques will allow the lanterns to present nearly infinite patterns in a smooth, gentle way.<br><br>Twist knobs and push buttons to control the sky! The display will allow participants to affect the effects with a simple interface.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2701108,33.4810665,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sky Writings
+</name>
+      <description><![CDATA["Prayer flags, hanging prayer ties, and spiritual pennants have a long history dating back to ancient Tibet, China, Persia, India, and Americas First Nations people. The meanings and styles are varied and specific to each culture. We don’t wish to appropriate these cultural traditions but instead will provide the means for Burners to share their intentions, thoughts, and wishes with the sky in honor of these visually beautiful customs.<br><br>A 6 foot ‘cloudbuster’ helium balloon is tethered to a sturdy table. Participants can use the provided Sharpie marker to write whatever they wish on the cotton flags. They will then follow the instructions available at the table to tie on their flag.<br><br>The balloon will lift a trail of colorful flags fluttering and dancing with the breeze. The thought of many is that the wind will spread the goodwill, gratitudes, and dreams on the Sky Writings. All will be able to witness the flags moving in the breeze and can share in the positive energy created. Flags will be included in the temple burning on Sunday morning ."]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2698882,33.48126,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Smoke Bath Experience
+</name>
+      <description><![CDATA[Smoke baths and similar customs trace their roots back to many cultures…Arabs in Sudan, the Himba tribe in north-western Namibia, First Nations people in the Americas, Nordic people of Finland. They all have common objectives: a ritual cleansing for the mind, body, and soul.<br><br>At the Alchemy Smoke Bath Experience will provide an opportunity for Burners to create their own variation of these ritualistic practices. A large tent with all sides covered (to capture the smoke) will be erected and decorated inside with Moroccan string lights and hand painted mural banners featuring elemental symbols. The central focus inside will be a terracotta brazier used to generate smoke from sage, lavender, juniper and other herbs. Participants can use this environment to relax, rejuvenate, cleanse, and commune. Shells will be provided for skin scraping, feathers offered for wafting the smoke, and various acoustic instruments available to use for rhythmic meditation and harmony. Burners are welcome to bring their own drums, flutes, and other instruments.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2694939,33.4816828,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Sorry Board
+</name>
+      <description><![CDATA[A painted plywood Canada Flag for burners to write apologies on.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2694765,33.4806403,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SouthTown sign
+</name>
+      <description><![CDATA[a backlit sign proclaiming our name to the world]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2683942,33.4814915,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Space Monkeys Dome
+</name>
+      <description><![CDATA[Space Monkeys Dome is a geodesic dome for relaxing beneath the “stars” in a sea of stuffed animals. The ceiling is covered by black fabric punctuated with white twinkly lights that can be adjusted to multiple settings. There is a diverse array of monkey stuffed animals dangling from the ceiling on strands of twinkle lights. The floor is a kiddie pool filled with as many stuffed animals as will fit, and a few more for good measure. Participants can lie down in the cushy embrace of many stuffed animals, discover a whole variety of silly stuffed critters as they explore their surroundings, and stare up at the space-faring monkeys floating among the stars.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697822,33.4806582,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sparkle Pony Express
+</name>
+      <description><![CDATA["Want to send a letter, parcel, gift, or singing telegram to a fellow Alchemy participant? Leave it to the Sparkle Pony Express, your friendly neighborhood bicycle couriers! Simply bring your message to the Sparkle Pony Express drop box located at Connexus. Fill out a Delivery Instructions form (found in the binder at the drop box), attach it to your message or parcel (if any) and place it in the drop box. Our couriers will periodically check the drop box and make sure your message or parcel reaches its destination. Alternatively, you can flag down a rainbow-cycling-cap-donning bicycle courier who will happily accept your item and deliver it straightaway.<br><br>Won't be attending the burn or want to set up your delivery ahead of time? No problem! Navigate to https://goo.gl/8NbvcP and fill out the web form! Have a physical parcel for us to deliver? Interested in becoming a courier? Email us at SparklePonyExpressGA@gmail.com!"]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2693075,33.4821515,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Steffigy Shrine
+</name>
+      <description><![CDATA[(see Steffigy on Mount Effigy)]]></description>
+      <styleUrl>#icon-1706-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2695113,33.4805027,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Steffigy Shrine
+</name>
+      <styleUrl>#icon-1706-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>-85.2691358,33.4809535,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Steffigy Shrine
+</name>
+      <styleUrl>#icon-1706-9C27B0-nodesc</styleUrl>
+      <Point>
+        <coordinates>-85.270894,33.4797029,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Steffigy Shrine
+</name>
+      <description><![CDATA[from Flux, an art installation in Atlanta with which Stefanie Roberts was involved.  See Steffigy on Mount Effigy.]]></description>
+      <styleUrl>#icon-1706-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2695073,33.4804166,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Super Secret Impregnable Castle Entrance
+</name>
+      <description><![CDATA[IIIIIIIIIIIII Fart in your general direction! Before erecting the trojan bunny, you'll have to try and gain entrance to our castle thru the Super Secret Impregnable Castle Entrance. This high tech laser security system will stop you in your tracks so I can taunt you a second tiiiiima]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.267261,33.4817969,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tangle Dangle
+</name>
+      <description><![CDATA[Tangle Dangle is a twister style rock climbing wall game. Compete against friends and strangers to see who can out climb who.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2690782,33.4817119,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Tentacle Brothers Ramen Shop</name>
+      <description><![CDATA[A magical moving food stall. Based on street food vendors from all over the Asian continent, Tentacle Brothers Ramen Shop, hopes to bring the tastes and cultures of several Asian countries to Alchemy. We want to create something that brings people together. Where through the gift of food, we open people up to new experiences, friendships, and memories.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2702892,33.4816023,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tintinntabulum</name>
+      <description><![CDATA[Tintinntabulum is an interactive set of giant bells.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2690527,33.481034,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Torch &amp; Blade
+</name>
+      <description><![CDATA[A guillotine, games such as twister to play, massage utilizing oil scraping, an oil candle b/c symbolism - providing chop-tastic fun for all and cleansing for those who choose to participate.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2677424,33.4821313,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trippy Badminton
+</name>
+      <description><![CDATA[LED birdies and blacklight everything else. come act a fool with us as we swat daftly at the slow-moving object]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2684827,33.481213,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Truffula Tree Grove
+</name>
+      <description><![CDATA[A small grove of Truffula trees which will light up at nighttime]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2697219,33.4815128,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Twig &amp; Berries
+</name>
+      <description><![CDATA[Experience the wonders of the miracle berry! This taste sensation will alter your perceptions, turning your taste buds upside down! Open for tastings Friday and Saturday afternoons.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2693115,33.4807712,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>unnamed interactive coloring project
+</name>
+      <description><![CDATA[large black and white tapestries with fabric makers, and big pieces of paper with crayons.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2714962,33.4831246,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WRFA Tower
+</name>
+      <description><![CDATA[The WRFA Tower is our beacon to the site to let you know we’re here putting out sound for your enjoyment all weekend. Look for the Alchemy symbol in the tower.]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2683808,33.4817868,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yum Yum's Delivery Service
+</name>
+      <description><![CDATA[You bring us your Tupperware, we'll bring you food. Stay spicy!]]></description>
+      <styleUrl>#icon-1509-9C27B0</styleUrl>
+      <Point>
+        <coordinates>-85.2699512,33.4810016,0.0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
 </kml>

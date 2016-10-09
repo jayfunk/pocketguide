@@ -31,6 +31,7 @@ function handleDataLoad (state) {
 function handleDataLoadComplete (state, {events}) {
   return Object.assign({}, state, {
     events,
+    errorMessage: null,
     isLoading: false
   })
 }

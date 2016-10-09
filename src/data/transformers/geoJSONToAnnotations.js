@@ -24,9 +24,9 @@ function convertPoint (feature) {
     title: properties.name,
     subtitle: properties.description,
     annotationImage: {
-      url: '',
-      height: 30,
-      width: 70
+      source: {uri: 'pin'},
+      height: 70,
+      width: 30
     }
   }
 }
@@ -45,7 +45,7 @@ function convertLineString (feature) {
     subtitle: properties.description,
     strokeColor: '#000000',
     strokeWidth: 5,
-    strokeAlpha: .5
+    strokeAlpha: 0.5
   }
 }
 
@@ -65,9 +65,9 @@ function convertPolygon (feature) {
     subtitle: properties.description,
     strokeColor: properties.stroke,
     strokeWidth: 5,
-    strokeAlpha: .5,
+    strokeAlpha: 0.5,
     fillColor: '#0E3453',
-    fillAlpha: .5
+    fillAlpha: 0.5
   }
 }
 

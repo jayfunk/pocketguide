@@ -4,19 +4,19 @@
   "private": true,
   "scripts": {
     "test": "mocha",
-    "build:map-data": "node scripts/exportKMLToAnnotations.js",
-    "build:android": "cd android && ./gradlew assembleRelease && cd ../",
-    "install:release-android": "cd android && ./gradlew installRelease && cd ../",
-    "clean:android": "cd android && ./gradlew clean && cd ../",
+    "map-data:build": "node scripts/exportKMLToAnnotations.js",
+    "android:build": "cd android && ./gradlew assembleRelease && cd ../",
+    "android:install-release": "cd android && ./gradlew installRelease && cd ../",
+    "android:clean": "cd android && ./gradlew clean && cd ../",
     "start": "react-native run-android",
-    "reset:react-native": "react-native start --reset-cache"
+    "react-native:reset": "react-native start --reset-cache"
   },
   "dependencies": {
     "events": "^1.1.0",
-    "react": "^0.14.7",
-    "react-native": "^0.22.0",
-    "react-native-mapbox-gl": "^4.1.0",
-    "react-native-simple-store": "^0.1.0",
+    "react": "^15.3.1",
+    "react-native": "^0.32.0",
+    "react-native-mapbox-gl": "^5.0.0",
+    "react-native-simple-store": "^1.1.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",

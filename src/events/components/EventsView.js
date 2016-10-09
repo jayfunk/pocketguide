@@ -1,10 +1,5 @@
-import React, {
-  View,
-  ListView,
-  Text,
-  TouchableOpacity,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {View, ListView, Text, TouchableOpacity} from 'react-native'
 import {GENERAL_FONT, BORDER} from '../../styles/ColorConstants'
 
 const styles = {
@@ -23,7 +18,6 @@ const styles = {
     fontWeight: 'bold',
     flex: 1
   },
-
   descriptionText: {
     color: GENERAL_FONT,
     flex: 2
@@ -39,6 +33,7 @@ export default React.createClass({
   render () {
     return (
       <ListView
+        enableEmptySections
         dataSource={this._createDataSource()}
         renderRow={this._renderRow}
       />

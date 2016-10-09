@@ -6,9 +6,7 @@ var geoJSONToAnnotations = require('../src/data/transformers/geoJSONToAnnotation
 
 var fileNames = [
   'art',
-  'placementMap',
   'landmarks',
-  'offlimits',
   'opencamping',
   'roads',
   'tcs'

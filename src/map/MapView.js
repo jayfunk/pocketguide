@@ -1,11 +1,9 @@
-import React, {
-  StyleSheet,
-  PropTypes
-} from 'react-native'
+import React, {PropTypes} from 'react'
+import {StyleSheet} from 'react-native'
 import {connect} from 'react-redux'
-import Mapbox from 'react-native-mapbox-gl'
+import Mapbox, {MapView} from 'react-native-mapbox-gl'
 
-const mapRef = 'map'
+const mapBoxAccessToken = 'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'
 
 const styles = StyleSheet.create({
   container: {
@@ -20,9 +18,7 @@ const styles = StyleSheet.create({
   }
 })
 
-const MapView = React.createClass({
-  mixins: [Mapbox.Mixin],
-
+const MapsView = React.createClass({
   propTypes: {
     center: PropTypes.object.isRequired,
     selectedEvent: PropTypes.object,
@@ -34,30 +30,27 @@ const MapView = React.createClass({
     openAnnotation: PropTypes.func.isRequired
   },
 
+  componentWillMount () {
+    Mapbox.setAccessToken(mapBoxAccessToken)
+  },
+
   render () {
     return (
-      <Mapbox
-        ref={mapRef}
+      <MapView
+        ref={map => this._map = map}
+        initialZoomLevel={this.props.zoomLevel}
+        initialCenterCoordinate={this.props.center}
         style={styles.container}
-        styleURL={this.mapStyles.satellite}
-        zoomLevel={this.props.zoomLevel}
-        direction={0}
-        accessToken={'pk.eyJ1IjoiY2hlZjA5OCIsImEiOiJjaWtwcjlocDQxMzZzdXhrbXE5NXp3bmViIn0.F9CMetNmIS4woy5gK1O3Ug'}
+        styleURL={Mapbox.mapStyles.satellite}
         annotations={this._getDisplayAnnotations()}
-        zoomEnabled
-        logoIsHidden
-        rotateEnabled
-        centerCoordinate={this.props.center}
-        userTrackingMode={this.userTrackingMode.none}
         showsUserLocation
-        attributionButtonIsHidden={false}
-        onOpenAnnotation={this.props.openAnnotation}
       />
     )
   },
 
   _getDisplayAnnotations () {
     let eventAnnotations = []
+
     if (this.props.selectedEvent) {
       const filteredEventAnnotations = this._filterEventAnnotations()
       return filteredEventAnnotations
@@ -77,7 +70,10 @@ const MapView = React.createClass({
     const foundEventAnnotation = this.props.annotations.find(event => {
       return event.id === this.props.selectedEvent.id
     })
-    return [foundEventAnnotation]
+    if (foundEventAnnotation) {
+      return [foundEventAnnotation]
+    }
+    return []
   }
 })
 
@@ -96,4 +92,4 @@ function mapDispatchToProps (dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(MapView)
+export default connect(mapStateToProps, mapDispatchToProps)(MapsView)

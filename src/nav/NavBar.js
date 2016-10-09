@@ -1,12 +1,12 @@
 import MapNavBar from './MapNavBar'
 import PrinciplesNavBar from './PrinciplesNavBar'
 import EventsNavBar from './EventsNavBar'
-import React from 'react-native'
+import React, {PropTypes} from 'react'
 
 export default React.createClass({
   propTypes: {
-    navigator: React.PropTypes.object,
-    navState: React.PropTypes.object
+    navigator: PropTypes.object,
+    navState: PropTypes.object
   },
 
   render () {
@@ -17,7 +17,7 @@ export default React.createClass({
     if (this._isPrinciples()) {
       return <PrinciplesNavBar/>
     }
-    
+
     return <EventsNavBar
       navigator={this.props.navigator}
     />
@@ -30,6 +30,6 @@ export default React.createClass({
 
   _isPrinciples () {
     const currentRoutes = this.props.navigator.getCurrentRoutes()
-    return currentRoutes[0].name === 'Principles' || currentRoutes[currentRoutes.length - 1].name === 'Principles' 
+    return currentRoutes[0].name === 'Principles' || currentRoutes[currentRoutes.length - 1].name === 'Principles'
   }
 })
